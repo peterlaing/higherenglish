@@ -1,0 +1,40 @@
+html, body
+{
+    margin: 0;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    height: 80px;
+    background-color: yellow;
+}
+
+p, h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    font-size: medium;
+    text-align: justify;
+}
+
+#story
+{
+    margin-top: 40px;
+    margin-left: 5%;
+    width: 50%;
+}
+
+#annotations
+{
+    background-color: lightsteelblue;
+    width: 30%;
+}
