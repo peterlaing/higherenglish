@@ -15,13 +15,28 @@ html, body
 
 
 
+.banner
+{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+
 .page
 {
     background-image: linear-gradient(var(--theme-body-top), var(--theme-body-bottom));
     background-attachment: fixed;
-    padding: 20px 50px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
     margin-left: auto;
     margin-right: auto;
+    padding: 10px 50px;
+
     width: 50%;
     min-width: min(600px, 100%);
     line-height: 1.25em;
@@ -42,7 +57,7 @@ html, body
 
 
 
-@media only screen and (max-width: 600px)
+@media screen and (max-width: 600px)
 {
     .page
     {

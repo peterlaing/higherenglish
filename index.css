@@ -41,8 +41,8 @@
 {
     width: 100%;
     object-fit: cover;
-    outline: 6px solid var(--theme-link);
-    outline-offset: -3px;
+    outline: 4px solid rgba(0, 0, 0, 0.4);
+    outline-offset: -4px;
     border-radius: 10px;
 }
 
@@ -52,14 +52,17 @@
     text-decoration-color: var(--theme-link);
     text-decoration-thickness: 2px;
 
-    font-size: large;
+    font-size: 24px;
     font-weight: bold;
+    line-height: 1.5em;
 
     display: flex;
     justify-content: center;
 }
 
-@media only screen and (max-width: 600px)
+
+
+@media screen and (max-width: 600px)
 {
     #welcome
     {
@@ -72,7 +75,7 @@
     }
 }
 
-@media only screen and (max-width: 800px)
+@media screen and (max-width: 800px)
 {
     #stories
     {

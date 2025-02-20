@@ -11,16 +11,19 @@ ul
     line-height: 2em;
 }
 
-.banner
-{
-    width: 100%;
-    height: 240px;
-    object-fit: cover;
-}
-
 h1
 {
     line-height: 1em;
+}
+
+a
+{
+    color: var(--theme-link);
+    text-decoration-color: var(--theme-link);
+    text-decoration-thickness: 2px;
+
+    font-size: large;
+    font-weight: bold;
 }
 
 .hcenter
