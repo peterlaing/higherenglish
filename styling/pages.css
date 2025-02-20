@@ -1,0 +1,53 @@
+html, body
+{
+    background-image: linear-gradient(var(--theme-bg-top), var(--theme-bg-bottom));
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+*
+{
+    font-family: "OpenSans", sans-serif;
+    color: var(--theme-text);
+}
+
+
+
+.page
+{
+    background-image: linear-gradient(var(--theme-body-top), var(--theme-body-bottom));
+    background-attachment: fixed;
+    padding: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: min(600px, 100%);
+    line-height: 1.25em;
+    box-sizing: border-box;
+}
+
+.full
+{
+    min-height: calc(100vh - var(--header-height));
+}
+
+.flexible
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+@media only screen and (max-width: 600px)
+{
+    .page
+    {
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

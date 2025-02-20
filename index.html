@@ -3,73 +3,67 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="variables.css">
-        <link rel="stylesheet" href="settings.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="styles.css">
-        <script src="themes.js"></script>
+        <link rel="stylesheet" href="/styling/variables.css">
+        <link rel="stylesheet" href="/header/header.css">
+        <link rel="stylesheet" href="/styling/pages.css">
+        <link rel="stylesheet" href="/styling/styles.css">
+        <link rel="stylesheet" href="/index.css">
+        <script src="/header/header.js"></script>
+        <script src="/styling/themes.js"></script>
         <title>Homepage</title>
     </head>
     <body>
-
-        <header>
-            <div id="header-left">
-                <a href="index.html" title="Homepage"><span class="material-icons header-icon">home</span></a>
-                <!--<a href="index.html" title="Homepage"><span class="material-icons header-icon">search</span></a>-->
-                <a href="index.html" title="Homepage"><h2 id="page-title">Higher English</h2></a>
-                <a href="index.html" title="Homepage"><h2 id="page-title-short">English</h2></a>
-            </div>
-            <div id="header-right">
-                <a href="feedback.html" title="Feedback"><span class="material-icons header-icon" style="padding-top: 8px">feedback</span></a>
-                <a href="settings.html" title="Settings"><span class="material-icons header-icon">settings</span></a>
-            </div>
-        </header>
-
-
-
-        <div id="main" class="page flexible">
+        <div id="main" class="page full flexible">
             <div>
                 <h1 id="welcome">Welcome to the Higher English Site</h1>
                 <h1 id="countdown"></h1>
                 <script src="countdown.js"></script>
 
-                <ul>
-                    <li><a href="stories/telegram/telegram.html" class="page-link">The Telegram</a><br></li>
-                    <!--<ul class="page-sublinks">
-                        <li><a href="stories/telegram/telegram.html" class="page-link">Fat Woman (...)</a></li>
-                        <li><a href="stories/telegram/telegram.html" class="page-link">Thin Woman (...)</a></li>
-                    </ul>-->
-
-                    <li><a href="stories/home/home.html" class="page-link">Home</a><br></li>
-                    <!--<ul class="page-sublinks">
-                        <li><a href="stories/home/home.html" class="page-link">Mr Jackson (...)</a></li>
-                        <li><a href="stories/home/home.html" class="page-link">Mrs Jackson (...)</a></li>
-                    </ul>-->
-
-                    <li><a href="stories/red-door/red-door.html" class="page-link">The Red Door</a><br></li>
-                    <!--<ul class="page-sublinks">
-                        <li><a href="stories/red-door/red-door.html" class="page-link">Murdo (...)</a></li>
-                        <li><a href="stories/red-door/red-door.html" class="page-link">Mary (...)</a></li>
-                    </ul>-->
-
-                    <li><a href="stories/mother-son/mother-son.html" class="page-link">Mother and Son</a><br></li>
-                    <!--<ul class="page-sublinks">
-                        <li><a href="stories/mother-son/mother-son.html" class="page-link">Mother (...)</a></li>
-                        <li><a href="stories/mother-son/mother-son.html" class="page-link">Son (...)</a></li>
-                    </ul>-->
-                </ul>
+                <div id="stories">
+                    <div class="story-col">
+                        <a href="stories/telegram/telegram.html" id="telegram-story">
+                            <div>
+                                <img src="/banners/telegram.png" class="story-image">
+                                <br><span class="story-link-text">The Telegram</span>
+                            </div>
+                        </a>
+                        <a href="stories/red-door/red-door.html" id="red-story">
+                            <div>
+                                <img src="/banners/red-door.png" class="story-image">
+                                <br><span class="story-link-text">The Red Door</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="story-col">
+                        <a href="stories/home/home.html" id="home-story">
+                            <div>
+                                <img src="/banners/home.png" class="story-image">
+                                <br><span class="story-link-text">Home</span>
+                            </div>
+                        </a>
+                        <a href="stories/mother-son/mother-son.html" id="mother-story">
+                            <div>
+                                <img src="/banners/mother-son.png" class="story-image">
+                                <br><span class="story-link-text">Mother and Son</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
                 <br>
-                <a href="stories/commonality.html" class="page-link">Commonality</a>
+
+                <!--<br><br><br>
+                <a href="stories/commonality.html" class="page-link hcenter">Commonality</a>
+                <br><br><br>-->
             </div>
 
 
 
             <div class="footer">
-                <h4 style="text-align: center">Feel free to add any annotations or comments (no chance that's happening)</h4>
+                <h4 style="text-align: center">Feel free to add any annotations or comments</h4>
             </div>
         </div>
-
     </body>
 </html>

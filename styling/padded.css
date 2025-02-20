@@ -1,0 +1,10 @@
+.page
+{
+    position: relative;
+    right: 16px;
+}
+
+#header-right
+{
+    padding-right: 46px;
+}

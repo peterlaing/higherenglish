@@ -22,7 +22,6 @@ function applyCustom()
 {
     let form = document.getElementById("theme-form");
     let string = form.elements.namedItem("theme-string").value;
-    //example string ffd9b023fff0e204ffebd5097146009e8600
 
     if(string.length != 36) return;
 
@@ -36,6 +35,23 @@ function applyCustom()
     localStorage.setItem("pagemix", string.substring(14, 16));
     localStorage.setItem("bgmix", string.substring(22, 24));
     refreshPage();
+    fillForm();
+}
+
+function copyCustom()
+{
+    let form = document.getElementById("theme-form");
+    string = "";
+
+    string += toHex(form.elements.namedItem("header-colour").value);
+    string += toNumeric(form.elements.namedItem("header-mix").value);
+    string += toHex(form.elements.namedItem("page-colour").value);
+    string += toNumeric(form.elements.namedItem("page-mix").value);
+    string += toHex(form.elements.namedItem("bg-colour").value);
+    string += toNumeric(form.elements.namedItem("bg-mix").value);
+    string += toHex(form.elements.namedItem("text-colour").value);
+    string += toHex(form.elements.namedItem("link-colour").value);
+    navigator.clipboard.writeText(string);
 }
 
 function fillForm()
@@ -61,6 +77,17 @@ function toPercentage(num)
 {
     if(num[0] == "0") num = num.substring(1);
     return num + "%";
+}
+
+function toNumeric(percentage)
+{
+    if(percentage < 10) return "0" + percentage;
+    return percentage;
+}
+
+function toHex(hex)
+{
+    return hex.replace("#", "");
 }
 
 fillForm();

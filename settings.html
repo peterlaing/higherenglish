@@ -3,32 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="variables.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="styles.css">
-        <script src="themes.js"></script>
+        <link rel="stylesheet" href="/styling/variables.css">
+        <link rel="stylesheet" href="/header/header.css">
+        <link rel="stylesheet" href="/styling/pages.css">
+        <link rel="stylesheet" href="/styling/styles.css">
+        <link rel="stylesheet" href="/styling/inputs.css">
+        <script src="/header/header.js"></script>
+        <script src="/styling/themes.js"></script>
         <title>Settings</title>
     </head>
     <body>
-
-        <header>
-            <div id="header-left">
-                <a href="index.html" title="Homepage"><span class="material-icons header-icon">home</span></a>
-                <!--<a href="index.html" title="Homepage"><span class="material-icons header-icon">search</span></a>-->
-                <a href="index.html" title="Homepage"><h2 id="page-title">Higher English</h2></a>
-                <a href="index.html" title="Homepage"><h2 id="page-title-short">English</h2></a>
-            </div>
-            <div id="header-right">
-                <a href="feedback.html" title="Feedback"><span class="material-icons header-icon" style="padding-top: 8px">feedback</span></a>
-                <a href="settings.html" title="Settings"><span class="material-icons header-icon">settings</span></a>
-            </div>
-        </header>
-
-
-
-        <div id="main" class="page">
+        <div id="main" class="page full">
             <h1>Settings</h1>
 
             <form id="theme-form">
@@ -58,15 +46,27 @@
                 <input type="color" id="link-colour" value="#415690" oninput="applyTheme()">
                 <br>
 
-                <input type="reset" value="Reset To Defaults" class="submit-button push-down-a-bit" onclick="delayedApply()">
-                <br><br>
+                <input type="reset" value="Reset To Defaults" class="submit-button" onclick="delayedApply()">
+                <br><br><br><br>
 
                 <label for="theme-string"><b>Custom Theme:</b></label>
                 <input type="text" autocomplete="off" id="theme-string" value="" placeholder="Copy-Paste here...">
-                <input type="submit" value="Apply Theme" class="submit-button other-button" onclick="applyCustom()">
+                <br>
+                <input type="button" value="Apply Theme" class="submit-button" onclick="applyCustom()"> 
+                <input type="button" value="Copy Current" class="submit-button" onclick="copyCustom()">
             </form>
-        </div>
-        <script src="settings.js"></script>
 
+            <br>
+            <details>
+                <summary>Premade Custom Themes</summary>
+                <ul>
+                    <li>Grey - c5cace15e7eff005d6dde10543434e415690</li>
+                    <li>Beige - ffd9b016fff0e204ffebd5097146009e8600</li>
+                    <li>Mint - c1f2a621e4fed213d4febe20314a30166f3c</li>
+                    <li>Sky - 96d5fd15c7eeff12b3e5ff12365987328cb8</li>
+                </ul>
+            </details>
+        </div>
+        <script src="/styling/settings.js"></script>
     </body>
 </html>
