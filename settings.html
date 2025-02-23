@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="/styling/pages.css">
         <link rel="stylesheet" href="/styling/styles.css">
         <link rel="stylesheet" href="/styling/inputs.css">
-        <script src="/header/header.js"></script>
+        <script src="/navigation/importer.js"></script>
+        <script>importFile("/header/header.html");</script>
         <script src="/styling/themes.js"></script>
         <title>Settings</title>
     </head>
@@ -46,6 +47,11 @@
                 <input type="color" id="link-colour" value="#415690" oninput="applyTheme()">
                 <br>
 
+                <label for="high-colour"><b>Highlight Colour:</b></label>
+                <input type="color" id="high-colour" value="#aeb5c3" oninput="applyTheme()">
+                <br><br>
+                <label><mark>Sample Annotation</mark></label><br>
+
                 <input type="reset" value="Reset To Defaults" class="submit-button" onclick="delayedApply()">
                 <br><br><br><br>
 
@@ -60,10 +66,10 @@
             <details>
                 <summary>Premade Custom Themes</summary>
                 <ul>
-                    <li>Grey - c5cace15e7eff005d6dde10543434e415690</li>
-                    <li>Beige - ffd9b016fff0e204ffebd5097146009e8600</li>
-                    <li>Mint - c1f2a621e4fed213d4febe20314a30166f3c</li>
-                    <li>Sky - 96d5fd15c7eeff12b3e5ff12365987328cb8</li>
+                    <li>Grey - c5cace15e7eff005d6dde10543434e415690aeb5c3</li>
+                    <li>Beige - ffd9b016fff0e204ffebd5097146009e8600ceac50</li>
+                    <li>Mint - b3f2a621defed213c8febe20314a30166f3c5dd07f</li>
+                    <li>Sky - 96d5fd15c7eeff12b3e5ff12365987328cb87ab3f0</li>
                 </ul>
             </details>
         </div>

@@ -1,0 +1,4 @@
+.hypothesis-highlight
+{
+    --highlight-color: color-mix(in srgb, var(--theme-highlight), transparent 60%) !important;
+}

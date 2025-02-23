@@ -63,3 +63,8 @@ details ul
 {
     font-size: 10px;
 }
+
+mark
+{
+    background-color: color-mix(in srgb, var(--theme-highlight), transparent 60%);
+}

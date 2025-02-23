@@ -6,6 +6,7 @@ function applyTheme()
     localStorage.setItem("bgcol", form.elements.namedItem("bg-colour").value);
     localStorage.setItem("textcol", form.elements.namedItem("text-colour").value);
     localStorage.setItem("linkcol", form.elements.namedItem("link-colour").value);
+    localStorage.setItem("highcol", form.elements.namedItem("high-colour").value);
 
     localStorage.setItem("headmix", form.elements.namedItem("header-mix").value);
     localStorage.setItem("pagemix", form.elements.namedItem("page-mix").value);
@@ -23,13 +24,14 @@ function applyCustom()
     let form = document.getElementById("theme-form");
     let string = form.elements.namedItem("theme-string").value;
 
-    if(string.length != 36) return;
+    if(string.length != 42) return;
 
     localStorage.setItem("headcol", "#" + string.substring(0, 6));
     localStorage.setItem("pagecol", "#" + string.substring(8, 14));
     localStorage.setItem("bgcol", "#" + string.substring(16, 22));
     localStorage.setItem("textcol", "#" + string.substring(24, 30));
     localStorage.setItem("linkcol", "#" + string.substring(30, 36));
+    localStorage.setItem("highcol", "#" + string.substring(36, 42));
 
     localStorage.setItem("headmix", string.substring(6, 8));
     localStorage.setItem("pagemix", string.substring(14, 16));
@@ -51,6 +53,7 @@ function copyCustom()
     string += toNumeric(form.elements.namedItem("bg-mix").value);
     string += toHex(form.elements.namedItem("text-colour").value);
     string += toHex(form.elements.namedItem("link-colour").value);
+    string += toHex(form.elements.namedItem("high-colour").value);
     navigator.clipboard.writeText(string);
 }
 
@@ -64,6 +67,7 @@ function fillForm()
     form.elements.namedItem("bg-colour").value = localStorage.getItem("bgcol");
     form.elements.namedItem("text-colour").value = localStorage.getItem("textcol");
     form.elements.namedItem("link-colour").value = localStorage.getItem("linkcol");
+    form.elements.namedItem("high-colour").value = localStorage.getItem("highcol");
 
     form.elements.namedItem("header-mix").value = localStorage.getItem("headmix");
     form.elements.namedItem("header-mix").nextElementSibling.value = toPercentage(localStorage.getItem("headmix"));
