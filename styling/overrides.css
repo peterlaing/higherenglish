@@ -2,3 +2,8 @@
 {
     --highlight-color: color-mix(in srgb, var(--theme-highlight), transparent 60%) !important;
 }
+
+.hypothesis-highlight:hover
+{
+    --highlight-color: color-mix(in srgb, var(--theme-highlight), transparent 40%) !important;
+}

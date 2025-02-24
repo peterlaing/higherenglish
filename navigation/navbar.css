@@ -12,22 +12,71 @@ nav
     height: calc(50vh - var(--header-height));
     min-height: 200px;
 
-    padding: 0px 20px;
+    padding: 0px 20px 20px 20px;
     border-radius: 8px;
     box-sizing: border-box;
 
     text-align: center;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav div
+{
+    padding-bottom: 16px;
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 0;
+}
+
+.nav-icon
+{
+    color: var(--theme-link);
+    position: relative;
+    top: 0.25em;
+    right: 0.15em;
+}
+
+nav a
+{
+    font-size: min(24px, 3vh);
+    position: relative;
+    bottom: 4px;
+    line-height: 0em;
+}
+
+nav a:hover
+{
+    color: var(--theme-text);
+    text-decoration-color: var(--theme-text);
+}
+
+nav a:hover .nav-icon
+{
+    color: var(--theme-text);
+}
+
+hr
+{
+    color: var(--theme-text);
+    border: none;
+
+    width: 80%;
+    height: 3px;
+
+    background: linear-gradient(to right, transparent 0%, var(--theme-link) 25% 75%, transparent 100%);
 }
 
 nav h1
 {
     font-size: min(32px, 5vh);
-}
-
-nav a
-{
-    font-size: min(24px, 10vh);
 }
 
 .internal-anchor::before
@@ -39,7 +88,15 @@ nav a
     visibility: hidden;
 }
 
-@media screen and (max-width: 1240px),
+@media only screen and (max-height: 720px)
+{
+    hr
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1280px),
        screen and (max-height: 320px)
 {
     nav
