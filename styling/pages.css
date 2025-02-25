@@ -1,4 +1,4 @@
-html, body
+body
 {
     background-image: linear-gradient(var(--theme-bg-top), var(--theme-bg-bottom));
     background-attachment: fixed;
@@ -64,5 +64,27 @@ html, body
         width: 100vw;
         margin-left: 0;
         margin-right: 0;
+    }
+}
+
+@media only screen and (max-device-aspect-ratio: 16/9)
+{
+    body
+    {
+        background-image: none;
+        background-attachment: scroll;
+    }
+
+    body::before
+    {
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-size: 100%;
+        background-image: linear-gradient(var(--theme-bg-top), var(--theme-bg-bottom));
+        background-attachment: fixed;
     }
 }
