@@ -7,7 +7,7 @@ function getRemainingTime()
 
 function formatTimeString(time)
 {
-    if(time < 0) return "is over!";
+    if(time < 0) return "The exam is over!";
 
     let days = Math.floor(time / (1000 * 3600 * 24));
     let hours = Math.ceil(time / (1000 * 3600) % 24);

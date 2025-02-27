@@ -5,11 +5,10 @@ async function importFile(filename)
     document.body.insertAdjacentHTML("beforeBegin", html);
 }
 
-async function importMultiple(filenames)
+async function importMultiple(files)
 {
-    for(let i = 0; i < filenames.length; i++)
+    for(let filename of files)
     {
-        let filename = filenames[i];
         await importFile(filename);
     }
 }

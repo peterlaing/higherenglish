@@ -25,4 +25,6 @@
     --theme-text: #43434e;
     --theme-link: #415690;
     --theme-highlight: #aeb5c3;
+    --theme-annotation-normal: 40%;
+    --theme-annotation-hover: 60%;
 }

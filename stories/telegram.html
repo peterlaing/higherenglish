@@ -14,20 +14,22 @@
         <link rel="stylesheet" href="/styling/styles.css">
         <link rel="stylesheet" href="/styling/padded.css">
         <link rel="stylesheet" href="/styling/overrides.css">
-        <!--<script type="application/json" class="js-hypothesis-config">{ "theme":"clean" }</script>-->
-        <script async src="https://hypothes.is/embed.js"></script>
+
         <script src="/navigation/importer.js"></script>
         <script>importMultiple(["/header/header.html", "/navigation/navbar.html"]);</script>
-        <script src="/navigation/navbar.js"></script>
         <script src="/styling/themes.js"></script>
         <title>The Telegram</title>
+
+        <script defer src="https://hypothes.is/embed.js"></script>
+        <script defer src="/navigation/linkfinder.js"></script>
     </head>
     <body>
         <div id="bg"></div>
-
         <div class="page">
+            <div class="page-bg"></div>
+
             <br><br>
-            <img src="/banners/telegram.png"
+            <img src="/banners/telegram.jpg"
             class="banner" style="object-position: 50% 60%">
             <h1>The Telegram</h1>
 
@@ -81,6 +83,8 @@
         <br><br>
         <span class="internal-anchor" id="summary-intlink"></span>
         <div class="page">
+            <div class="page-bg"></div>
+
             <h1>Summary</h1>
             <ul>
                 <li>The story takes place in a small village in rural Scotland during WWII, where death notices are delivered by telegram</li>

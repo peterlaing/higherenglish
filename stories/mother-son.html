@@ -14,20 +14,22 @@
         <link rel="stylesheet" href="/styling/styles.css">
         <link rel="stylesheet" href="/styling/padded.css">
         <link rel="stylesheet" href="/styling/overrides.css">
-        <!--<script type="application/json" class="js-hypothesis-config">{ "theme":"clean" }</script>-->
-        <script async src="https://hypothes.is/embed.js"></script>
+
         <script src="/navigation/importer.js"></script>
         <script>importMultiple(["/header/header.html", "/navigation/navbar.html"]);</script>
-        <script src="/navigation/navbar.js"></script>
         <script src="/styling/themes.js"></script>
         <title>Mother and Son</title>
+
+        <script defer src="https://hypothes.is/embed.js"></script>
+        <script defer src="/navigation/linkfinder.js"></script>
     </head>
     <body>
         <div id="bg"></div>
-
         <div class="page">
+            <div class="page-bg"></div>
+
             <br><br>
-            <img src="/banners/mother-son.png"
+            <img src="/banners/mother-son.jpg"
             class="banner" style="object-position: 50% 65%">
             <h1>Mother and Son</h1>
 
@@ -67,6 +69,8 @@
         <br><br>
         <span class="internal-anchor" id="summary-intlink"></span>
         <div class="page">
+            <div class="page-bg"></div>
+
             <h1>Summary</h1>
             <ul>
                 <li>John (the son) returns home to his frail, elderly mother after a long and tiring day working in the fields</li>
