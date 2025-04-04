@@ -43,6 +43,7 @@ header a
 
 #header-left
 {
+    /*background-color: red;*/
     justify-content: flex-start;
     padding-left: 10px;
     gap: 6px;
@@ -50,10 +51,31 @@ header a
 
 #header-right
 {
+    /*background-color: green;*/
     justify-content: flex-end;
     padding-right: 16px;
     gap: 10px;
-    flex: 2;
+}
+
+#header-mid
+{
+    /*background-color:blue;*/
+    margin: 0px 20px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-form
+{
+    background-color: purple;
+    width: 50%;
+    display: flex;
+}
+
+#search-form input[type="text"]
+{
+    flex-grow: 1;
 }
 
 

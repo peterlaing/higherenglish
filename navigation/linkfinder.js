@@ -6,7 +6,7 @@ function isHypothesisLoaded()
 
 function attemptLinking(tries)
 {
-    if(tries > 5) return;
+    if(tries > 8) return;
 
     const params = new URLSearchParams(window.location.hash.slice(1));
     const targetText = params.get("text");
@@ -24,7 +24,9 @@ function attemptLinking(tries)
         {
             if(annotation.innerHTML.includes(targetText))
             {
-                annotation.scrollIntoView({ behavior: "smooth" });
+                const yPos = annotation.getBoundingClientRect().top;
+                const offset = window.scrollY - window.innerHeight / 2;
+                window.scrollTo({top: yPos + offset, behavior: "smooth"});
                 return;
             }
         }
