@@ -1,9 +1,0 @@
-.hypothesis-highlight
-{
-    --highlight-color: color-mix(in srgb, var(--theme-highlight), transparent calc(100% - var(--theme-annotation-normal))) !important;
-}
-
-.hypothesis-highlight:hover
-{
-    --highlight-color: color-mix(in srgb, var(--theme-highlight), transparent calc(100% - var(--theme-annotation-hover))) !important;
-}

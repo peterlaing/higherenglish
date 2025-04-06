@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="/styling/variables.css">
-        <link rel="stylesheet" href="/header/header.css">
-        <link rel="stylesheet" href="/styling/pages.css">
-        <link rel="stylesheet" href="/styling/styles.css">
-        <link rel="stylesheet" href="/index.css">
-        <script src="/navigation/importer.js"></script>
-        <script>importFile("/header/header.html");</script>
-        <script src="/styling/themes.js"></script>
-        <title>Homepage</title>
-    </head>
-    <body>
-        <div id="bg"></div>
-        <div class="page full flexible">
-            <div class="page-bg"></div>
+<head>
+    <title>English - Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <div>
-                <h1 id="welcome">Welcome to the Higher English Site</h1>
-                <h1 id="countdown"></h1>
-                <script src="countdown.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/variables.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/specific/index.css">
 
-                <div id="stories">
-                    <div class="story-col">
-                        <a href="stories/telegram.html" id="telegram-story">
-                            <div>
-                                <img src="/banners/telegram.jpg" class="story-image">
-                                <br><span class="story-link-text">The Telegram</span>
-                            </div>
+    <script src="https://kit.fontawesome.com/74129ef75e.js" crossorigin="anonymous"></script>
+    <script src="/scripts/importer.js"></script>
+    <script>importFile("header.html")</script>
+</head>
+<body>
+    <nav class="centered-horizontal">
+        <nav class="page full-page flex-vertical">
+            <nav>
+                <h1 id="welcome" class="centered-text">Welcome to the Higher English Revision Site!</h1>
+                <h2 id="countdown" class="centered-text"></h2>
+                <br>
+            </nav>
+            <nav class="flex-vertical vertical-gap">
+                <nav class="flex-horizontal horizontal-gap row-4x1">
+                    <nav class="flex-horizontal dependent-gap half-row">
+                        <a href="/pages/stories/telegram.html" class="story-box" id="telegram-link">
+                            <i class="fa-solid fa-skull icon-top"></i>
+                            <i class="fa-solid fa-newspaper icon-bottom"></i>
+                            <h3>The Telegram</h3>
                         </a>
-                        <a href="stories/red-door.html" id="red-story">
-                            <div>
-                                <img src="/banners/red-door.jpg" class="story-image">
-                                <br><span class="story-link-text">The Red Door</span>
-                            </div>
+                        <a href="/pages/stories/home.html" class="story-box" id="home-link">
+                            <i class="fa-solid fa-car icon-top"></i>
+                            <i class="fa-solid fa-city icon-bottom"></i>
+                            <h3>Home</h3>
                         </a>
-                    </div>
-                    <div class="story-col">
-                        <a href="stories/home.html" id="home-story">
-                            <div>
-                                <img src="/banners/home.jpg" class="story-image">
-                                <br><span class="story-link-text">Home</span>
-                            </div>
+                    </nav>
+                    <nav class="flex-horizontal dependent-gap half-row">
+                        <a href="/pages/stories/red-door.html" class="story-box" id="red-door-link">
+                            <i class="fa-solid fa-door-closed icon-top"></i>
+                            <i class="fa-solid fa-door-open icon-bottom"></i>
+                            <h3>The Red Door</h3>
                         </a>
-                        <a href="stories/mother-son.html" id="mother-story">
-                            <div>
-                                <img src="/banners/mother-son.jpg" class="story-image">
-                                <br><span class="story-link-text">Mother and Son</span>
-                            </div>
+                        <a href="/pages/stories/mother-son.html" class="story-box" id="mother-son-link">
+                            <i class="fa-solid fa-user-group icon-top"></i>
+                            <i class="fa-solid fa-heart-crack icon-bottom"></i>
+                            <h3>Mother and Son</h3>
                         </a>
-                    </div>
-                </div>
+                    </nav>
+                </nav>
+    
+                <nav class="flex-horizontal horizontal-gap row-2x1">
+                    <a href="/" class="story-box" id="commonality-link">
+                        <i class="fa-solid fa-lightbulb icon-left"></i>
+                        <i class="fa-solid fa-hexagon-nodes icon-right"></i>
+                        <h3>Commonality</h3>
+                    </a>
+                    <a href="/" class="story-box" id="revision-link">
+                        <i class="fa-solid fa-book icon-left"></i>
+                        <i class="fa-solid fa-brain icon-right"></i>
+                        <h3>Revision</h3>
+                    </a>
+                </nav>
+            </nav>
+        </nav>
+    </nav>
 
-                <!--<br><br><br>
-                <a href="stories/commonality.html" class="page-link hcenter">Commonality</a>
-                <br><br><br>-->
-            </div>
-        </div>
-    </body>
+    <script src="/scripts/countdown.js"></script>
+</body>
 </html>

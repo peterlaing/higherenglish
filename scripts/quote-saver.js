@@ -1,0 +1,5 @@
+const savedQuotes = [];
+function loadQuotes()
+{
+    
+}

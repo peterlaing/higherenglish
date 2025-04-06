@@ -1,0 +1,121 @@
+header
+{
+    width: 100%;
+    height: var(--header-height);
+
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--header-colour);
+    border-radius: 12px;
+}
+
+#header
+{
+    width: 1160px;
+    height: 100%;
+    padding: 0px 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-icon
+{
+    color: var(--text-colour);
+    font-size: 40px;
+    transition: var(--anim-time);
+}
+
+.scalable-icon:hover
+{
+    color: var(--accent-colour);
+    scale: 1.08;
+}
+
+.header-text
+{
+    color: var(--text-colour);
+    transition: var(--anim-time);
+    font-size: 32px;
+}
+
+.labelled-icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 40px;
+
+    text-decoration: none;
+    transition: var(--anim-time);
+}
+
+.labelled-icon:hover { scale: 1.05; }
+.labelled-icon:hover * { color: var(--accent-colour); }
+
+#search-form
+{
+    flex-grow: 1;
+    height: 50px;
+    box-sizing: border-box;
+
+    background-color: var(--input-colour);
+    border: solid var(--text-colour);
+    border-radius: 30px;
+    border-width: 4px;
+
+    padding: 0px;
+    padding-left: 12px;
+    margin: 0px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    transition: var(--anim-time);
+}
+
+#search-form:hover
+{
+    border-color: var(--accent-colour);
+    scale: 1.005 1.03;
+}
+
+#search-submit
+{
+    color: var(--text-colour);
+    font-size: 28px;
+    display: contents;
+    transition: var(--anim-time);
+}
+
+#search-submit:hover { color: var(--accent-colour); }
+
+#search-bar
+{
+    flex-grow: 1;
+    height: 100%;
+    font-size: 22px;
+    padding-right: 12px;
+
+    background: none;
+    border: none;
+    border-radius: 20px;
+}
+
+#search-bar::placeholder { color: var(--placeholder-colour); }
+#search-bar:focus { outline: none; }
+#search-icon { display: none; }
+#search-space { display: none; }
+
+@media only screen and (max-width: 760px)
+{
+    #search-form { display: none; }
+    #search-icon { display: contents; }
+    #search-space { display: block; }
+    .header-text { display: none; }
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "id":"r001",
+        "quote":"Hallowe’en",
+        "author":"Peter Laing",
+        "analysis":"Introduces the theme of the supernatural, which links to the mystery of the red door being painted.",
+        "tags":[]
+    },
+    {
+        "id":"r002",
+        "quote":"Murdo",
+        "author":"Peter Laing",
+        "analysis":"Murdo is a typically Scottish name, which hints at the setting of the story being within a remote Scottish village.",
+        "tags":[]
+    },
+    {
+        "id":"r003",
+        "quote":"see whether anything was stirring in the world around him",
+        "author":"Peter Laing",
+        "analysis":"Gives the implication that not much happens in this village, portraying the monotony of the villagers’ lives.",
+        "tags":[]
+    }
+]

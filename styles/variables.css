@@ -1,0 +1,13 @@
+:root
+{
+    --text-colour: #413f4d;
+    --accent-colour: #8e9199;
+    --input-colour: #ffffff;
+    --placeholder-colour: #83828f;
+    --header-colour: #eeeeee;
+    --background-colour: #f8f8f8;
+    --page-colour: #ffffff;
+
+    --header-height: 100px;
+    --anim-time: 0.15s;
+}

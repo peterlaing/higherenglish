@@ -1,0 +1,47 @@
+.annotation { background-color: var(--annotation-colour); }
+.annotation:hover { background-color: var(--annotation-hover-colour); }
+p { text-align: justify; }
+
+#annotation-panel
+{
+    position: relative;
+    top: 0px;
+    width: 0px;
+    overflow: hidden;
+    margin-left: 0px;
+    height: min-content;
+
+    transition: top 0.5s ease-in-out,
+    width var(--anim-time),
+    margin-left var(--anim-time);
+}
+
+#annotation-panel img
+{
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+    width: calc(100% - 20px);
+    object-fit: contain;
+}
+
+#toolbar
+{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    gap: 8px;
+}
+
+.annotation-button
+{
+    color: var(--text-colour);
+    font-size: 28px;
+}
+
+.annotation-button:hover
+{
+    color: var(--accent-colour);
+    scale: 1.05;
+}
