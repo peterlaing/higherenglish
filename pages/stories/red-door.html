@@ -8,11 +8,14 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/colours.css">
     <link rel="stylesheet" href="/styles/variables.css">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/common.css">
-    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/specific/header.css">
     <link rel="stylesheet" href="/styles/specific/story.css">
+    <link rel="stylesheet" href="/styles/specific/annotations.css">
+    <link rel="stylesheet" href="/styles/specific/banner.css">
     <link rel="stylesheet" href="/styles/themes/red-door.css">
 
     <script src="https://kit.fontawesome.com/74129ef75e.js" crossorigin="anonymous"></script>
@@ -23,7 +26,11 @@
 <body>
     <nav class="centered-horizontal">
         <nav class="page full-page flex-vertical">
-            <h2>The Red Door</h2>
+            <nav class="banner">
+                <i class="fa-solid fa-door-closed icon-left"></i>
+                <i class="fa-solid fa-door-open icon-right"></i>
+                <h1>The Red Door</h1>
+            </nav>
 
             <div class="flex-horizontal" id="story-division">
                 <span id="story" class="flexible-space">
@@ -57,8 +64,18 @@
                 </span>
             </div>
 
-            <script src="/scripts/quote-loader.js"></script>
+            <script src="/scripts/saver.js"></script>
+            <script src="/scripts/loader.js"></script>
+            <script src="/scripts/annotator.js"></script>
+            <script src="/scripts/scroller.js"></script>
             <script>loadAnnotations("red-door");</script>
+        </nav>
+    </nav>
+    <nav class="description centered-horizontal">
+        <nav class="alternate-page">
+            <nav class="gradient-text">
+                <h2>Summary</h2>
+            </nav>
         </nav>
     </nav>
 </body>

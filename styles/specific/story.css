@@ -1,47 +1,43 @@
-.annotation { background-color: var(--annotation-colour); }
-.annotation:hover { background-color: var(--annotation-hover-colour); }
 p { text-align: justify; }
-
-#annotation-panel
+p::selection { background-color: var(--colour-6); }
+*::selection
 {
-    position: relative;
-    top: 0px;
-    width: 0px;
-    overflow: hidden;
-    margin-left: 0px;
-    height: min-content;
-
-    transition: top 0.5s ease-in-out,
-    width var(--anim-time),
-    margin-left var(--anim-time);
+    color: color-mix(in srgb, var(--colour-1) 40%, white 60%);
+    background-color: var(--colour-7);
 }
 
-#annotation-panel img
+.page
 {
-    position: relative;
-    left: 10px;
-    top: 10px;
-
-    width: calc(100% - 20px);
-    object-fit: contain;
+    box-shadow: 0px 8px var(--gray 5);
+    margin-bottom: 48px;
 }
 
-#toolbar
+.description
 {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    gap: 8px;
+    width: 100%;
+    padding: 24px 0px;
+    box-shadow: 0px -8px color-mix(in srgb, var(--gray-3), var(--gray-3));
+    background: linear-gradient(var(--colour-3), var(--colour-4));
+    border-radius: 12px 12px 0px 0px;
 }
 
-.annotation-button
+.gradient-text
 {
-    color: var(--text-colour);
-    font-size: 28px;
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(var(--colour-9), var(--colour-10));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.annotation-button:hover
+.alternate-page
 {
-    color: var(--accent-colour);
-    scale: 1.05;
+    width: 1140px;
+}
+
+.alternate-page > p
+{
+    font-size: 22px;
 }

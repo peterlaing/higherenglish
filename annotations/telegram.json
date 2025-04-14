@@ -4,27 +4,27 @@
         "quote":"The two women – one fat and one thin",
         "author":"Peter Laing",
         "analysis":"The story begins with juxtaposition of the fat and thin women, which emphasises their differences and introduces the central conflict.\nThe use of anonymous main characters is likely done to emphasise the universality and widespread effects of war.",
-        "tags":[]
+        "tags":["Characterisation", "Fat Woman", "Thin Woman", "Juxtaposition", "Contrast"]
     },
     {
         "id":"t002",
         "quote":"one a fat domestic bird perhaps",
         "author":"Peter Laing",
-        "analysis":"Suggests that the fat woman is quite lazy, ignorant, and hasn't faced much hardship as she has lived a fairly easy life where everything is more or less provided to her.\n![](https://www.thetakeout.com/img/gallery/before-modern-additives-chickens-were-plumped-up-with-lizard-fat/intro-1722281247.jpg)",
-        "tags":[]
+        "analysis":"Suggests that the fat woman is quite lazy, ignorant, and hasn't faced much hardship as she has lived a fairly easy life where everything is more or less provided to her.\n![](chicken.jpg)",
+        "tags":["Characterisation", "Fat Woman", "Imagery"]
     },
     {
         "id":"t003",
         "quote":"the other more aquiline, more gaunt, or, to be precise",
         "author":"Peter Laing",
-        "analysis":"Aquiline refers to something eagle-like, and therefore characterises the thin woman as more alert and resourceful. Her thinness may illustrate the idea of sacrifice and hard work.\n![](https://assets.wordgenius.com/wordgenius/Word+of+The+Day+Images/Aquiline.jpg)",
-        "tags":[]
+        "analysis":"Aquiline refers to something eagle-like, and therefore characterises the thin woman as more alert and resourceful. Her thinness may illustrate the idea of sacrifice and hard work.\n![](eagle.jpg)",
+        "tags":["Characterisation", "Thin Woman", "Imagery"]
     },
     {
         "id":"t004",
         "quote":"like a buzzard",
         "author":"Peter Laing",
-        "analysis":"A buzzard is a medium-sized bird of prey found across much of Eurasia, typically in wooded or rural areas. They are notably opportunistic and strategic, which implies that the thin woman shares similar characteristics.\n![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Steppe_buzzard_%28Buteo_buteo_vulpinus%29.jpg/800px-Steppe_buzzard_%28Buteo_buteo_vulpinus%29.jpg)",
+        "analysis":"A buzzard is a medium-sized bird of prey found across much of Eurasia, typically in wooded or rural areas. They are notably opportunistic and strategic, which implies that the thin woman shares similar characteristics.\n![](buzzard.jpg)",
         "tags":[]
     },
     {
@@ -59,7 +59,7 @@
         "id":"t009",
         "quote":"ships had sunk in seas which they had never seen except on maps",
         "author":"Peter Laing",
-        "analysis":"Provides more context regarding the setting, which is presumably within a countryside rather than coastal as most of the villagers had never seen the sea.\n![](https://i.redd.it/2605fpkwc2m41.png)",
+        "analysis":"Provides more context regarding the setting, which is presumably within a countryside rather than coastal as most of the villagers had never seen the sea.\n![](rural.png)",
         "tags":[]
     },
     {
@@ -73,7 +73,7 @@
         "id":"t011",
         "quote":"pursuit of the Bismarck",
         "author":"Peter Laing",
-        "analysis":"The Bismarck was one of the strongest and largest Nazi battleships deployed during WWII, which provides an exact period as to when the story takes place. It was sunk in May of 1941 by British airstrikes, torpedoes and the subsequent naval battle.\n![](https://upload.wikimedia.org/wikipedia/commons/f/fe/Bundesarchiv_Bild_193-04-1-26%2C_Schlachtschiff_Bismarck.jpg)",
+        "analysis":"The Bismarck was one of the strongest and largest Nazi battleships deployed during WWII, which provides an exact period as to when the story takes place.\nIt was sunk in May of 1941 by British airstrikes, torpedoes and the subsequent naval battle.\n![](bismarck.jpg)",
         "tags":[]
     },
     {
@@ -94,14 +94,14 @@
         "id":"t014",
         "quote":"People began to think of the telegram as a strange missile pointed at them from abroad",
         "author":"Peter Laing",
-        "analysis":"Similarly to a real missile, the villagers seem to think of the telegram as a form of weapon, bringing them emotional rather than physical destruction.\n![](https://d3i6fh83elv35t.cloudfront.net/newshour/app/uploads/2015/07/Western_Unioncropped.jpg)",
+        "analysis":"Similarly to a real missile, the villagers seem to think of the telegram as a form of weapon, bringing them emotional rather than physical destruction.\n![](telegram.jpg)",
         "tags":[]
     },
     {
         "id":"t015",
         "quote":"the local elder who, clad in black",
         "author":"Peter Laing",
-        "analysis":"Black is a negative colour with connotations of evilness or death, which creates an eerie atmosphere and builds tension.\nICS could also be using the elder to personify death itself, comparing him to a figure like the Grim Reaper, as he too brings death to people. This relates to the idea of the telegrams representing the deaths themselves, rather than simply the message of them.\n![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Reaper.png/220px-Reaper.png)",
+        "analysis":"Black is a negative colour with connotations of evilness or death, which creates an eerie atmosphere and builds tension.\nICS could also be using the elder to personify death itself, comparing him to a figure like the Grim Reaper, as he too brings death to people. This relates to the idea of the telegrams representing the deaths themselves, rather than simply the message of them.\n![](reaper.png)",
         "tags":[]
     },
     {
@@ -129,7 +129,7 @@
         "id":"t019",
         "quote":"the thin woman’s son was a sub-lieutenant in the Navy while the fat woman’s son was only an ordinary seaman",
         "author":"Peter Laing",
-        "analysis":"Here the conflict over the sons is introduced - the thin woman has made many more sacrifices and thus her son has ended up in a better position in the navy.\n![](https://www.contactleft.co.uk/media/catalog/product/cache/d77ea550a5ef9fba7ebe6bdcefeef094/r/o/royal-navy-rank-poster.jpg)",
+        "analysis":"Here the conflict over the sons is introduced - the thin woman has made many more sacrifices and thus her son has ended up in a better position in the navy.\n![](ranks.jpg)",
         "tags":[]
     },
     {
@@ -185,21 +185,21 @@
         "id":"t027",
         "quote":"though she only had a widow’s pension of ten shillings a week",
         "author":"Peter Laing",
-        "analysis":"Highlights the thin woman's poverty. Ten shillings is equivalent to 50 pence, which, accounting for inflation, would be worth somewhere between* £30-£50 in today's money.\n![](https://www.royalmint.com/globalassets/__rebrand/_structure/shop/editions/_historic-coins/_product-image/hisbob-1953-shilling-reverse.jpg)\n*Average taken from multiple inflation calculators. It is difficult to determine an exact amount.",
+        "analysis":"Highlights the thin woman's poverty. Ten shillings is equivalent to 50 pence, which, accounting for inflation, would be worth somewhere between* £30-£50 in today's money.\n![](shilling.jpg)\n*Average taken from multiple inflation calculators. It is difficult to determine an exact amount.",
         "tags":[]
     },
     {
         "id":"t028",
         "quote":"the yellow was both strange and unnatural",
         "author":"Peter Laing",
-        "analysis":"The yellowish colour here could symbolise danger, similarly to how many caution and warning signs are made yellow or red.\n![](https://3signs.co.uk/wp-content/uploads/2018/05/HZ003A5RP.png)",
+        "analysis":"The yellowish colour here could symbolise danger, similarly to how many caution and warning signs are made yellow or red.\n![](caution.png)",
         "tags":[]
     },
     {
         "id":"t029",
         "quote":"This was a bare village with little colour and therefore",
         "author":"Peter Laing",
-        "analysis":"The fact that the yellowness stands out amongst the village could be symbolic of the fact that the villagers dislike those whom they see as outsiders.\n![](https://aberfeldymuseum.org/wp-content/uploads/2017/05/aberfeldy1896.jpg)",
+        "analysis":"The fact that the yellowness stands out amongst the village could be symbolic of the fact that the villagers dislike those whom they see as outsiders.\n![](village.jpg)",
         "tags":[]
     },
     {
@@ -311,7 +311,7 @@
         "id":"t045",
         "quote":"continued remorselessly as if she were pecking away at something she had pecked at for many years",
         "author":"Peter Laing",
-        "analysis":"Extended metaphor of the bird imagery used in the introduction. The idea that the thin woman is \"pecking away\" suggests that she is relentless in trying to make the other villagers understand her, yet all this achieves is frustration.\n![](https://media.audubon.org/42-56240394_0.jpg)",
+        "analysis":"Extended metaphor of the bird imagery used in the introduction. The idea that the thin woman is \"pecking away\" suggests that she is relentless in trying to make the other villagers understand her, yet all this achieves is frustration.\n![](woodpecker.png)",
         "tags":[]
     },
     {
@@ -346,7 +346,7 @@
         "id":"t050",
         "quote":"the whale meat or the saccharines?",
         "author":"Peter Laing",
-        "analysis":"Jokingly suggests that all she thinks about is food, hence why she is referred to as the 'fat woman'. The narrator in this instance is clearly taking the side of the thin woman (as it seems to for much of the story).\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngVXCFvOhVnCezl6d4miePVGWy88et1lf9g&s)",
+        "analysis":"Jokingly suggests that all she thinks about is food, hence why she is referred to as the 'fat woman'. The narrator in this instance is clearly taking the side of the thin woman (as it seems to for much of the story).\n![](sweetener.jpeg)",
         "tags":[]
     },
     {
@@ -402,7 +402,7 @@
         "id":"t058",
         "quote":"Her own Donald was just as clever and could have gone to university but he was too fond of fishing and being out with the boys",
         "author":"Peter Laing",
-        "analysis":"The fat woman denies the fact that her son isn't as smart as the thin woman's. She keeps telling herself that her own son would've been equally capable, but given her foolishness, this is unlikely.\n![](https://win.gg/wp-content/uploads/2021/12/Copium-Twitch.png)",
+        "analysis":"The fat woman denies the fact that her son isn't as smart as the thin woman's. She keeps telling herself that her own son would've been equally capable, but given her foolishness, this is unlikely.\n![](copium.png)",
         "tags":[]
     },
     {

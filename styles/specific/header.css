@@ -2,12 +2,16 @@ header
 {
     width: 100%;
     height: var(--header-height);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 
     display: flex;
     justify-content: center;
 
-    background-color: var(--header-colour);
-    border-radius: 12px;
+    background: linear-gradient(var(--colour-4), var(--colour-3));
+    border-bottom: 8px solid var(--colour-4);
+    border-radius: 0px 0px 12px 12px;
 }
 
 #header
@@ -24,20 +28,20 @@ header
 
 .header-icon
 {
-    color: var(--text-colour);
+    color: var(--colour-9);
     font-size: 40px;
     transition: var(--anim-time);
 }
 
 .scalable-icon:hover
 {
-    color: var(--accent-colour);
+    color: var(--colour-7);
     scale: 1.08;
 }
 
 .header-text
 {
-    color: var(--text-colour);
+    color: var(--colour-9);
     transition: var(--anim-time);
     font-size: 32px;
 }
@@ -55,7 +59,7 @@ header
 }
 
 .labelled-icon:hover { scale: 1.05; }
-.labelled-icon:hover * { color: var(--accent-colour); }
+.labelled-icon:hover * { color: var(--colour-7); }
 
 #search-form
 {
@@ -63,8 +67,8 @@ header
     height: 50px;
     box-sizing: border-box;
 
-    background-color: var(--input-colour);
-    border: solid var(--text-colour);
+    background: linear-gradient(var(--colour-2), color-mix(in srgb, var(--colour-1), var(--colour-2)));
+    border: solid var(--colour-9);
     border-radius: 30px;
     border-width: 4px;
 
@@ -81,19 +85,23 @@ header
 
 #search-form:hover
 {
-    border-color: var(--accent-colour);
+    border-color: var(--colour-7);
     scale: 1.005 1.03;
 }
 
+#search-form > input
+{
+    color: var(--colour-9);
+}
+
+#search-submit:hover { color: var(--colour-7); }
 #search-submit
 {
-    color: var(--text-colour);
+    color: var(--colour-9);
     font-size: 28px;
     display: contents;
     transition: var(--anim-time);
 }
-
-#search-submit:hover { color: var(--accent-colour); }
 
 #search-bar
 {
@@ -107,7 +115,7 @@ header
     border-radius: 20px;
 }
 
-#search-bar::placeholder { color: var(--placeholder-colour); }
+#search-bar::placeholder { color: var(--colour-8); }
 #search-bar:focus { outline: none; }
 #search-icon { display: none; }
 #search-space { display: none; }

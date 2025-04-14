@@ -1,6 +1,13 @@
 :root
 {
-    --annotation-colour: #ccee52;
-    --annotation-hover-colour: #b4e249;
-    --accent-colour: #6bab22;
+    --colour-1: var(--green-1);
+    --colour-2: var(--green-2);
+    --colour-3: var(--green-3);
+    --colour-4: var(--green-4);
+    --colour-5: var(--green-5);
+    --colour-6: var(--green-6);
+    --colour-7: var(--green-7);
+    --colour-8: var(--green-8);
+    --colour-9: var(--green-9);
+    --colour-10: var(--green-10);
 }

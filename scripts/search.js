@@ -1,46 +1,97 @@
-async function search(query)
+const files = ["/annotations/telegram.json", "/annotations/home.json", "/annotations/red-door.json", "/annotations/mother-son.json"];
+let annotations = [];
+
+async function loadAnnotations()
 {
-    const url = new URL("https://api.hypothes.is/api/search");
-    url.searchParams.append("uri", "higherenglish.pages.dev/stories/home");
-    //url.searchParams.append("tags", query);
-    url.searchParams.append("limit", 10);
-
-    const response = await fetch(url, { headers: { "Authorization": "Bearer 6879-9NtKuCOedDjL2WaLxmIQb2-U28DPZEh57dcMU7Cvs74" }});
-    if(!response.ok) throw new Error("Failed to fetch annotations");
-    return await response.json();
-}
-
-function getQuote(annotation)
-{
-    if(!annotation.target || !annotation.target[0].selector) return null;
-
-    for(const selector of annotation.target[0].selector)
+    for(let file of files)
     {
-        if(selector.type === "TextQuoteSelector") return selector.exact;
+        const response = await fetch(file);
+        const json = await response.json();
+        annotations = annotations.concat(json);
     }
-    return null;
+
+    const query = new URLSearchParams(window.location.search);
+    searchForQuery(query.get("q"));
 }
 
-const resultsCount = document.getElementById("result-count");
-const listParent = document.getElementById("result-parent");
-
-function displayResult(annotation)
+function searchForQuery(query)
 {
-    const quote = getQuote(annotation);
-    const item = document.createElement("li");
-    const link = document.createElement("a");
+    quoteList = document.getElementById("search-results");
+    searchBar = document.getElementById("search-bar");
+    searchBar.value = query;
 
-    link.textContent = quote;
-    link.href = "/stories/home.html#text=" + quote.substring(0, 20);
+    let count = 0;
+    const term = query.toLowerCase();
 
-    item.appendChild(link);
-    listParent.appendChild(item);
+    for(let annotation of annotations)
+    {
+        const quote = annotation.quote.toLowerCase();
+        if(quote.includes(term))
+        {
+            count += 1;
+            createQuote(annotation, query);
+        }
+    }
+
+    updateCounter(count);
 }
 
-search("test").then(data =>
+function updateCounter(count)
 {
-    if(!data.rows) return;
+    let message = "";
+    if(count === 0) message = "No Results";
+    else if(count === 1) message = "1 Result";
+    else message = count + " Results";
 
-    resultsCount.innerText = data.rows.length + " results";
-    data.rows.forEach(annotation => displayResult(annotation));
-});
+    const title = document.getElementById("result-count");
+    title.textContent = message;
+}
+
+let quoteList = null;
+function createQuote(annotation, query)
+{
+    const id = annotation.id[0];
+    let colour = "";
+    let story = "";
+
+    if(id == "t")
+    {
+        colour = "green";
+        story = "telegram";
+    }
+    else if(id == "h")
+    {
+        colour = "blue";
+        story = "home";
+    }
+    else if(id == "r")
+    {
+        colour = "red";
+        story = "red-door";
+    }
+    else if(id == "m")
+    {
+        colour = "yellow";
+        story = "mother-son";
+    }
+
+    const regex = new RegExp(query, "gi");
+    const replaced = isInvalid(query) ? annotation.quote : annotation.quote.replace(regex, `<b><u>${query}</u></b>`);
+    const link = `/pages/stories/${story}.html?id=${annotation.id}`;
+
+    const html = `
+                <a href="${link}" class="found-quote">
+                    <nav class="story-mark ${colour}"></nav>
+                    <p>${replaced}</p>
+                </a>`;
+
+    quoteList.innerHTML += html;
+}
+
+function isInvalid(query)
+{
+    return query === ""
+    || query === " ";
+}
+
+loadAnnotations();

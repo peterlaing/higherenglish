@@ -1,0 +1,124 @@
+.annotation
+{
+    background-color: color-mix(in srgb, var(--colour-2), var(--colour-3));
+    text-decoration: none;
+    color: var(--colour-10);
+}
+.annotation:hover { background-color: color-mix(in srgb, var(--colour-3), var(--colour-4)); }
+.selected { background-color: var(--colour-4); }
+
+#annotation-panel
+{
+    position: relative;
+    top: 0px;
+
+    width: 0px;
+    height: min-content;
+    box-sizing: border-box;
+
+    margin-left: 0px;
+    padding: 8px;
+    padding-top: 0px;
+    overflow: hidden;
+
+    box-shadow: 0px -8px var(--gray-3);
+    background-color: var(--gray-2);
+    border-radius: 10px;
+
+    transition: top var(--anim-time) ease-in-out,
+    width var(--anim-time),
+    margin-left var(--anim-time);
+}
+
+#annotation-panel img
+{
+    width: calc(100% - 16px);
+    padding: 8px;
+    padding-bottom: 4px;
+
+    object-fit: contain;
+    border-radius: 16px;
+}
+
+cite
+{
+    color: var(--colour-10);
+}
+
+#toolbar
+{
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    gap: 8px;
+}
+
+.annotation-button
+{
+    color: var(--colour-10);
+    font-size: 28px;
+}
+
+.annotation-button:hover
+{
+    color: var(--colour-7);
+    scale: 1.06;
+}
+
+#theme-bar
+{
+    height: 52px;
+    overflow: hidden;
+
+    margin: 8px;
+    margin-top: 14px;
+    padding: 8px;
+
+    background-color: var(--gray-3);
+    box-shadow: 0px -6px var(--gray-4);
+    border-radius: 8px;
+}
+
+#theme-list
+{
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+
+    border-radius: 8px;
+}
+
+#theme-list::-webkit-scrollbar { height: 8px; }
+#theme-list::-webkit-scrollbar-track { background-color: var(--gray-2); }
+#theme-list::-webkit-scrollbar-thumb { background-color: var(--gray-5); }
+#theme-list::-webkit-scrollbar-track, #theme-list::-webkit-scrollbar-thumb { border-radius: 4px; }
+
+.theme-search
+{
+    width: fit-content;
+    height: calc(100% - 16px);
+    position: relative;
+    flex: 0 0 auto;
+
+    font-family: "Fredoka";
+    font-weight: 600;
+    color: var(--colour-10);
+    text-decoration: none;
+    font-size: 20px;
+
+    padding: 0px 8px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+    background-color: var(--gray-2);
+    box-shadow: 0px 6px var(--gray-4);
+    box-sizing: content-box;
+    border-radius: 8px;
+}

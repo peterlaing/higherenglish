@@ -1,5 +1,0 @@
-const savedQuotes = [];
-function loadQuotes()
-{
-    
-}

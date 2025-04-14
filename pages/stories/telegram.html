@@ -8,11 +8,14 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/colours.css">
     <link rel="stylesheet" href="/styles/variables.css">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/common.css">
-    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/specific/header.css">
     <link rel="stylesheet" href="/styles/specific/story.css">
+    <link rel="stylesheet" href="/styles/specific/annotations.css">
+    <link rel="stylesheet" href="/styles/specific/banner.css">
     <link rel="stylesheet" href="/styles/themes/telegram.css">
 
     <script src="https://kit.fontawesome.com/74129ef75e.js" crossorigin="anonymous"></script>
@@ -23,7 +26,11 @@
 <body>
     <nav class="centered-horizontal">
         <nav class="page full-page flex-vertical">
-            <h2>The Telegram</h2>
+            <nav class="banner">
+                <i class="fa-solid fa-skull icon-left"></i>
+                <i class="fa-solid fa-newspaper icon-right"></i>
+                <h1>The Telegram</h1>
+            </nav>
 
             <div class="flex-horizontal" id="story-division">
                 <span id="story" class="flexible-space">
@@ -75,8 +82,25 @@
                 </span>
             </div>
 
-            <script src="/scripts/quote-loader.js"></script>
+            <script src="/scripts/saver.js"></script>
+            <script src="/scripts/loader.js"></script>
+            <script src="/scripts/annotator.js"></script>
+            <script src="/scripts/scroller.js"></script>
             <script>loadAnnotations("telegram")</script>
+        </nav>
+    </nav>
+    <nav class="description centered-horizontal">
+        <nav class="alternate-page">
+            <nav class="gradient-text">
+                <h2>Summary</h2>
+                <p>The Telegram is a short story which focuses on the impact of war on rural villages, and more specifically on the lives of two women from completely different backgrounds.</p>
+                <p>The story is set in rural Scotland during WWII, in a village where death notices are delivered through telegrams, yellow-tinted bits of paper delivered by the village elder. We see one of these telegrams being delivered through the perspectives of two women - a fat and a thin one - who are neighbours but who hold many grudges against each other.</p>
+                <p>Tension is built as the elder walks up the street since we are unaware of the recipient of the telegram, and thus of whose son had died in the war. The villagers all seem incredibly fearful of these telegrams, which emphasises the destructive nature of war and the devastation it brings to families.</p>
+                <p>Most of the story is taken up by dialogue between the fat and the thin woman, which allows us to see both of their perspectives and their respective reasons for disliking each other. The fat woman resents the thin woman for her ’snobbishness’ as the thin woman is not originally from the village and came from a poor background, but still managed to save enough money to send her son to university. This causes her to be jealous of the thin woman's son, who is in a much higher position in the navy than her own son.</p>
+                <p>This tension goes both ways though, as the thin woman is somewhat arrogant and thinks of the fat woman as stupid and lazy. She believes that all of the other villagers should have worked harder and pushed their children onto further education too, so she sees herself as superior in many ways, which leads to her being socially excluded from her village.</p>
+                <p>As the story progresses, the elder passes more and more of the other houses, which means that it is becoming ever more likely that either one of them is the recipient. Eventually he passes the fat woman’s house, which gives her a temporary bittersweet relief that causes her to finally understand the years of sacrifice that the thin woman made. It appears for a moment as if they may unite over their common fear of war, although this is soon disproved as they go their own ways and return to how they were.</p>
+                <p>In a surprising twist at the end, he passes the thin woman’s house too, and it is later revealed that he himself was the recipient. He was so shocked by the news and felt so unable to tell his wife that he ended up walking for 6 miles in a sleepwalking-like numbness.</p>
+            </nav>
         </nav>
     </nav>
 </body>

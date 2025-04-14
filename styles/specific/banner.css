@@ -1,0 +1,32 @@
+.banner
+{
+    position: relative;
+    height: 224px;
+    margin-bottom: 24px;
+
+    background-color: var(--colour-3);
+    box-shadow: 0px 8px var(--colour-5);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.banner > h1 { color: var(--colour-8); }
+.banner > i
+{
+    position: absolute;
+    font-size: 300px;
+    rotate: 20deg;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-image: linear-gradient(var(--colour-4), var(--colour-5));
+}
+
+.icon-left { left: 40px; }
+.icon-right { right: 40px; }

@@ -2,8 +2,8 @@ async function getAnnotations(story)
 {
     const url = new URL("https://api.hypothes.is/api/search");
     url.searchParams.append("uri", "higherenglish.pages.dev/stories/" + story);
-    url.searchParams.append("user", "acct:Peter Laing@hypothes.is");
-    url.searchParams.append("limit", 120);
+    url.searchParams.append("user", "acct:PeterLaing@hypothes.is");
+    url.searchParams.append("limit", 200);
     url.searchParams.append("sort", "created");
     url.searchParams.append("order", "asc");
 
@@ -15,11 +15,9 @@ async function getAnnotations(story)
 function getQuote(annotation)
 {
     if(!annotation.target || !annotation.target[0].selector) return null;
-
     for(const selector of annotation.target[0].selector)
-    {
         if(selector.type === "TextQuoteSelector") return selector.exact;
-    }
+
     return null;
 }
 

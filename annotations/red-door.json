@@ -1,0 +1,310 @@
+[
+    {
+        "id":"r001",
+        "quote":"When Murdo woke up",
+        "author":"Peter Laing",
+        "analysis":"The name Murdo is one of Scots Gaelic origins, with a meaning that roughly corresponds to ‘sea warrior’ (according to various websites). This therefore hints at the coastal Scottish village setting, which is confirmed later on.",
+        "tags":[]
+    },
+    {
+        "id":"r002",
+        "quote":"after Hallowe’en",
+        "author":"Peter Laing",
+        "analysis":"The fact that the story is set on the morning after Halloween introduces the (not particularly prominent) theme of the supernatural, one which is developed later and which contributes to the story’s sense of mystery.",
+        "tags":[]
+    },
+    {
+        "id":"r003",
+        "quote":"to see whether anything was stirring in the world around him",
+        "author":"Peter Laing",
+        "analysis":"Implies that the village is not exactly a happening place and that it is mostly quite quiet and boring, thus suggesting that life is not particularly interesting due to everybody’s similarity.",
+        "tags":[]
+    },
+    {
+        "id":"r004",
+        "quote":"He lived by himself, prepared his own food, darned his own socks, washed his own clothes and cultivated his own small piece of ground.",
+        "author":"Peter Laing",
+        "analysis":"The listing of actions that he performs by himself and the repetition of “his own” highlights how solitary and lonely Murdo’s life is. He doesn’t appear overly upset by this, but it portrays his life as rather miserable.",
+        "tags":[]
+    },
+    {
+        "id":"r005",
+        "quote":"He was liked by everybody since he didn’t offend anyone by gossiping and maintained a long silence unless he had something of importance to say.",
+        "author":"Peter Laing",
+        "analysis":"Suggests that although most of the village is full of discussion and gossip, Murdo tends to ignore all of it, which results in him being neither popular nor unpopular.",
+        "tags":[]
+    },
+    {
+        "id":"r006",
+        "quote":"He had gazed in amazement at the mask of senility on one face, at the mask of a wildcat on another and at the mask of a spaceman on the face of a little boy",
+        "author":"Peter Laing",
+        "analysis":"The Halloween masks link to the idea of anonymity and concealment of oneself, similarly to how Murdo feels as if he needs to hide his true identity.",
+        "tags":[]
+    },
+    {
+        "id":"r007",
+        "quote":"When he touched the red paint he found that it was quite dry.",
+        "author":"Peter Laing",
+        "analysis":"This adds to the mystery, as not only is the door now red, but it appears to have been painted quite some time ago, yet he was out only the previous evening, so it must’ve been during the night.",
+        "tags":[]
+    },
+    {
+        "id":"r008",
+        "quote":"He had no feeling of anger at all, only puzzlement.",
+        "author":"Peter Laing",
+        "analysis":"Despite the fact that somebody has vandalised his house, Murdo seems to accept/embrace it and is only confused as to how it happened and who could’ve done it.",
+        "tags":[]
+    },
+    {
+        "id":"r009",
+        "quote":"After all, no one in his experience had had a red door in the village before. Green doors, yellow doors, and even blue doors, but never a red door. It certainly singled him out.",
+        "author":"Peter Laing",
+        "analysis":"Emphasises the unusualness and uniqueness of the red door amongst the village which conforms to a fairly consistent colour scheme.",
+        "tags":[]
+    },
+    {
+        "id":"r010",
+        "quote":"The door was as red as the winter sun he saw in the sky.",
+        "author":"Peter Laing",
+        "analysis":"The comparison of the redness to the winter sun highlights how bold and bright it is, and how much it will stand out, although not necessarily in a bad way as sunlight tends to have positive connotations.",
+        "tags":[]
+    },
+    {
+        "id":"r011",
+        "quote":"had a look at his frugally prepared breakfast – porridge, scones and tea",
+        "author":"Peter Laing",
+        "analysis":"This is a rather Scottish sounding breakfast, which provides another clue regarding the setting. The fact that it is “frugally prepared” suggests that Murdo is not particularly well off and that most of the villagers just about get by.",
+        "tags":[]
+    },
+    {
+        "id":"r012",
+        "quote":"Indeed because he was a bachelor he felt it necessary that he should be as like the other villagers as possible.",
+        "author":"Peter Laing",
+        "analysis":"Murdo spends his entire life trying to fit in with the rest of the villagers, to the point that he feels trapped and unable to express himself.",
+        "tags":[]
+    },
+    {
+        "id":"r013",
+        "quote":"Murdo had never in his life done anything unusual.",
+        "author":"Peter Laing",
+        "analysis":"Evidently Murdo sticks to all of the village’s rules and tries to conform to the others’ opinions as much as possible. The result of this is that he lives a boring life where he is unable to do anything “unusual,” which most likely means anything that he enjoys.",
+        "tags":[]
+    },
+    {
+        "id":"r014",
+        "quote":"He read the Daily Record as they did, after dinner he slept by the fire as they did, he would converse with his neighbour while hammering a post into the ground. He would even play draughts with one of them sometimes.",
+        "author":"Peter Laing",
+        "analysis":"It is strongly implied that Murdo does these things solely to fit in, and not because he actually wants to. The repetition of “as they did” suggests that most people tend to copy each others’ habits within the village and lack originality or expression.",
+        "tags":[]
+    },
+    {
+        "id":"r015",
+        "quote":"Nevertheless there were times when he felt that there was more to life than that.",
+        "author":"Peter Laing",
+        "analysis":"This life seems to have led Murdo to feel somewhat discontented with his existence. He only does things because he feels he has to, and therefore doesn’t actually find much enjoyment.",
+        "tags":[]
+    },
+    {
+        "id":"r016",
+        "quote":"and the earth was painted with an unearthly glow",
+        "author":"Peter Laing",
+        "analysis":"The idea of an “unearthly glow” links back to the theme of the supernatural and suggests that something strange and otherworldly seems to be happening (i.e. the painting of the door).",
+        "tags":[]
+    },
+    {
+        "id":"r017",
+        "quote":"especially on summer nights when the harvest moon was in the sky – the moon that ripened the barley",
+        "author":"Peter Laing",
+        "analysis":"This description of the time sounds rather poetic and intriguing, which hints at Murdo’s inner creative side and suggests that his door being painted red grants him an opportunity to live a new life.",
+        "tags":[]
+    },
+    {
+        "id":"r018",
+        "quote":"the sea was like a strange volume which none could read except by means of the imagination.",
+        "author":"Peter Laing",
+        "analysis":"Continuing with his poetic descriptions, Murdo appears to suddenly notice and describe his surroundings, which acts as a subtle transition into the character of Mary, who displays these same traits of intelligence and creativity.",
+        "tags":[]
+    },
+    {
+        "id":"r019",
+        "quote":"I used to do this when I was a child. Why can’t I do it now?",
+        "author":"Peter Laing",
+        "analysis":"Reveals Murdo’s childlike and nostalgic side - he questions why, as an adult, he feels the need to fit in when he felt so much freer and happier as a kid.",
+        "tags":[]
+    },
+    {
+        "id":"r020",
+        "quote":"Only once had he shown enthusiasm",
+        "author":"Peter Laing",
+        "analysis":"Obviously Murdo has been shaped by his negative experiences, with the bullying he was subjected to in school forcing him to live the boring life he now does.",
+        "tags":[]
+    },
+    {
+        "id":"r021",
+        "quote":"For he had been a very serious child who found it difficult to talk to children even of his own age.",
+        "author":"Peter Laing",
+        "analysis":"Suggests that he had a rather miserable and lonely childhood and struggled to make friends, perhaps due to his later-mentioned lisp, or due to some other disability.",
+        "tags":[]
+    },
+    {
+        "id":"r022",
+        "quote":"had lisped excitedly, ‘Thee, an aeroplane’, a rather ambiguous not to say almost unintelligible exclamation which had been repeated as a sign of his foolishness.",
+        "author":"Peter Laing",
+        "analysis":"Here we see the extent to which Murdo was unfairly targeted in school, which is what has led him to be so afraid of standing out. Due to the mockery from the other kids, Murdo became more wary and afraid of negative interactions, leading him to life a dull life of conformity.",
+        "tags":[]
+    },
+    {
+        "id":"r023",
+        "quote":"He had never taken part in the school sports because he was rather clumsy: and his accomplishments in mathematics were meagre.",
+        "author":"Peter Laing",
+        "analysis":"Evidently Murdo’s childhood was only made worse by his mediocrity and lack of talent, and overall he seems to have been extraordinarily unlucky, facing one issue after the next.",
+        "tags":[]
+    },
+    {
+        "id":"r024",
+        "quote":"and even studied the damp patch on the wall before he convinced himself that it was his own house.",
+        "author":"Peter Laing",
+        "analysis":"The door being painted red seems to have put Murdo into a state of extreme doubt, so much so that he has to check that he woke up in his own house and isn’t dreaming or something.",
+        "tags":[]
+    },
+    {
+        "id":"r025",
+        "quote":"He would say to himself, ‘After all, I have nothing to get up for really. I could if I liked stay in bed all day and all night and none would notice the difference.",
+        "author":"Peter Laing",
+        "analysis":"Shows the negative impact of living a life of pure conformity: Murdo is dissatisfied to the point of depression with his life and feels like it is hardly worth doing anything.",
+        "tags":[]
+    },
+    {
+        "id":"r026",
+        "quote":"on board a fishing boat",
+        "author":"Peter Laing",
+        "analysis":"Confirms the suspicion that the story is set in a coastal village, as compared to the countryside.",
+        "tags":[]
+    },
+    {
+        "id":"r027",
+        "quote":"but had lost the job because he had put sugar instead of salt into the soup",
+        "author":"Peter Laing",
+        "analysis":"bro how much did he add 💀",
+        "tags":[]
+    },
+    {
+        "id":"r028",
+        "quote":"while his father and mother dreamed their way towards death",
+        "author":"Peter Laing",
+        "analysis":"Suggests that Murdo’s parents may have faced similar fates to him, both living life in a bored, somnambulistic state. Could also suggest that death was viewed as desirable due to how dull life was for most of the villagers.",
+        "tags":[]
+    },
+    {
+        "id":"r029",
+        "quote":"he spent working on the land in a dull concentrated manner.",
+        "author":"Peter Laing",
+        "analysis":"The word choice of “dull” and “concentrated” suggests that Murdo’s farming work is both monotonous and unfulfilling, which further builds on the idea of not being satisfied with his life.",
+        "tags":[]
+    },
+    {
+        "id":"r030",
+        "quote":"he would be seen with a scythe in the fields, the sunlight sparkling from the blade while he himself, squat and dull, swung it remorselessly.",
+        "author":"Peter Laing",
+        "analysis":"Although this is literally intended to describe his work, the description of the scythe and the use of the word “remorselessly” also hints at imagery of death, suggesting that he can feel himself getting ever-closer to death without achieving anything.",
+        "tags":[]
+    },
+    {
+        "id":"r031",
+        "quote":"to a spinster in the village who lived with her grossly religious mother in the house opposite him and who was very stout.",
+        "author":"Peter Laing",
+        "analysis":"Murdo’s only ever attempt at love was with somebody that sounds comically unsuitable, which continues to portray Murdo’s constant misfortune.",
+        "tags":[]
+    },
+    {
+        "id":"r032",
+        "quote":"she had provided him with cocoa and salt herring for his supper, a diet so ferocious that even he could not look forward to its repetition with tranquillity.",
+        "author":"Peter Laing",
+        "analysis":"Thankfully for Murdo, he sees this completely inedible meal as a sign that things were never meant to work out with her and that this would foreshadow them having an unbearable marriage.",
+        "tags":[]
+    },
+    {
+        "id":"r033",
+        "quote":"There was another spinster in the village who wrote poetry and who lived by herself",
+        "author":"Peter Laing",
+        "analysis":"Mary is introduced as someone quite poetic and creative, which reflects the side of Murdo that he himself has been hiding from the world. Based on what we know, Mary and Murdo seem to have quite a bit in common, but have different outlooks on life.",
+        "tags":[]
+    },
+    {
+        "id":"r034",
+        "quote":"he had certain feelings too tenuous to be called love towards her.",
+        "author":"Peter Laing",
+        "analysis":"Mary is characterised quite differently from Murdo’s previous love interest, who is never even named. The fact that she remains anonymous could be symbolic of her blending into the village, whereas Mary is a key character who is bolder and more distinctive as she is willing to reveal her true identity and stand out.",
+        "tags":[]
+    },
+    {
+        "id":"r035",
+        "quote":"She dressed in red clothes",
+        "author":"Peter Laing",
+        "analysis":"The fact that Mary wears red suggests that she may have been the one who painted the door, although this is never explicitly stated.\nThe colour red throughout the story seems to symbolise passion, boldness, and expression, and therefore the choice to make Mary red highlights how she is proud to stand out from the village.",
+        "tags":[]
+    },
+    {
+        "id":"r036",
+        "quote":"she neglected herself in the service of books and poetry and was considered slightly odd by the villagers.",
+        "author":"Peter Laing",
+        "analysis":"Illustrates the judgement and exclusion present within the village as Mary is treated as an outcast due to her intelligence and love for poetry/literature. This helps us to understand why Murdo feels the need to hide his true interests.",
+        "tags":[]
+    },
+    {
+        "id":"r037",
+        "quote":"Murdo thought that anybody who read a lot of books and wrote poetry must be very clever.",
+        "author":"Peter Laing",
+        "analysis":"Shows that Murdo has a different attitude to the rest of the village, as he admires Mary’s intelligence and willingness to stand out. This could also suggest that many others do too, but are all too afraid to challenge the norms.",
+        "tags":[]
+    },
+    {
+        "id":"r038",
+        "quote":"As he stared at the door he felt strange flutterings within him.",
+        "author":"Peter Laing",
+        "analysis":"The door being painted acts as the catalyst for the change in Murdo’s mindset, and this line shows him starting to realise what he can change, thus building tension.",
+        "tags":[]
+    },
+    {
+        "id":"r039",
+        "quote":"it shone with a deep inward shine such as one might find in pictures.",
+        "author":"Peter Laing",
+        "analysis":"Suggests that the bold red colour is actually rather picturesque and has a sort of charm to it that Murdo is beginning to admire. The fact that it stands out isn’t necessarily a bad thing anymore.\nThe word choice of “deep” suggests that this beauty may have always been there, but is only now being revealed, similarly to the identities of the townspeople.",
+        "tags":[]
+    },
+    {
+        "id":"r040",
+        "quote":"but on the contrary was old and intertwined with all sorts of rusty pipes like snakes.",
+        "author":"Peter Laing",
+        "analysis":"The snake simile and the idea of the house being covered in metal pipes could be symbolic of how trapped and confined Murdo feels in this village.",
+        "tags":[]
+    },
+    {
+        "id":"r041",
+        "quote":"And indeed it looked like a picture against the rest of the house which wasn’t at all modern",
+        "author":"Peter Laing",
+        "analysis":"The juxtaposition of the visually appealing red door with the old, derelict house symbolises the state of disrepair that Murdo’s life has fallen into and how the door being painted is bringing new light into it.",
+        "tags":[]
+    },
+    {
+        "id":"r042",
+        "quote":"It certainly stood out against the drab landscape as if it were a work of art.",
+        "author":"Peter Laing",
+        "analysis":"The description of a “drab landscape” suggests that the rest of the village is incredibly boring and similar, whereas the door brings some much-needed life and personality into it.\nThe continual comparison of the door to an artwork highlights the extent to which Murdo appreciates it for the effect that it is having on him.",
+        "tags":[]
+    },
+    {
+        "id":"r043",
+        "quote":"He went back from the door and looked at it from a distance as people in art galleries have to do when studying an oil painting.",
+        "author":"Peter Laing",
+        "analysis":"Links back to Murdo’s initial disbelief, suggesting that he still doesn’t feel as if he completely understands the door and can appreciate that there is more to it than meets the eye.",
+        "tags":[]
+    },
+    {
+        "id":"r044",
+        "quote":"it seemed to express something in himself which had been deeply buried for years.",
+        "author":"Peter Laing",
+        "analysis":"Emphasises the change that the door has sparked in Murdo - he is beginning to realise that conforming to society has no real benefits and that he would be better off expressing what “had been deeply buried for years.”",
+        "tags":[]
+    }
+]

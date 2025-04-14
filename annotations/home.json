@@ -17,7 +17,7 @@
         "id":"h003",
         "quote":"On one finger of his right hand was a square red ring",
         "author":"Peter Laing",
-        "analysis":"Suggests that he is quite pretentious as he feels the need to flaunt his wealth by means of wearing expensive jewellery to an impoverished neighbourhood.\n![](https://ichef.bbci.co.uk/images/ic/480xn/p06j49k0.jpg)",
+        "analysis":"Suggests that he is quite pretentious as he feels the need to flaunt his wealth by means of wearing expensive jewellery to an impoverished neighbourhood.\n![](ring.jpg)",
         "tags":[]
     },
     {
@@ -27,7 +27,6 @@
         "analysis":"Although her husband is quite eager to revisit his old home, Mrs Jackson feels immediately unsafe upon entering the area, telling him to \"lock the car\" as a safety precaution.",
         "tags":[]
     },
- 
     {
         "id":"h005",
         "quote":"But they don’t steal things here",
@@ -35,7 +34,6 @@
         "analysis":"Demonstrates Mr Jackson's naivety and unrealistic sense of his surroundings. He seems to have overly positive memories of his old home, a phenomenon known as [rosy retrospection](https://en.wikipedia.org/wiki/Rosy_retrospection).",
         "tags":[]
     },
- 
     {
         "id":"h006",
         "quote":"with the cheerful animation of one who had left it",
@@ -43,15 +41,13 @@
         "analysis":"Suggests that he is excited to be back here, but not solely for nostalgic reasons; also because he is arrogantly proud of his newfound wealth and wants to brag to those who he knew.",
         "tags":[]
     },
- 
     {
         "id":"h007",
         "quote":"looking around him and up at the sky with a hungry look as if he were scanning the veldt",
         "author":"Peter Laing",
-        "analysis":"A veldt is a large, open grassland situated in southern parts of Africa, typically blanketed by numerous small shrubs. The term originates from the Afrikaans word for 'field', therefore linking the story to South Africa.\n![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Typical_Veld_near_Petrified_forest_%28Namibia%29.jpg/1920px-Typical_Veld_near_Petrified_forest_%28Namibia%29.jpg)",
+        "analysis":"A veldt is a large, open grassland situated in southern parts of Africa, typically blanketed by numerous small shrubs. The term originates from the Afrikaans word for 'field', therefore linking the story to South Africa.\n![](veldt.jpg)",
         "tags":[]
     },
- 
     {
         "id":"h008",
         "quote":"His wife in furs got out more slowly",
@@ -427,7 +423,7 @@
         "id":"h061",
         "quote":"he could see the Clyde, the ships and the cranes",
         "author":"Peter Laing",
-        "analysis":"Provides a concrete reference as to the setting, as everything up until now has been inferred through slang and historical knowledge.\n![](https://universityofglasgowlibrary.wordpress.com/wp-content/uploads/2014/07/qe2-7-9-67.jpg)",
+        "analysis":"Provides a concrete reference as to the setting, as everything up until now has been inferred through slang and historical knowledge.\n![](clyde.jpg)",
         "tags":[]
     },
     {
@@ -673,6 +669,237 @@
         "quote":"‘So you admit you were wrong,’ said his wife",
         "author":"Peter Laing",
         "analysis":"Now that Mr Jackson has realised that he no longer belongs in Scotland, his wife decides to take the opportunity to explicitly tell him he’s wrong. She could’ve just ignored it and let it be his realisation, but for some reason she felt the need to display her arrogance and superiority, reinforcing the idea that their relationship isn’t great.",
+        "tags":[]
+    },
+    {
+        "id":"h097",
+        "quote":"‘Nice bus,’ said the one with the long curving moustache.",
+        "author":"Peter Laing",
+        "analysis":"By mocking the Jacksons’ car, which symbolises their wealth and is what distinguishes them from the locals, they are making him feel unwelcome and not accepted, which is reasonable as he is no longer one of them.",
+        "tags":[]
+    },
+    {
+        "id":"h098",
+        "quote":"They moved forward in concert, a ballet.",
+        "author":"Peter Laing",
+        "analysis":"By approaching him in a group, they appear all the more intimidating, and this highlights the fact that in a dangerous neighbourhood like this, wealth does not protect the Jacksons as much as belonging there would due to the strong community.",
+        "tags":[]
+    },
+    {
+        "id":"h099",
+        "quote":"The thin stringy woman",
+        "author":"Peter Laing",
+        "analysis":"The word choice here of “thin” and “stringy” implies that the residents are malnourished due to the poverty of the neighbourhood, which highlights the inequality between the various areas of Glasgow in this period.",
+        "tags":[]
+    },
+    {
+        "id":"h100",
+        "quote":"The shops along both sides of the street were all changed. There used to be a road down to the river and the lavatories but he couldn’t see anything there now. Later on he passed a new yellow petrol-station, behind a miniature park with a blue bench on it.",
+        "author":"Peter Laing",
+        "analysis":"Parallels the earlier parts of the story, during which Mr Jackson came to realise how different the town was from how he remembered.\nThe fact that the same points about the shops are emphasised may have been done to show how this new impression has been solidified in his memory.",
+        "tags":[]
+    },
+    {
+        "id":"h101",
+        "quote":"Where was he now? Used to be a boiler-man or something. By God, he would have sorted them out.",
+        "author":"Peter Laing",
+        "analysis":"Although we can deduce that Mr Jackson’s only reason to revisit his old home was to brag about his newfound wealth, we do see him somewhat missing his old neighbours here as he wishes that Mr Jamieson was still around to “sort them out,” linking to his violent and abusive tendencies that Mr Jackson strangely seems to admire.",
+        "tags":[]
+    },
+    {
+        "id":"h102",
+        "quote":"He thought of razor-suited Jamieson",
+        "author":"Peter Laing",
+        "analysis":"The fact that Mr Jackson also independently compares him to a razor (as Mrs Jackson did towards the beginning) suggests that this must be a distinctive trait of Mr Jamieson, and therefore suggests that there was a strong sense of community as everybody was known properly.",
+        "tags":[]
+    },
+    {
+        "id":"h103",
+        "quote":"Everybody crowded together like rats.",
+        "author":"Peter Laing",
+        "analysis":"Despite the fact that he used to live here, we explicitly hear Mr Jackson’s low opinion of the residents as he compares them to mere rodents due to the overpopulation that has destroyed the town.",
+        "tags":[]
+    },
+    {
+        "id":"h104",
+        "quote":"There was no space in this bloody country.",
+        "author":"Peter Laing",
+        "analysis":"Even though he himself lived here, he refers to Scotland as “this bloody country,” portraying it in a strongly negative manner and showing that he no longer feels any sense of belonging there as he has moved on entirely and now only feels at home in South Africa.",
+        "tags":[]
+    },
+    {
+        "id":"h105",
+        "quote":"He drove on, accelerating past a smaller car and blaring his horn savagely.",
+        "author":"Peter Laing",
+        "analysis":"The act of “blaring his horn savagely” highlights his impatience and sense of superiority over the other drivers, likely due to their differences in social status.",
+        "tags":[]
+    },
+    {
+        "id":"h106",
+        "quote":"His wife’s face brightened.",
+        "author":"Peter Laing",
+        "analysis":"Similarly to a few lines perviously, his wife suddenly switches from feelings of disgust and frustration to those of excitement and relaxation as soon as anything luxurious is mentioned, proving her materialism.",
+        "tags":[]
+    },
+    {
+        "id":"h107",
+        "quote":"‘We’d better find a hotel,’ he said.",
+        "author":"Peter Laing",
+        "analysis":"Having been disappointed with the inferiority of his old home and realising that he no longer belongs there, Mr Jackson finally takes his wife’s side and agrees to stay somewhere expensive with other likeminded people.",
+        "tags":[]
+    },
+    {
+        "id":"h108",
+        "quote":"They stopped at the Admiral and were back home",
+        "author":"Peter Laing",
+        "analysis":"Upon arriving into a luxury hotel, they both feel much more at ease, which shows that they have discovered that their true home is not any given place, but rather where money is.",
+        "tags":[]
+    },
+    {
+        "id":"h109",
+        "quote":"the boy in the blue uniform with the yellow edgings took their rich brown leather cases.",
+        "author":"Peter Laing",
+        "analysis":"Shows how much the money has changed them. Instead of having to fight for their survival in the tough, impoverished environment that they used to live in, they now have servants to act on their every need, which has made them far more lazy.",
+        "tags":[]
+    },
+    {
+        "id":"h110",
+        "quote":"they stood there decisively as if they belonged there.",
+        "author":"Peter Laing",
+        "analysis":"The fact that they did so *“as if”* they belonged there suggests that none of them truly do feel at home, but are trying their best to fit in, which suggests that this life of wealth has many downsides, namely the judgement by others and the subsequent need to focus on one’s image.",
+        "tags":[]
+    },
+    {
+        "id":"h111",
+        "quote":"They had red faces and red necks",
+        "author":"Peter Laing",
+        "analysis":"Parallels the introduction, which describes Mr Jackson as “a big man with a weatherbeaten red-veined face and a strong jaw.” By describing all of the other men similarly, ICS is suggesting that many of these wealthy men are in the same situation as him.\nNote that the red-faced description is not particularly flattering, which could reflect ICS’s views on people like the Jacksons.",
+        "tags":[]
+    },
+    {
+        "id":"h112",
+        "quote":"Their wives wore cool gowns and looked haggard and dissipated.",
+        "author":"Peter Laing",
+        "analysis":"This description is almost identical to that of Mrs Jackson, which again suggests that many wealthy couples are in similar circumstances, but also that this hotel is only full of people similar to the Jacksons as they reject anybody different.",
+        "tags":[]
+    },
+    {
+        "id":"h113",
+        "quote":"Now she was smiling and trailing her fur coat.",
+        "author":"Peter Laing",
+        "analysis":"As compared to earlier, when she was keeping the fur coat close to herself and trying to keep it clean, Mrs Jackson now shows off the coat without inhibition as she feels more at ease in the hotel environment.",
+        "tags":[]
+    },
+    {
+        "id":"h114",
+        "quote":"He could tell the boys about his sentimental journey, it would make a good talking point, they would get some laughs from it.",
+        "author":"Peter Laing",
+        "analysis":"Implies that even though this trip was originally intended to be one of self-discovery and finding a true place of belonging, Mrs Jackson has almost brainwashed him into forgetting the few positives and turning the place into a sort of inside joke.",
+        "tags":[]
+    },
+    {
+        "id":"h115",
+        "quote":"She walked with a certain exaggerated delicacy.",
+        "author":"Peter Laing",
+        "analysis":"Another description of Mrs Jackson’s behaviour which characterises her as flamboyant and flashy, with most of her appearance and etiquette being for show.",
+        "tags":[]
+    },
+    {
+        "id":"h116",
+        "quote":"No, on second thoughts perhaps not. He’d say something about Scotland anyway, and not forget to make sure that they know how well he had done.",
+        "author":"Peter Laing",
+        "analysis":"Shows Mrs Jackson’s opinion of her husband, clearly recognising his incessant desire to brag about his rags to riches story, even though the kids must’ve already heard it hundreds of times.",
+        "tags":[]
+    },
+    {
+        "id":"h117",
+        "quote":"‘Waiter,’ he said loudly. ‘Two whiskies with ice.’",
+        "author":"Peter Laing",
+        "analysis":"Mr Jackson doesn’t seem particularly respectful towards the waiters (presumably of a lower social status) here, and the word choice of “loudly” suggests that he is somewhat obnoxious.",
+        "tags":[]
+    },
+    {
+        "id":"h118",
+        "quote":"That waiter should have his hair cut.",
+        "author":"Peter Laing",
+        "analysis":"The third-person narrative has allowed us to see both characters’ thoughts throughout the story, and here we see one of Mr Jackson’s critical remarks, which highlights his judgmentalism towards those whom he sees as inferior.",
+        "tags":[]
+    },
+    {
+        "id":"h119",
+        "quote":"those men who ran Scotland, the backbone of the nation. People like himself.",
+        "author":"Peter Laing",
+        "analysis":"This statement is quite ironic as Mr Jackson sees the lazy upper class as the ones that the country depends on. By claiming that they are “people like himself,” he is implying that he believes that he is similarly crucial to South Africa’s success.\nWhat is ironic about this is the fact that the whites are the ones ruling South Africa, but are abusing the natives and using them for slave labour. Therefore they are really the ones who are really the “backbone of [their] nation,” but Mr Jackson is ignorant to this and writes them off as worthless.",
+        "tags":[]
+    },
+    {
+        "id":"h120",
+        "quote":"By God, less than him. He had had the guts to travel.",
+        "author":"Peter Laing",
+        "analysis":"Mr Jackson even treats people of a similar status as inferior, which highlights his arrogance and self-importance. He believes that anything he does gives him an advantage over others, even if it really takes no “guts” at all “to travel.”",
+        "tags":[]
+    },
+    {
+        "id":"h121",
+        "quote":"His wife was smiling as if she expected someone to photograph her.",
+        "author":"Peter Laing",
+        "analysis":"Links to the wife’ flamboyance, suggesting that she is equally as self-centred as her husband, constantly posing as if others ought to care what she looks like.",
+        "tags":[]
+    },
+    {
+        "id":"h122",
+        "quote":"Outside it was quite dark. Difficult to get used to this climate.",
+        "author":"Peter Laing",
+        "analysis":"The claim that it is “difficult to get used to this climate” is rather ironic as he used to live here, and therefore would’ve absolutely been used to it.\nThis could suggest that he has now almost entirely forgotten about his roots, or could simply imply that he would find it hard to return to where he came from as the rags to riches is a one-way process.",
+        "tags":[]
+    },
+    {
+        "id":"h123",
+        "quote":"Now she was home. In a place much like Africa, the bar of a first class hotel.",
+        "author":"Peter Laing",
+        "analysis":"This comparison to ‘Africa’ is somewhat ironic and ignorant as the majority of Africa would’ve been equally (or likely even more) impoverished and uninhabitable during this period. That is except for the minority of rich whites in South Africa specifically, which suggests that the colonialism there has led to them having rather insular mindsets and being blissfully unaware of the inequality and misery that they are causing for others.",
+        "tags":[]
+    },
+    {
+        "id":"h124",
+        "quote":"He took out a cigar to show who he was, and began to cut it.",
+        "author":"Peter Laing",
+        "analysis":"Him taking out the cigar just “to show who he was”  shows him finally being able to flex his wealth and status to others, which he previously realised would not be wise to do back in Glasgow.",
+        "tags":[]
+    },
+    {
+        "id":"h125",
+        "quote":"he could see his car bulging like a black wave.",
+        "author":"Peter Laing",
+        "analysis":"The “black polished car” introduced in the opening sentence has been a central symbol of the Jackson’s wealth throughout, and is mentioned for the final time here. The way he can “see his car bulging” suggests that he is proud of this wealth and how far he has come.",
+        "tags":[]
+    },
+    {
+        "id":"h126",
+        "quote":"With a piercing stab of pain he recalled Africa, the drinkers on the veranda, the sky large and open and protective",
+        "author":"Peter Laing",
+        "analysis":"The hotel setting seems to evoke a sense of belonging in Mr Jackson - one which reminds him of South Africa, the place where he feels safest due to the comforts that colonialism has granted him.",
+        "tags":[]
+    },
+    {
+        "id":"h127",
+        "quote":"the place where one knew where one was, among Europeans like oneself.",
+        "author":"Peter Laing",
+        "analysis":"Somewhat ignorantly, Mr Jackson only recognises the Europeans as the ones living in South Africa, despite the fact that many natives still live there, just segregated from the rich and abusive colonisers.",
+        "tags":[]
+    },
+    {
+        "id":"h128",
+        "quote":"To have found one’s true home was important after all.",
+        "author":"Peter Laing",
+        "analysis":"The outcome of the trip seems to have been the revelation that ‘home’ is not necessarily a specific place, house, or period, but rather a feeling of safety, comfort, and belonging.",
+        "tags":[]
+    },
+    {
+        "id":"h129",
+        "quote":"He sniffed his whisky, swirling it around in the goblet, golden and clear and thin and burningly pure.",
+        "author":"Peter Laing",
+        "analysis":"On a surface level, the story concluding with Mr Jackson drinking whiskey may just be another example of his materialism and desire for a life of luxury. Perhaps it just links to the idea of him finally being able to relax and enjoy himself.\nIt could, however, also be symbolic of his societal ideals, as is hinted by the description of “burningly pure,” which may link to his racist views of colonialism in Africa. It is not unlikely that he would view the wealthy (as is implied by “golden”) European colonisers as being the “pure” ones who deserve to run the country.\nTherefore, the whiskey could be symbolic of him himself, which could also explain why he seems so pleased and at home in this hotel.",
         "tags":[]
     }
 ]
