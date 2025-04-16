@@ -14,7 +14,12 @@
     overflow: hidden;
 }
 
-.banner > h1 { color: var(--colour-8); }
+.banner > h1
+{
+    color: var(--colour-8);
+    z-index: 1;
+}
+
 .banner > i
 {
     position: absolute;
@@ -30,3 +35,11 @@
 
 .icon-left { left: 40px; }
 .icon-right { right: 40px; }
+
+@media only screen and (max-width: 1204px)
+{
+    .banner { height: max(18.65vw, 120px); }
+    .banner > i { font-size: 24.9vw; }
+    .icon-left { left: 3.4vw; }
+    .icon-right { right: 3.4vw; }
+}

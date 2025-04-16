@@ -122,3 +122,21 @@ cite
     box-sizing: content-box;
     border-radius: 8px;
 }
+
+/*When the story takes up less than half of the space
+400px (story) + 400px (panel) + 8px (gap) + 64px (padding)*/
+@media only screen and (max-width: 872px)
+{
+    #annotation-panel img { display: none; }
+    #annotation-panel
+    {
+        position: fixed;
+        top: unset !important;
+        bottom: 0px !important;
+        left: -8px;
+
+        width: 100% !important;
+        max-height: 50vh;
+        overflow-y: auto;
+    }
+}

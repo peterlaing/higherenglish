@@ -1,0 +1,115 @@
+#list-title
+{
+    position: relative;
+    bottom: 12px;
+}
+
+#saved-quotes
+{
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: var(--gray-2);
+    box-shadow: 0px -8px var(--gray-3);
+    border-radius: 16px;
+
+    padding: 12px;
+    padding-bottom: 20px;
+}
+
+.saved-quote
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    padding-right: 16px;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 32px;
+
+    background-color: var(--gray-1);
+    box-shadow: 0px 8px var(--gray-3);
+    border-radius: 12px;
+    height: min-content;
+}
+
+.saved-quote p
+{
+    flex-grow: 1;
+    margin: 0px;
+    font-size: 24px;
+    text-align: justify;
+    padding-right: 8px;
+}
+
+.story-mark
+{
+    flex: 0 0 16px;
+    height: 16px;
+    margin-left: 4px;
+    border-radius: 8px;
+}
+
+.identifier { display: none; }
+
+.draggable
+{
+    cursor: move;
+    position: absolute;
+    left: -24px;
+    font-size: 28px;
+    color: var(--gray-8);
+}
+
+.dragging { opacity: 0; }
+.translucent { opacity: 0.4; }
+
+.title-button
+{
+    position: relative;
+    top: 4px;
+
+    color: var(--gray-9);
+    font-size: 36px;
+    padding-left: 8px;
+
+    transition: scale var(--anim-time),
+    color var(--anim-time);
+}
+
+.title-button:hover { scale: 1.1; }
+#show-button:hover { color: var(--green-8); }
+#hide-button:hover { color: var(--red-8); }
+#sort-button:hover { color: var(--aqua-8); }
+
+.quote-button
+{
+    display: contents;
+    font-size: 32px;
+    color: var(--gray-5);
+}
+
+.quote-button > i
+{
+    transition: scale var(--anim-time),
+    color var(--anim-time);
+}
+
+.quote-button:hover > i { scale: 1.1; }
+.move-up:hover > i { color: var(--blue-7); }
+.move-down:hover > i { color: var(--yellow-7); }
+.toggle-button:hover > i { color: var(--purple-7); }
+.delete-button:hover > i { color: var(--red-7); }
+
+.green      { background-color: var(--green-4);  }
+.green + p  { color:            var(--green-9);  }
+.blue       { background-color: var(--blue-4);   }
+.blue + p   { color:            var(--blue-9);   }
+.red        { background-color: var(--red-4);    }
+.red + p    { color:            var(--red-9);    }
+.yellow     { background-color: var(--yellow-4); }
+.yellow + p { color:            var(--yellow-9); }

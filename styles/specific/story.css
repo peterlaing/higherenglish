@@ -35,6 +35,7 @@ p::selection { background-color: var(--colour-6); }
 .alternate-page
 {
     width: 1140px;
+    padding: 0px 32px;
 }
 
 .alternate-page > p

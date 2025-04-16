@@ -1,19 +1,3 @@
-const files = ["/annotations/telegram.json", "/annotations/home.json", "/annotations/red-door.json", "/annotations/mother-son.json"];
-let annotations = [];
-
-async function loadAnnotations()
-{
-    for(let file of files)
-    {
-        const response = await fetch(file);
-        const json = await response.json();
-        annotations = annotations.concat(json);
-    }
-
-    const query = new URLSearchParams(window.location.search);
-    searchForQuery(query.get("q"));
-}
-
 function searchForQuery(query)
 {
     quoteList = document.getElementById("search-results");
@@ -23,7 +7,7 @@ function searchForQuery(query)
     let count = 0;
     const term = query.toLowerCase();
 
-    for(let annotation of annotations)
+    for(let annotation of annotationList)
     {
         const quote = annotation.quote.toLowerCase();
         if(quote.includes(term))
@@ -80,10 +64,10 @@ function createQuote(annotation, query)
     const link = `/pages/stories/${story}.html?id=${annotation.id}`;
 
     const html = `
-                <a href="${link}" class="found-quote">
-                    <nav class="story-mark ${colour}"></nav>
-                    <p>${replaced}</p>
-                </a>`;
+    <a href="${link}" class="found-quote">
+        <nav class="story-mark ${colour}"></nav>
+        <p>${replaced}</p>
+    </a>`;
 
     quoteList.innerHTML += html;
 }
@@ -94,4 +78,8 @@ function isInvalid(query)
     || query === " ";
 }
 
-loadAnnotations();
+loadAnnotations(() =>
+{
+    const query = new URLSearchParams(window.location.search);
+    searchForQuery(query.get("q"));
+});

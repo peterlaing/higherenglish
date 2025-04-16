@@ -1,0 +1,162 @@
+* { outline: none; }
+p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i { color: var(--gray-9); }
+
+#flashcard-division
+{
+    height: 400px;
+    margin: 40px 0px;
+    gap: 24px;
+}
+
+#flashcard-area
+{
+    width: 700px;
+    margin-top: 8px;
+    margin-bottom: -8px;
+
+    background-color: var(--gray-2);
+    box-shadow: 0px -8px var(--gray-3);
+    border-radius: 32px;
+}
+
+#flashcard
+{
+    width: calc(100% - 32px);
+    height: calc(100% - 32px - 56px);
+
+    position: relative;
+    top: 0px;
+    margin: 16px;
+    margin-bottom: 10px;
+
+    background-color: var(--gray-1);
+    box-shadow: 0px 8px var(--gray-3);
+    border-radius: 24px;
+    border: none;
+
+    transform-style: preserve-3d;
+    overflow: hidden;
+
+    transition:
+    box-shadow var(--anim-time),
+    top var(--anim-time),
+    transform 0.3s;
+}
+
+#flashcard:hover
+{
+    top: 2px;
+    box-shadow: 0px 6px var(--gray-3);
+}
+
+#flashcard-front, #flashcard-back
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.3s
+}
+
+#flashcard.flipped { transform: scaleX(-1); }
+#flashcard-back { transform: scaleX(-1) rotateY(180deg); }
+#flashcard.flipped #flashcard-back { transform: scaleX(-1) rotateY(0deg); }
+#flashcard.flipped #flashcard-front { transform: rotateY(180deg); }
+
+#clue, #answer { margin: 0px 12px; }
+#clue
+{
+    text-align: center;
+    font-size: 28px;
+}
+#answer
+{
+    text-align: justify;
+    font-size: 28px;
+}
+
+#toolbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-button
+{
+    position: relative;
+    top: 0px;
+    width: 48px;
+    height: 44px;
+    font-size: 22px;
+
+    background-color: var(--gray-1);
+    box-shadow: 0px 6px var(--gray-3);
+    border-radius: 24px;
+    border: none;
+
+    transition: box-shadow var(--anim-time),
+    top var(--anim-time);
+}
+
+.navigation-button > i
+{
+    position: relative;
+    top: 1px;
+}
+
+.navigation-button[onclick="toPrevious();"] > i { right: 2px; }
+.navigation-button[onclick="toNext();"] > i { left: 2px; }
+
+.navigation-button:hover
+{
+    top: 2px;
+    box-shadow: 0px 4px var(--gray-3);
+}
+
+#counter
+{
+    font-size: 28px;
+    margin: 10px 16px;
+}
+
+.fade-in { animation: fade-in 0.2s ease forwards; }
+.fade-out { animation: fade-out 0.2s ease forwards; }
+
+@keyframes fade-in
+{
+    0%
+    {
+        opacity: 0;
+        scale: 0.5;
+    }
+    100%
+    {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes fade-out
+{
+    0%
+    {
+        opacity: 1;
+        scale: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        scale: 0.5;
+    }
+}

@@ -1,8 +1,7 @@
 function saveQuote(id)
 {
     savedQuotes.push(id);
-    const quotesJSON = JSON.stringify(savedQuotes);
-    localStorage.setItem("savedQuotes", quotesJSON);
+    updateQuotes();
 }
 
 function unsaveQuote(id)
@@ -11,6 +10,17 @@ function unsaveQuote(id)
     if(index === -1) return;
 
     savedQuotes.splice(index, 1);
+    updateQuotes();
+}
+
+function setQuotes(newList)
+{
+    savedQuotes = newList;
+    updateQuotes();
+}
+
+function updateQuotes()
+{
     const quotesJSON = JSON.stringify(savedQuotes);
     localStorage.setItem("savedQuotes", quotesJSON);
 }
