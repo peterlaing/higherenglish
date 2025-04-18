@@ -73,7 +73,7 @@ function generateGraph(nodes)
             newElement.id = "central-node";
             centralNode = newElement;
         }
-        else newElement.setAttribute("onclick", "updateGraph(this);" );
+        else newElement.setAttribute("onclick", "tryUpdateGraph(this);" );
 
         newElement.addEventListener("mouseenter", () => overrideZIndex(newElement));
         newElement.addEventListener("mouseleave", () => window.setTimeout(() => newElement.style.zIndex = 1, 350));
@@ -117,7 +117,7 @@ function connectEdges(scale)
         const length = Math.sqrt(dx * dx + dy * dy);
         const angle = Math.atan2(dy, dx) * 180 / Math.PI;
 
-        edge.style.width = 8 * scale + "px";
+        edge.style.width = 8 * Math.sqrt(scale) + "px";
         edge.style.height = length + "px";
         edge.style.transform = `translate(${dx}px, ${dy}px) rotate(${angle + 90}deg)`;
     });
@@ -178,7 +178,11 @@ function renderGraph()
 function redrawGraph()
 {
     const scale = graphContainer.offsetWidth / 1140;
-    centralNode.style.scale = scale;
+    const sqrtScale = Math.sqrt(scale);
+
+    const ratio = graphContainer.offsetWidth / graphContainer.offsetHeight;
+    const smaller = Math.min(graphContainer.offsetWidth, graphContainer.offsetHeight) * 0.5;
+    centralNode.style.scale = sqrtScale;
 
     const centreX = (graphContainer.offsetWidth - 128) * 0.5;
     const centreY = (graphContainer.offsetHeight - 64) * 0.5;
@@ -193,12 +197,12 @@ function redrawGraph()
         const annotation = data[0];
         const element = data[1];
 
-        element.style.scale = scale;
+        element.style.scale = sqrtScale;
         if(centralNode.id !== element.id)
         {
-            const radius = 200 / annotation[1] * scale;
-            const x = centreX + radius * Math.cos(currentAngle * Math.PI / 180) * 2;
-            const y = centreY + radius * Math.sin(currentAngle * Math.PI / 180);
+            const radius = (smaller - 60 * scale) / annotation[1] * scale;
+            const x = centreX + radius * Math.cos(currentAngle * Math.PI / 180) * Math.sqrt(2 * ratio / scale);
+            const y = centreY + radius * Math.sin(currentAngle * Math.PI / 180) * Math.sqrt(2 / ratio / scale);
 
             element.style.left = x + "px";
             element.style.top = y + "px";
@@ -207,6 +211,32 @@ function redrawGraph()
     });
 
     connectEdges(scale);
+}
+
+let tappedElement = null;
+function tryUpdateGraph(element)
+{
+    //if on a touchscreen/mobile device
+    if("ontouchstart" in window)
+    {
+        if(tappedElement === element)
+        {
+            tappedElement = null;
+            updateGraph(element);
+        }
+        else
+        {
+            tappedElement = element;
+            setTimeout(() => 
+            {
+                //if it's still the same one (nothing else has been pressed)
+                if(tappedElement === element) tappedElement = null;
+            }, 300);
+
+            element.classList.add("hover");
+        }
+    }
+    else updateGraph(element);
 }
 
 function updateGraph(element)
@@ -224,3 +254,14 @@ loadAnnotations(() =>
 });
 
 onresize = (event) => redrawGraph();
+if("ontouchstart" in window)
+{
+    document.addEventListener("touchstart", (event) =>
+    {
+        if(!event.target.closest(".node"))
+        {
+            tappedElement = null;
+            document.querySelectorAll(".node.hover").forEach(node => node.classList.remove("hover"));
+        }
+    });
+}

@@ -9,6 +9,11 @@
     aspect-ratio: 2;
 }
 
+@media only screen and (max-width: 800px){ #graph { aspect-ratio: 1.5; }}
+@media only screen and (max-width: 700px){ #graph { aspect-ratio: 1.2; }}
+@media only screen and (max-width: 640px){ #graph { aspect-ratio: 1; }}
+@media only screen and (max-width: 480px){ #graph { aspect-ratio: 0.7; }}
+
 .node
 {
     position: absolute;
@@ -75,10 +80,7 @@
     text-align: justify;
 }
 
-.node:hover .tooltip
-{
-    opacity: 1;
-}
+.node:hover .tooltip, .node.hover .tooltip { opacity: 1; }
 
 .dot
 {
