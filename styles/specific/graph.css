@@ -1,0 +1,121 @@
+#graph
+{
+    position: relative;
+    margin-top: 24px;
+
+    background-color: var(--gray-2);
+    box-shadow: 0px -8px var(--gray-3);
+    border-radius: 20px;
+    aspect-ratio: 2;
+}
+
+.node
+{
+    position: absolute;
+    top: 0px;
+    width: 128px;
+    height: 64px;
+    scale: 1;
+    z-index: 1;
+
+    background-color: var(--gray-1);
+    box-shadow: 0px 8px var(--gray-3);
+    border-radius: 32px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+
+    transition: scale var(--anim-time), box-shadow var(--anim-time);
+}
+
+#central-node
+{
+    transition: scale 0.3s ease opacity 0.3s;
+}
+
+.node:hover#central-node { cursor: help; }
+.node:hover:not(#central-node)
+{
+    scale: 1.1;
+    box-shadow: 0px 5px var(--gray-3);
+    cursor: pointer;
+}
+
+.node p
+{
+    font-size: 28px;
+    margin: 0px;
+}
+
+.tooltip
+{
+    position: absolute;
+    left: calc(104px + 36px * cos(45deg));
+    bottom: calc(40px + 36px * sin(45deg));
+
+    width: max-content;
+    max-width: 320px;
+    padding: 12px 20px;
+
+    background-color: var(--gray-1);
+    box-shadow: 0px 8px var(--gray-3);
+    border-radius: 32px 32px 32px 0px;
+
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity var(--anim-time) ease;
+}
+
+.tooltip p
+{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.node:hover .tooltip
+{
+    opacity: 1;
+}
+
+.dot
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.green  > .dot { background-color: var(--green-6); }
+.blue   > .dot { background-color: var(--blue-6); }
+.red    > .dot { background-color: var(--red-6); }
+.yellow > .dot { background-color: var(--yellow-6); }
+
+.edge
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 8px;
+
+    background-color: color-mix(in srgb, var(--gray-3), var(--gray-4));
+    transform-origin: top;
+    rotate: 180deg;
+    z-index: 0;
+
+    pointer-events: none;
+    transition: opacity 0.3s, scale 0.3s;
+}
+
+.fading
+{
+    opacity: 0;
+    scale: 0;
+}
+
+.node.fading
+{
+    top: calc(50% - 32px);
+    left: calc(50% - 64px);
+}

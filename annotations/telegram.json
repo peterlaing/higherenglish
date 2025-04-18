@@ -11,14 +11,14 @@
         "quote":"one a fat domestic bird perhaps",
         "author":"Peter Laing",
         "analysis":"Suggests that the fat woman is quite lazy, ignorant, and hasn’t faced much hardship as she has lived a fairly easy life where everything is more or less provided to her.\n![](chicken.jpg)",
-        "tags":["Characterisation", "Fat Woman", "Imagery", "Metaphor"]
+        "tags":["Characterisation", "Fat Woman", "Imagery", "Metaphor", "Selfishness", "Greed"]
     },
     {
         "id":"t003",
         "quote":"the other more aquiline, more gaunt",
         "author":"Peter Laing",
         "analysis":"Aquiline refers to something eagle-like, and therefore characterises the thin woman as more alert and resourceful. Her thinness may illustrate the idea of sacrifice and hard work.\n![](eagle.jpg)",
-        "tags":["Characterisation", "Thin Woman", "Imagery", "Word Choice"]
+        "tags":["Characterisation", "Thin Woman", "Imagery", "Word Choice", "Sacrifice"]
     },
     {
         "id":"t004",
@@ -39,49 +39,49 @@
         "quote":"Reverberations from a war fought far away had reached it",
         "author":"Peter Laing",
         "analysis":"Informs us that the story takes place during a war, although the exact war is not stated until later in the story.",
-        "tags":["Context", "Impact of War", "Rurality"]
+        "tags":["Context", "Impact of War", "Rurality", "Community"]
     },
     {
         "id":"t007",
-        "quote":"the local school which they all had at one time or another unwillingly attended",
-        "author":"Peter Laing",
-        "analysis":"Emphasises how narrow-minded and insular the people of the village are as they couldn’t care less about education or the outside world.",
-        "tags":["Village Life", "Ignorance"]
-    },
-    {
-        "id":"t008",
         "quote":"many of its young men had been killed, or rather drowned",
         "author":"Peter Laing",
         "analysis":"Highlights the widespread impact that war has, even on rural communities that are not directly involved, as it has wiped out a large proportion of the village’s population.",
-        "tags":["Impact of War"]
+        "tags":["Impact of War", "Family"]
     },
     {
-        "id":"t009",
+        "id":"t008",
         "quote":"ships had sunk in seas which they had never seen except on maps",
         "author":"Peter Laing",
         "analysis":"Provides more context regarding the setting, which is presumably within a countryside rather than coastal as most of the villagers had never seen the sea.\n![](rural.png)",
-        "tags":["Impact of War", "Rurality", "Context"]
+        "tags":["Impact of War", "Rurality", "Context", "Exposition"]
+    },
+    {
+        "id":"t009",
+        "quote":"the local school which they all had at one time or another unwillingly attended",
+        "author":"Peter Laing",
+        "analysis":"Emphasises how narrow-minded and insular the people of the village are as they couldn’t care less about education or the outside world.",
+        "tags":["Village Life", "Ignorance", "Community"]
     },
     {
         "id":"t010",
         "quote":"in the village which was still, as it had always been, a superstitious place",
         "author":"Peter Laing",
         "analysis":"Lets the reader know how gossipy and close the villagers are, with the majority of their information coming from within rather than from external sources.",
-        "tags":["Context", "Village Life"]
+        "tags":["Context", "Village Life", "Gossiping", "Community"]
     },
     {
         "id":"t011",
         "quote":"pursuit of the Bismarck",
         "author":"Peter Laing",
         "analysis":"The Bismarck was one of the strongest and largest Nazi battleships deployed during WWII, which provides an exact period as to when the story takes place.\nIt was sunk in May of 1941 by British airstrikes, torpedoes and the subsequent naval battle.\n![](bismarck.jpg)",
-        "tags":["Context", "Reference"]
+        "tags":["Context", "Reference", "Exposition"]
     },
     {
         "id":"t012",
         "quote":"It came on them as a strange plague",
         "author":"Peter Laing",
         "analysis":"Imagery showing that the villagers think of the war as a plague - something both deadly and unstoppable which is bringing swift and inevitable destruction to their lives.\nThey are both confused and worried by this, feeling powerless as they know that they have no control over the outcome and are merely fighting for the sake of it.",
-        "tags":["Imagery", "Metaphor", "Impact of War"]
+        "tags":["Imagery", "Metaphor", "Impact of War", "Community"]
     },
     {
         "id":"t013",
@@ -92,17 +92,17 @@
     },
     {
         "id":"t014",
-        "quote":"People began to think of the telegram as a strange missile pointed at them from abroad",
-        "author":"Peter Laing",
-        "analysis":"Similarly to a real missile, the villagers seem to think of the telegram as a form of weapon, bringing them emotional rather than physical destruction.\n![](telegram.jpg)",
-        "tags":["Imagery", "Simile", "Impact of War"]
-    },
-    {
-        "id":"t015",
         "quote":"the local elder who, clad in black",
         "author":"Peter Laing",
         "analysis":"Black is a negative colour with connotations of evilness or death, which creates an eerie atmosphere and builds tension.\nICS could also be using the elder to personify death itself, comparing him to a figure like the Grim Reaper, as he too brings death to people. This relates to the idea of the telegrams representing the deaths themselves, rather than simply the message of them.\n![](reaper.png)",
         "tags":["Characterisation", "Elder", "Symbolism", "Colour"]
+    },
+    {
+        "id":"t015",
+        "quote":"People began to think of the telegram as a strange missile pointed at them from abroad",
+        "author":"Peter Laing",
+        "analysis":"Similarly to a real missile, the villagers seem to think of the telegram as a form of weapon, bringing them emotional rather than physical destruction.\n![](telegram.jpg)",
+        "tags":["Imagery", "Simile", "Impact of War", "Community", "Symbolism"]
     },
     {
         "id":"t016",
@@ -113,17 +113,17 @@
     },
     {
         "id":"t017",
-        "quote":"left desolation just like any other weapon",
-        "author":"Peter Laing",
-        "analysis":"Confirms the aforementioned metaphor - that people of think of the messages delivered in the telegrams as literal weapons that cause damage to families and homes.",
-        "tags":["Imagery", "Simile", "Impact of War"]
-    },
-    {
-        "id":"t018",
         "quote":"it picked a door and entered it",
         "author":"Peter Laing",
         "analysis":"By telling us that the telegram \"picks a door\", ICS is personifying the telegrams, which links to the previously discussed ideas of them representing death and devastation.",
         "tags":["Imagery", "Personification", "Impact of War"]
+    },
+    {
+        "id":"t018",
+        "quote":"left desolation just like any other weapon",
+        "author":"Peter Laing",
+        "analysis":"Confirms the aforementioned metaphor - that people of think of the messages delivered in the telegrams as literal weapons that cause damage to families and homes.",
+        "tags":["Imagery", "Simile", "Impact of War"]
     },
     {
         "id":"t019",
@@ -134,45 +134,45 @@
     },
     {
         "id":"t020",
-        "quote":"One had been at university and had therefore become an officer, the other had left school at the age of fourteen",
-        "author":"Peter Laing",
-        "analysis":"This emphasises another point of jealousy for the fat woman - that the thin woman’s son is properly educated, while her own dropped out as soon as possible so as to fit in with the other kids.",
-        "tags":["Contrast", "Status", "Jealousy", "Sacrifice"]
-    },
-    {
-        "id":"t021",
         "quote":"The fat woman’s son had to salute the thin woman’s son",
         "author":"Peter Laing",
         "analysis":"The fact that he \"*had* to salute\" him suggests reluctance, as if he despises him, yet he is inferior and thus is forced to show respect.",
         "tags":["Status", "Conflict"]
     },
     {
+        "id":"t021",
+        "quote":"One had been at university and had therefore become an officer, the other had left school at the age of fourteen",
+        "author":"Peter Laing",
+        "analysis":"This emphasises another point of jealousy for the fat woman - that the thin woman’s son is properly educated, while her own dropped out as soon as possible so as to fit in with the other kids.",
+        "tags":["Contrast", "Status", "Jealousy", "Sacrifice", "Listing"]
+    },
+    {
         "id":"t022",
         "quote":"The fat woman’s cow used to eat the thin woman’s washing",
         "author":"Peter Laing",
         "analysis":"Proves that they argue over not only important decisions that they both made, but even trivial matters. The repetition of the fat woman doing X and the thin woman doing Y across these few sentences highlights their differences and serves as the central point of conflict throughout the story.",
-        "tags":["Characterisation", "Fat Woman", "Thin Woman", "Conflict"]
+        "tags":["Characterisation", "Fat Woman", "Thin Woman", "Conflict", "Rurality", "Repetition"]
     },
     {
         "id":"t023",
-        "quote":"had only been in this one for thirty years or so",
-        "author":"Peter Laing",
-        "analysis":"Although 30 years is an incredibly long time, the mere fact that she isn’t originally from this village seems to be a huge problem. This shows that it is not some genuine concern, but rather a deep-rooted prejudice that the other villagers hold.",
-        "tags":["Characterisation", "Thin Woman", "Exclusion", "Irony"]
-    },
-    {
-        "id":"t024",
         "quote":"The thin woman was not popular in the village",
         "author":"Peter Laing",
         "analysis":"We are told directly that the other villagers all hate the thin woman, even though she appears to have done little wrong. This emphasises their narrow-mindedness and discriminatory nature, which links to the idea of gossiping at the start.",
-        "tags":["Characterisation", "Thin Woman", "Exclusion"]
+        "tags":["Characterisation", "Thin Woman", "Exclusion", "Community"]
+    },
+    {
+        "id":"t024",
+        "quote":"had only been in this one for thirty years or so",
+        "author":"Peter Laing",
+        "analysis":"Although 30 years is an incredibly long time, the mere fact that she isn’t originally from this village seems to be a huge problem. This shows that it is not some genuine concern, but rather a deep-rooted prejudice that the other villagers hold.",
+        "tags":["Characterisation", "Thin Woman", "Exclusion", "Irony", "Community", "Belonging"]
     },
     {
         "id":"t025",
         "quote":"The fat woman had lived in the village all her days; she was a native",
         "author":"Peter Laing",
         "analysis":"Further builds on this irony that the villagers distinguish between a \"native\" and somebody who has lived there for \"thirty years or so\", when those timescales are likely both, in reality, quite similar.",
-        "tags":["Characterisation", "Fat Woman", "Irony", "Village Life"]
+        "tags":["Characterisation", "Fat Woman", "Irony", "Village Life", "Community", "Belonging"]
     },
     {
         "id":"t026",
@@ -190,38 +190,38 @@
     },
     {
         "id":"t028",
+        "quote":"This was a bare village with little colour",
+        "author":"Peter Laing",
+        "analysis":"The fact that the yellowness stands out amongst the village could be symbolic of the fact that the villagers dislike those whom they see as outsiders.\n![](village.jpg)",
+        "tags":["Contrast", "Colour", "Exclusion", "Community", "Exposition"]
+    },
+    {
+        "id":"t029",
         "quote":"the yellow was both strange and unnatural",
         "author":"Peter Laing",
         "analysis":"The yellowish colour here could symbolise danger, similarly to how many caution and warning signs are made yellow or red.\n![](caution.png)",
         "tags":["Word Choice", "Symbolism", "Colour"]
     },
     {
-        "id":"t029",
-        "quote":"This was a bare village with little colour and therefore",
-        "author":"Peter Laing",
-        "analysis":"The fact that the yellowness stands out amongst the village could be symbolic of the fact that the villagers dislike those whom they see as outsiders.\n![](village.jpg)",
-        "tags":["Contrast", "Colour", "Exclusion"]
-    },
-    {
         "id":"t030",
-        "quote":"Sarah",
-        "author":"Peter Laing",
-        "analysis":"The fact that the fat woman is named, while the thin woman remains anonymous could be symbolic of their respective statuses and respect from the others. The fat woman has a sense of identity and belongs in the village, whereas the thin woman is an outsider and is unwelcome.",
-        "tags":["Fat Woman", "Anonymity", "Status", "Village Life"]
-    },
-    {
-        "id":"t031",
         "quote":"They were both frightened for he could be coming to their house",
         "author":"Peter Laing",
         "analysis":"The elder walking slowly up the road is the main source of tension in the story as both women are concerned that they may be the recipients of the telegram.",
         "tags":["Tension", "Impact of War"]
     },
     {
-        "id":"t032",
+        "id":"t031",
         "quote":"they would be able to keep from themselves whatever plague he was bringing",
         "author":"Peter Laing",
         "analysis":"Links back to the idea that the telegram is a deadly weapon that brings devastation with it, and to the superstition of the villagers due to their detachment from the outside world.",
         "tags":["Imagery", "Metaphor", "Symbolism", "Impact of War"]
+    },
+    {
+        "id":"t032",
+        "quote":"Sarah",
+        "author":"Peter Laing",
+        "analysis":"The fact that the fat woman is named, while the thin woman remains anonymous could be symbolic of their respective statuses and respect from the others. The fat woman has a sense of identity and belongs in the village, whereas the thin woman is an outsider and is unwelcome.",
+        "tags":["Fat Woman", "Anonymity", "Status", "Village Life", "Belonging"]
     },
     {
         "id":"t033",
@@ -235,7 +235,7 @@
         "quote":"It’s different for the officers",
         "author":"Peter Laing",
         "analysis":"Portrays the fat woman as quite self-centred as she believes that the sons’ difference in social status will make a difference as to who lives and who dies.\nShe doesn’t actually give it much thought and is only focused on her own son, hence why she makes a rather insensitive comment.",
-        "tags":["Fat Woman", "Arrogance", "Status"]
+        "tags":["Fat Woman", "Arrogance", "Status", "Judgement"]
     },
     {
         "id":"t035",
@@ -263,14 +263,14 @@
         "quote":"they were large, fat and lazy",
         "author":"Peter Laing",
         "analysis":"Shows the judgemental attitude of the thin woman towards the other villagers. Note that her thoughts refer to \"they\" and \"them\", which suggests that she distances herself from them since she thinks of them as inferior.",
-        "tags":["Characterisation", "Arrogance", "Narrative"]
+        "tags":["Characterisation", "Arrogance", "Narrative", "Judgement", "Community"]
     },
     {
         "id":"t039",
         "quote":"Most of them could have better afforded to send their sons and daughters to university but they didn’t want to be thought of as snobbish",
         "author":"Peter Laing",
         "analysis":"Explains how the majority of the village were much better placed to give their children better lives, but were too unambitious and didn’t want to stand out, linking to the themes of judgemental attitude and conformity within village communities.",
-        "tags":["Characterisation", "Conformity", "Sacrifice", "Village Life", "Narrative"]
+        "tags":["Characterisation", "Conformity", "Sacrifice", "Village Life", "Narrative", "Community", "Belonging"]
     },
     {
         "id":"t040",
@@ -284,7 +284,7 @@
         "quote":"But naturally there was the uneasiness",
         "author":"Peter Laing",
         "analysis":"The conflict between the two women appears to have been passed onto the next generation, implying that the families here in the village are quite solitary.",
-        "tags":["Conflict", "Narrative"]
+        "tags":["Conflict", "Narrative", "Judgement"]
     },
     {
         "id":"t042",
@@ -298,405 +298,405 @@
         "quote":"He’s passed Bessie’s house. That means it can’t be Roddy. He’s safe",
         "author":"Peter Laing",
         "analysis":"With every house that the elder passes, the higher the likelihood becomes of the telegram being targeted at either of the women, which further builds the tension.",
-        "tags":["Tension", "Village Life", "Impact of War"]
+        "tags":["Tension", "Village Life", "Impact of War", "Community"]
     },
     {
         "id":"t044",
         "quote":"For a terrible moment she realised that she had hoped that the elder would have turned in at Bessie’s house",
         "author":"Peter Laing",
         "analysis":"Demonstrates her remorse at the fact that she is having selfish thoughts, hoping that someone else had died rather than a relative of hers. This sentiment is, however, shared by the entire village and is merely human nature, exaggerated by the war.",
-        "tags":["Impact of War"]
+        "tags":["Impact of War", "Tension", "Community", "Selfishness"]
     },
     {
         "id":"t045",
         "quote":"continued remorselessly as if she were pecking away at something she had pecked at for many years",
         "author":"Peter Laing",
         "analysis":"Extended metaphor of the bird imagery used in the introduction. The idea that the thin woman is \"pecking away\" suggests that she is relentless in trying to make the other villagers understand her, yet all this achieves is frustration.\n![](woodpecker.png)",
-        "tags":["Imagery", "Metaphor", "Exclusion"]
+        "tags":["Imagery", "Metaphor", "Simile", "Exclusion"]
     },
     {
         "id":"t046",
         "quote":"He came to see me. I had no thought of sending him before he came",
         "author":"Peter Laing",
         "analysis":"The thin woman is aiming to be more relatable by stating that it wasn’t entirely her choice to send her son to University, as she knows this is clearly the main reason for the fat woman’s spite.",
-        "tags":["Characterisation", "Thin Woman", "Exclusion", "Conflict"]
+        "tags":["Characterisation", "Thin Woman", "Exclusion", "Conflict", "Conformity"]
     },
     {
         "id":"t047",
         "quote":"When did you see me with good clothes in the church?",
         "author":"Peter Laing",
         "analysis":"Rhetorical question aims to make the fat woman think and potentially even feel sorry for not accepting the thin woman, but to no avail.",
-        "tags":["Sacrifice", "Characterisation", "Thin Woman", "Rhetorical Question"]
+        "tags":["Sacrifice", "Characterisation", "Thin Woman", "Rhetorical Question", "Community"]
     },
     {
         "id":"t048",
         "quote":"We have to make sacrifices",
         "author":"Peter Laing",
-        "analysis":"The fact that the fat woman uses the collective pronoun, ’we’, proves the point that she thinks only of herself. Although the statement she was responding to was directly referencing the thin woman and had nothing to do with her, she still includes herself in this idea of making sacrifices.",
-        "tags":["Ignorance", "Irony", "Sacrifice"]
+        "analysis":"The fact that the fat woman uses the collective pronoun, ‘we’, proves the point that she thinks only of herself. Although the statement she was responding to was directly referencing the thin woman and had nothing to do with her, she still includes herself in this idea of making sacrifices.",
+        "tags":["Ignorance", "Irony", "Sacrifice", "Community", "Selfishness"]
     },
     {
         "id":"t049",
-        "quote":"Her mind was vague and diffused except when she was thinking about herself",
+        "quote":"the whale meat or the saccharines?",
         "author":"Peter Laing",
-        "analysis":"Reinforces the fat woman’s self-centred and detached nature in stating that she rarely listens to others, hence why her viewpoint tends to be quite limited and narrow.",
-        "tags":["Characterisation", "Fat Woman", "Ignorance", "Narrative"]
+        "analysis":"Jokingly suggests that all she thinks about is food, hence why she is referred to as the ‘fat woman’. The narrator in this instance is clearly taking the side of the thin woman (as they seem to for much of the story).\n![](sweetener.jpeg)",
+        "tags":["Characterisation", "Fat Woman", "Ignorance", "Narrative", "Judgement", "Greed"]
     },
     {
         "id":"t050",
-        "quote":"the whale meat or the saccharines?",
+        "quote":"Her mind was vague and diffused except when she was thinking about herself",
         "author":"Peter Laing",
-        "analysis":"Jokingly suggests that all she thinks about is food, hence why she is referred to as the ’fat woman’. The narrator in this instance is clearly taking the side of the thin woman (as they seem to for much of the story).\n![](sweetener.jpeg)",
-        "tags":["Characterisation", "Fat Woman", "Ignorance", "Narrative"]
+        "analysis":"Reinforces the fat woman’s self-centred and detached nature in stating that she rarely listens to others, hence why her viewpoint tends to be quite limited and narrow.",
+        "tags":["Characterisation", "Fat Woman", "Ignorance", "Narrative", "Word Choice", "Selfishness"]
     },
     {
         "id":"t051",
         "quote":"And for all I know he may marry an English girl and where will I be?",
         "author":"Peter Laing",
         "analysis":"Shows the thin woman’s worries that her son may not appreciate all of the sacrifices that she made for him, relating to the themes of both family and sacrifice.",
-        "tags":["Sacrifice", "Family"]
+        "tags":["Sacrifice", "Family", "Thin Woman"]
     },
     {
         "id":"t052",
         "quote":"I’m sure she smokes and drinks. And he might not give me anything after all I’ve done for him",
         "author":"Peter Laing",
         "analysis":"The fact that she wants to pick and choose who he marries portrays her as a bit overprotective and even manipulative. The fact that she is \"sure\" of this also shows how fixated she is, potentially as a result of the stress of wartime.",
-        "tags":[]
+        "tags":["Sacrifice", "Family", "Thin Woman", "Selfishness"]
     },
     {
         "id":"t053",
         "quote":"But I don’t mind. He was always like that",
         "author":"Peter Laing",
         "analysis":"Here we see the women’s differing attitudes towards parenting, with the fat woman contrasting the views that the thin woman just presented. This further highlights their division and differences.",
-        "tags":[]
+        "tags":["Family", "Characterisation", "Fat Woman"]
     },
     {
         "id":"t054",
         "quote":"It’s his nature and he can’t go against his nature",
         "author":"Peter Laing",
         "analysis":"This statement is rather ironic as it demonstrates the fat woman accepting change, while the thin woman attempts to prevent it and doesn’t want her son to grow up.",
-        "tags":[]
+        "tags":["Characterisation", "Fat Woman", "Family", "Irony"]
     },
     {
         "id":"t055",
         "quote":"He’s passed the Smiths. That means Tommy’s all right.",
         "author":"Peter Laing",
         "analysis":"Again, the elder passes another house, which has the same effect as previously - it makes both women more concerned and therefore builds tension.",
-        "tags":[]
+        "tags":["Tension", "Impact of War", "Village Life", "Community"]
     },
     {
         "id":"t056",
         "quote":"But no matter how you tried you never could like the thin woman. She was always putting on airs",
         "author":"Peter Laing",
-        "analysis":"Here we see the fat woman’s thoughts through the narrator. She seems to believe that the thin woman is making a lot of this stuff up to make herself seem superior, when she may in reality be an ordinary person. This however, is presumably untrue and shows the fat woman’s closed-minded views towards her.",
-        "tags":[]
+        "analysis":"Here we see the fat woman’s thoughts spoken through the narrator. She seems to believe that the thin woman is making a lot of this stuff up to make herself seem superior, when she may in reality be an ordinary person. This however, is presumably untrue and shows the fat woman’s closed-minded views towards her.",
+        "tags":["Fat Woman", "Thin Woman", "Narrative", "Conflict", "Judgement"]
     },
     {
         "id":"t057",
         "quote":"Mayor indeed. Sending her son to university. Why did she want to be better than anyone else?",
         "author":"Peter Laing",
         "analysis":"Highlights the fat woman’s jealousy of the thin woman’s son and his position. She seems quite frustrated even thinking about the fact that he has achieved more in life thanks to his mother, whose decisions she cannot accept.",
-        "tags":[]
+        "tags":["Characterisation", "Fat Woman", "Jealousy", "Rhetorical Question"]
     },
     {
         "id":"t058",
         "quote":"Her own Donald was just as clever and could have gone to university but he was too fond of fishing and being out with the boys",
         "author":"Peter Laing",
         "analysis":"The fat woman denies the fact that her son isn’t as smart as the thin woman’s. She keeps telling herself that her own son would’ve been equally capable, but given her foolishness, this is unlikely.\n![](copium.png)",
-        "tags":[]
+        "tags":["Irony", "Jealousy", "Family"]
     },
     {
         "id":"t059",
         "quote":"As she drank her tea her heart was beating and she was frightened and she didn’t know what to talk about and yet she wanted to talk",
         "author":"Peter Laing",
         "analysis":"The repetition of \"and she\" here is used to emphasise her panic caused by the idea that her son may well be dead.",
-        "tags":[]
+        "tags":["Tension", "Repetition", "Characterisation", "Fat Woman"]
     },
     {
         "id":"t060",
         "quote":"You couldn’t feel at ease with her",
         "author":"Peter Laing",
         "analysis":"The narrator again takes the fat woman’s side, describing the thin woman in a way that makes her come across as quite unpleasant to be around, perhaps explaining why she is treated like an outsider.",
-        "tags":[]
+        "tags":["Characterisation", "Thin Woman", "Narrative"]
     },
     {
         "id":"t061",
-        "quote":"It was coming home last night with the meat. He had it in the van and he smashed it at the burn. But they say he’s all right",
-        "author":"Peter Laing",
-        "analysis":"Proves the point about the village being superstitious and full of rumours. The fat woman has clearly heard this from somebody and is spreading it around.",
-        "tags":[]
-    },
-    {
-        "id":"t062",
         "quote":"I didn’t hear that",
         "author":"Peter Laing",
         "analysis":"The fact that the thin woman is unaware of the rumours that are being spread around emphasises her isolation and exclusion from the rest of the village.",
-        "tags":[]
+        "tags":["Exclusion", "Thin Woman"]
+    },
+    {
+        "id":"t062",
+        "quote":"It was coming home last night with the meat. He had it in the van and he smashed it at the burn. But they say he’s all right",
+        "author":"Peter Laing",
+        "analysis":"Proves the point about the village being superstitious and full of rumours. The fat woman has clearly heard this from somebody and is spreading it around.",
+        "tags":["Gossiping", "Village Life", "Community"]
     },
     {
         "id":"t063",
         "quote":"The thin woman drank her tea very delicately",
         "author":"Peter Laing",
         "analysis":"The thin woman appears quite calm and elegant in this situation, which creates a stark contrast with the fat woman’s overreaction to this \"irritating\" delicacy, which she, of course, does not possess.",
-        "tags":[]
+        "tags":["Characterisation", "Thin Woman", "Contrast", "Word Choice"]
     },
     {
         "id":"t064",
         "quote":"her little finger elegantly curled in an irritating way",
         "author":"Peter Laing",
         "analysis":"Illustrates the fat woman’s intolerance, given that she is judging the thin woman based on a trivial matter like this. It shouldn’t be an issue at all, but given that she is so prejudiced against her, she finds every excuse to complain.",
-        "tags":[]
+        "tags":["Judgement", "Conflict"]
     },
     {
         "id":"t065",
-        "quote":"He’s passed the Stewarts",
-        "author":"Peter Laing",
-        "analysis":"The number of remaining houses (excluding either of them) is now down to two, which means that there is a very high likelihood of it being one of them.",
-        "tags":[]
-    },
-    {
-        "id":"t066",
         "quote":"The fat woman demonstrated",
         "author":"Peter Laing",
         "analysis":"Mockery of her actions, aiming to make her feel uncomfortable and unwelcome in this village that she doesn’t belong in.",
-        "tags":[]
+        "tags":["Fat Woman", "Judgement", "Conflict", "Exclusion", "Belonging"]
     },
     {
-        "id":"t067",
+        "id":"t066",
         "quote":"it was the way I saw the guests drinking tea in the hotels when I was on service",
         "author":"Peter Laing",
         "analysis":"Again highlights the differences between the thin woman and the rest of the village, as she is willing to leave and visit the outside world, whereas the others stay confined to their bubble.\nThe fact that the thin woman has learned posher social etiquette also seems to be highly problematic as it makes her stand out even more in a village of conformity.",
-        "tags":[]
+        "tags":["Thin Woman", "Status", "Contrast"]
+    },
+    {
+        "id":"t067",
+        "quote":"He’s passed the Stewarts",
+        "author":"Peter Laing",
+        "analysis":"The number of remaining houses (excluding either of them) is now down to two, which means that there is a very high likelihood of it being one of them.",
+        "tags":["Tension", "Impact of War", "Community"]
     },
     {
         "id":"t068",
-        "quote":"He’s proud of what he’s doing",
+        "quote":"They looked at each other",
         "author":"Peter Laing",
-        "analysis":"The tone here seems to be one of resent, as the fat woman believes that the elder is heartless and has no care for the families to whom he is delivering the telegrams (which she sees as bringing death itself). \nOnce the ending is revealed, this part becomes much more ironic as in reality, he couldn’t be further from \"proud\".",
-        "tags":[]
+        "analysis":"Gives a fleeting sense of unity as both women have something in common - their simultaneous confusion and relief. Suggests for a moment that they may have overcome their differences and the thin woman may finally be accepted, but this is unfortunately not the case.",
+        "tags":["Unity", "Impact of War", "Tension"]
     },
     {
         "id":"t069",
-        "quote":"it gives him a position",
+        "quote":"He’s proud of what he’s doing",
         "author":"Peter Laing",
-        "analysis":"The thin woman agrees with the fat woman that they think the elder feels a sense of authority and pride in delivering these messages, but this is ironically untrue.",
-        "tags":[]
+        "analysis":"The tone here seems to be one of resent, as the fat woman believes that the elder is heartless and has no care for the families to whom he is delivering the telegrams (which she sees as bringing death itself). \nOnce the ending is revealed, this part becomes much more ironic as in reality, he couldn’t be further from \"proud\".",
+        "tags":["Elder", "Tone", "Irony", "Unity"]
     },
     {
         "id":"t070",
-        "quote":"He was a stiff, quiet man who kept himself to himself, more than ever now",
+        "quote":"it gives him a position",
         "author":"Peter Laing",
-        "analysis":"The elder is characterised to embody the properties of the village - confined and isolated. The stiffness represents the immovability of many of the villager’s attitudes and their resistance to both change and to incomers.",
-        "tags":[]
+        "analysis":"The thin woman agrees with the fat woman that they think the elder feels a sense of authority and pride in delivering these messages, but this is ironically untrue.",
+        "tags":["Elder", "Irony", "Unity"]
     },
     {
         "id":"t071",
-        "quote":"He had passed the Murrays. The next house was her own",
+        "quote":"He was a stiff, quiet man who kept himself to himself, more than ever now",
         "author":"Peter Laing",
-        "analysis":"In both of their eyes, there is now only one remaining option: that it will be one of their sons, and therefore the fat woman is petrified, creating tension.",
-        "tags":[]
+        "analysis":"The elder is characterised to embody the properties of the village - confined and isolated. The stiffness represents the immovability of many of the villager’s attitudes and their resistance to both change and to incomers.",
+        "tags":["Characterisation", "Elder", "Isolation", "Symbolism", "Belonging"]
     },
     {
         "id":"t072",
-        "quote":"Oh, pray God it wasn’t hers. And yet it must be hers. Surely it must be hers",
-        "author":"Peter Laing",
-        "analysis":"The repetition of “it must be hers” highlights her panic, and even demonstrates her going through denial, the first of the five stages of grief.",
-        "tags":[]
-    },
-    {
-        "id":"t073",
         "quote":"‘They say his wife had one of her fits again,’ said the fat woman viciously",
         "author":"Peter Laing",
         "analysis":"More ill-intended gossip from the fat woman, suggesting that the village can be quite a hostile environment where negative rumours are spread about people, potentially isolating them.",
-        "tags":[]
+        "tags":["Gossiping", "Village Life", "Word Choice", "Community"]
+    },
+    {
+        "id":"t073",
+        "quote":"He had passed the Murrays. The next house was her own",
+        "author":"Peter Laing",
+        "analysis":"In both of their eyes, there is now only one remaining option: that it will be one of their sons, and therefore the fat woman is petrified, creating tension.",
+        "tags":["Tension", "Impact of War", "Community"]
     },
     {
         "id":"t074",
-        "quote":"her own child whom she had reared, whom she had seen going to play football in his green jersey and white shorts, whom she had seen running home from school",
+        "quote":"Oh, pray God it wasn’t hers. And yet it must be hers. Surely it must be hers",
         "author":"Peter Laing",
-        "analysis":"While in her state of dread, she begins to have flashbacks of how she raised her son, bringing her to a sudden realisation that it was difficult, even for her, to raise a child, thus making her sympathise slightly with the thin woman for once.",
-        "tags":[]
+        "analysis":"The repetition of “it must be hers” highlights her panic, and even demonstrates her going through denial, the first of the five stages of grief.",
+        "tags":["Tension", "Repetition", "Characterisation", "Fat Woman"]
     },
     {
         "id":"t075",
-        "quote":"She said it quickly like the Catholics, O God save my son O God save my son O God save my son",
+        "quote":"her own child whom she had reared, whom she had seen going to play football in his green jersey and white shorts, whom she had seen running home from school",
         "author":"Peter Laing",
-        "analysis":"The fact that she utters an urgent prayer “*like*” the Catholics suggests a sort of hypocrisy - that she has never been a true believer, but is now praying only when forced to.",
-        "tags":[]
+        "analysis":"While in her state of dread, she begins to have flashbacks of how she raised her son, bringing her to a sudden realisation that it was difficult, even for her, to raise a child, thus making her sympathise slightly with the thin woman for once.",
+        "tags":["Tension", "Sacrifice", "Fat Woman", "Listing"]
     },
     {
         "id":"t076",
-        "quote":"She was ashamed of prattling in that way as if she was counting beads",
-        "author":"Peter Laing",
-        "analysis":"Links back to the idea of judgemental attitudes within the village, as she doesn’t want to appear emotional in front of others, likely due to the abundance of rumours that tend to spread like wildfire.",
-        "tags":[]
-    },
-    {
-        "id":"t077",
-        "quote":"that foreigner",
-        "author":"Peter Laing",
-        "analysis":"References the story’s introduction, when we are told that the thin woman is not a “native” and has lived here only “for thirty years or so”, which highlights her prejudiced mindset and directly shows her spite.",
-        "tags":[]
-    },
-    {
-        "id":"t078",
-        "quote":"It would be weakness",
-        "author":"Peter Laing",
-        "analysis":"The fat woman seems to think of weakness as a negative, which is likely representative of wider societal norms, particularly in similar remote villages.",
-        "tags":[]
-    },
-    {
-        "id":"t079",
-        "quote":"She felt the arm of the thin woman around her shoulders, the thin arm, and it was like first love",
-        "author":"Peter Laing",
-        "analysis":"Provides a stark contrast with the fat woman’s response to what she believes is her son dying. Instead of reacting selfishly and self-centredly, the thin woman’s immediate response is to comfort the fat woman in this time of grief, which goes against what we are led to believe about her character by the fat woman.\nThe intensity of the moment and the kindness of the gesture is emphasised by the comparison to romantic love.",
-        "tags":[]
-    },
-    {
-        "id":"t080",
-        "quote":"Murdo",
-        "author":"Peter Laing",
-        "analysis":"Potential link to The Red Door, implying that the stories take place in the same world.",
-        "tags":[]
-    },
-    {
-        "id":"t081",
-        "quote":"such an innocent gesture, such a spontaneous gesture. So unexpected, so strange, so much a gift",
-        "author":"Peter Laing",
-        "analysis":"This is clearly expected by the fat woman, who thinks of the thin woman as heartless. For the first time we see the two enemies uniting over the imposing tragedy that results from war, which suggests that it can bring communities together.",
-        "tags":[]
-    },
-    {
-        "id":"t082",
-        "quote":"‘He has passed your house,’ said the thin woman in a distant firm voice",
-        "author":"Peter Laing",
-        "analysis":"Portrays the thin woman as much calmer and more focused, even if slightly numb and emotionless. We get the sense that the fat woman would be much more panicky and dramatic if she were in that situation, highlighting their differing outlooks on life.",
-        "tags":[]
-    },
-    {
-        "id":"t083",
-        "quote":"She wanted to stand up and dance all round the kitchen, all fifteen stone of her, and shout and cry and sing a song but then she stopped",
-        "author":"Peter Laing",
-        "analysis":"She is ecstatic to find out that she isn’t the telegram’s recipient, however this feeling is quite bittersweet as it implies the thin woman’s son to have died, therefore she can’t outwardly express any real joy.",
-        "tags":[]
-    },
-    {
-        "id":"t084",
-        "quote":"She couldn’t do that. How could she do that when it must be the thin woman’s son?",
-        "author":"Peter Laing",
-        "analysis":"Here we see quite a sudden change in the fat woman’s character, as she seems to feel remorse for her selfish attitude and discriminatory treatment of the thin woman.",
-        "tags":[]
-    },
-    {
-        "id":"t085",
-        "quote":"Where had she learnt that self-control? She wasn’t crying or shaking",
-        "author":"Peter Laing",
-        "analysis":"The fat woman appears to either respect or be jealous of the thin woman’s tranquillity through this tough time, a quality which she herself lacks.",
-        "tags":[]
-    },
-    {
-        "id":"t086",
-        "quote":"her lips pressed closely together, white and bloodless",
-        "author":"Peter Laing",
-        "analysis":"The thin woman is clearly horrified as she believes her son has died, hence why she is pale from a lack of blood flow. Notice though that her reaction is one of freezing rather than of panic, which contrasts her with the fat woman.",
-        "tags":[]
-    },
-    {
-        "id":"t087",
-        "quote":"And at that moment the fat woman saw",
-        "author":"Peter Laing",
-        "analysis":"The repetition of \"she saw\" in the following sentences emphasises this moment as one of realisation and eye-opening for the fat woman, who has been dismissive of the thin woman her whole life.\nThis is a turning point as she finally begins to sympathise with her and appreciate the years of sacrifice she made.",
-        "tags":[]
-    },
-    {
-        "id":"t088",
-        "quote":"how thin and unfed and pale the thin woman had always looked",
-        "author":"Peter Laing",
-        "analysis":"Links back to earlier in their conversation, where the thin woman had rhetorically asked her when she had seen her with good clothes, etc. The difference is that due to her sudden epiphany, she now understands what was previously said, whereas before she responded \"absently\" and \"vague[ly].\"",
-        "tags":[]
-    },
-    {
-        "id":"t089",
-        "quote":"even a shilling to buy food",
-        "author":"Peter Laing",
-        "analysis":"To the fat woman, a shilling may not have been much, however it was a significant proportion of the thin woman’s earnings, thus highlighting their differing financial situations.",
-        "tags":[]
-    },
-    {
-        "id":"t090",
-        "quote":"She saw it so clearly that she was astounded. It was as if she had an extra vision, as if the air itself brought the past with all its details nearer",
-        "author":"Peter Laing",
-        "analysis":"Illustrates the profound impact that the event has had on her. She has never been particularly empathetic in the past and tended to focus on her own life, but is now shocked at how clear everything has become to her.",
-        "tags":[]
-    },
-    {
-        "id":"t091",
         "quote":"It was impossible",
         "author":"Peter Laing",
         "analysis":"The short sentence here emphasises the fat woman’s disbelief and denial of the situation. She is struggling to accept the reality that his death is very plausible, even likely.",
-        "tags":[]
+        "tags":["Sentence Structure", "Characterisation", "Fat Woman", "Impact of War"]
+    },
+    {
+        "id":"t077",
+        "quote":"She said it quickly like the Catholics, O God save my son O God save my son O God save my son",
+        "author":"Peter Laing",
+        "analysis":"The fact that she utters an urgent prayer “*like*” the Catholics suggests a sort of hypocrisy - that she has never been a true believer, but is now praying only when forced to.",
+        "tags":["Repetition", "Irony", "Simile", "Tension", "Selfishness", "Rule of Three"]
+    },
+    {
+        "id":"t078",
+        "quote":"She was ashamed of prattling in that way as if she was counting beads",
+        "author":"Peter Laing",
+        "analysis":"Links back to the idea of judgemental attitudes within the village, as she doesn’t want to appear emotional in front of others, likely due to the abundance of rumours that tend to spread like wildfire.",
+        "tags":["Judgement", "Word Choice", "Fat Woman", "Village Life", "Conformity"]
+    },
+    {
+        "id":"t079",
+        "quote":"that foreigner",
+        "author":"Peter Laing",
+        "analysis":"References the story’s introduction, when we are told that the thin woman is not a “native” and has lived here only “for thirty years or so”, which highlights her prejudiced mindset and directly shows her spite.",
+        "tags":["Exclusion", "Judgement", "Word Choice"]
+    },
+    {
+        "id":"t080",
+        "quote":"It would be weakness",
+        "author":"Peter Laing",
+        "analysis":"The fat woman seems to think of weakness as a negative, which is likely representative of wider societal norms, particularly in similar remote villages.",
+        "tags":["Conformity", "Community", "Judgement", "Village Life", "Sentence Structure"]
+    },
+    {
+        "id":"t081",
+        "quote":"She felt the arm of the thin woman around her shoulders, the thin arm, and it was like first love",
+        "author":"Peter Laing",
+        "analysis":"Provides a stark contrast with the fat woman’s response to what she believes is her son dying. Instead of reacting selfishly and self-centredly, the thin woman’s immediate response is to comfort the fat woman in this time of grief, which goes against what we are led to believe about her character by the fat woman.\nThe intensity of the moment and the kindness of the gesture is emphasised by the comparison to romantic love.",
+        "tags":["Contrast", "Characterisation", "Thin Woman", "Fat Woman", "Unity"]
+    },
+    {
+        "id":"t082",
+        "quote":"Murdo",
+        "author":"Peter Laing",
+        "analysis":"Potential link to The Red Door, implying that the stories take place in the same world.",
+        "tags":["Reference", "Murdo", "Exposition"]
+    },
+    {
+        "id":"t083",
+        "quote":"such an innocent gesture, such a spontaneous gesture. So unexpected, so strange, so much a gift",
+        "author":"Peter Laing",
+        "analysis":"This is clearly expected by the fat woman, who thinks of the thin woman as heartless. For the first time we see the two enemies uniting over the imposing tragedy that results from war, which suggests that it can bring communities together.",
+        "tags":["Unity", "Word Choice", "Community", "Rule of Three", "Repetition"]
+    },
+    {
+        "id":"t084",
+        "quote":"‘He has passed your house,’ said the thin woman in a distant firm voice",
+        "author":"Peter Laing",
+        "analysis":"Portrays the thin woman as much calmer and more focused, even if slightly numb and emotionless. We get the sense that the fat woman would be much more panicky and dramatic if she were in that situation, highlighting their differing outlooks on life.",
+        "tags":["Characterisation", "Thin Woman", "Unity", "Contrast"]
+    },
+    {
+        "id":"t085",
+        "quote":"She wanted to stand up and dance all round the kitchen, all fifteen stone of her, and shout and cry and sing a song but then she stopped",
+        "author":"Peter Laing",
+        "analysis":"She is ecstatic to find out that she isn’t the telegram’s recipient, however this feeling is quite bittersweet as it implies the thin woman’s son to have died, therefore she can’t outwardly express any real joy.",
+        "tags":["Narrative", "Selfishness", "Hyperbole", "Characterisation", "Fat Woman", "Rule of Three"]
+    },
+    {
+        "id":"t086",
+        "quote":"She couldn’t do that. How could she do that when it must be the thin woman’s son?",
+        "author":"Peter Laing",
+        "analysis":"Here we see quite a sudden change in the fat woman’s character, as she seems to feel remorse for her selfish attitude and discriminatory treatment of the thin woman.",
+        "tags":["Development of Character", "Awareness", "Rhetorical Question"]
+    },
+    {
+        "id":"t087",
+        "quote":"her lips pressed closely together, white and bloodless",
+        "author":"Peter Laing",
+        "analysis":"The thin woman is clearly horrified as she believes her son has died, hence why she is pale from a lack of blood flow. Notice though that her reaction is one of freezing rather than of panic, which contrasts her with the fat woman.",
+        "tags":["Characterisation", "Thin Woman", "Contrast", "Tension", "Impact of War"]
+    },
+    {
+        "id":"t088",
+        "quote":"Where had she learnt that self-control? She wasn’t crying or shaking",
+        "author":"Peter Laing",
+        "analysis":"The fat woman appears to either respect or be jealous of the thin woman’s tranquillity through this tough time, a quality which she herself lacks.",
+        "tags":["Rhetorical Question", "Contrast", "Narrative", "Characterisation"]
+    },
+    {
+        "id":"t089",
+        "quote":"And at that moment the fat woman saw",
+        "author":"Peter Laing",
+        "analysis":"The repetition of \"she saw\" in the following sentences emphasises this moment as one of realisation and eye-opening for the fat woman, who has been dismissive of the thin woman her whole life.\nThis is a turning point as she finally begins to sympathise with her and appreciate the years of sacrifice she made.",
+        "tags":["Repetition", "Development of Character", "Fat Woman", "Realisation", "Sentence Structure"]
+    },
+    {
+        "id":"t090",
+        "quote":"how thin and unfed and pale the thin woman had always looked",
+        "author":"Peter Laing",
+        "analysis":"Links back to earlier in their conversation, where the thin woman had rhetorically asked her when she had seen her with good clothes, etc. The difference is that due to her sudden epiphany, she now understands what was previously said, whereas before she responded \"absently\" and \"vague[ly].\"",
+        "tags":["Development of Character", "Fat Woman", "Realisation", "Rule of Three"]
+    },
+    {
+        "id":"t091",
+        "quote":"even a shilling to buy food",
+        "author":"Peter Laing",
+        "analysis":"To the fat woman, a shilling may not have been much, however it was a significant proportion of the thin woman’s earnings, thus highlighting their differing financial situations.",
+        "tags":["Selfishness", "Awareness", "Poverty"]
     },
     {
         "id":"t092",
-        "quote":"And, miracle of miracles, the elder passed the plank and walked straight on",
+        "quote":"She saw it so clearly that she was astounded. It was as if she had an extra vision, as if the air itself brought the past with all its details nearer",
         "author":"Peter Laing",
-        "analysis":"The story builds up to an anti-climax/plot twist in which the letter wasn’t actually addressed to either of the two women. This changes the atmosphere from tense to confusing in an instant, as it leaves both women wondering what could possibly be happening.",
-        "tags":[]
+        "analysis":"Illustrates the profound impact that the event has had on her. She has never been particularly empathetic in the past and tended to focus on her own life, but is now shocked at how clear everything has become to her.",
+        "tags":["Development of Character", "Awareness", "Imagery", "Simile", "Personification"]
     },
     {
         "id":"t093",
         "quote":"people had said that she was weak and useless",
         "author":"Peter Laing",
         "analysis":"Reinforces the idea of exclusion being caused by rumours. The villagers seem to have taken a strong disliking to the thin woman, almost ostracising her from their community and leaving her feeling lonely and isolated.",
-        "tags":[]
+        "tags":["Gossiping", "Judgement", "Exclusion", "Village Life"]
     },
     {
         "id":"t094",
-        "quote":"What did it all mean? Where was the elder going, clutching his telegram in his hand, walking like a man in a daze? There were no other houses so where was he going?",
+        "quote":"And, miracle of miracles, the elder passed the plank and walked straight on",
         "author":"Peter Laing",
-        "analysis":"This series of rhetorical questions emphasises the women’s bewilderment that the elder has passed the house, therefore drawing in the reader and engaging them with the story’s events.",
-        "tags":[]
+        "analysis":"The story builds up to an anticlimax/plot twist in which the letter wasn’t actually addressed to either of the two women. This changes the atmosphere from tense to confusing in an instant, as it leaves both women wondering what could possibly be happening.",
+        "tags":["Anticlimax", "Elder"]
     },
     {
         "id":"t095",
-        "quote":"They looked at each other",
+        "quote":"What did it all mean? Where was the elder going, clutching his telegram in his hand, walking like a man in a daze? There were no other houses so where was he going?",
         "author":"Peter Laing",
-        "analysis":"Gives a fleeting sense of unity as both women have something in common - their simultaneous confusion and relief. Suggests for a moment that they may have overcome their differences and the thin woman may finally be accepted, but this is unfortunately not the case.",
-        "tags":[]
+        "analysis":"This series of rhetorical questions emphasises the women’s bewilderment that the elder has passed the house, therefore drawing in the reader and engaging them with the story’s events.",
+        "tags":["Rhetorical Question", "Anticlimax", "Impact of War"]
     },
     {
         "id":"t096",
         "quote":"Once or twice the fat woman made as if to turn back as if she had something to say, some message to pass on, but she didn’t",
         "author":"Peter Laing",
         "analysis":"The fat woman hesitates slightly before leaving, showing how she feels a slightly desire to reconcile with and get to know her neighbour, but instead moves on and will go back to hating her now that the imminent threat has passed.",
-        "tags":[]
+        "tags":["Unity", "Community", "Development of Character", "Immutability"]
     },
     {
         "id":"t097",
-        "quote":"His walk through the village was a somnambulistic wandering",
+        "quote":"It wasn’t till later that night that they discovered what had happened",
         "author":"Peter Laing",
-        "analysis":"Somnambulism is the medical term for sleepwalking, and therefore implies that the elder was not fully awake or alert, likely as he felt numb from the grief of losing his son.",
-        "tags":[]
+        "analysis":"Both women were too preoccupied and engulfed by fear that they didn’t even consider this as a possibility. Despite being previously described as \"stiff\" and thought of as soulless, we see the elder as quite human in this instance.",
+        "tags":["Impact of War", "Isolation", "Elder", "Family"]
     },
     {
         "id":"t098",
-        "quote":"The telegram was crushed in his fingers and so sweaty that they could hardly make out the writing",
+        "quote":"His walk through the village was a somnambulistic wandering",
         "author":"Peter Laing",
-        "analysis":"The ruined condition of the telegram is likely symbolic of the elder’s mental state, which has been destroyed by the unfortunate news of his son’s passing. Highlights the crushing effects that war has on families by use of a metaphor.",
-        "tags":[]
+        "analysis":"Somnambulism is the medical term for sleepwalking, and therefore implies that the elder was not fully awake or alert, likely as he felt numb from the grief of losing his son.",
+        "tags":["Word Choice", "Characterisation", "Elder", "Impact of War"]
     },
     {
         "id":"t099",
         "quote":"Perhaps he was going in search of his son. Altogether he had walked six miles",
         "author":"Peter Laing",
         "analysis":"Conveys the magnitude of the despair that this tragedy has caused the elder. Without his son, he is metaphorically lost and thus ends up wandering for miles in search of answers as to why it had to be him.",
-        "tags":[]
+        "tags":["Narrative", "Impact of War", "Family", "Sentence Structure"]
     },
     {
         "id":"t100",
-        "quote":"It wasn’t till later that night that they discovered what had happened",
+        "quote":"The telegram was crushed in his fingers and so sweaty that they could hardly make out the writing",
         "author":"Peter Laing",
-        "analysis":"Both women were too preoccupied and engulfed by fear that they didn’t even consider this as a possibility. Despite being previously described as \"stiff\" and thought of as soulless, we see the elder as quite human in this instance.",
-        "tags":[]
+        "analysis":"The ruined condition of the telegram is likely symbolic of the elder’s mental state, which has been destroyed by the unfortunate news of his son’s passing. Highlights the crushing effects that war has on families by use of a metaphor.",
+        "tags":["Imagery", "Symbolism", "Elder", "Impact of War"]
     }
 ]

@@ -10,7 +10,7 @@ p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i
 
 #flashcard-area
 {
-    width: 700px;
+    flex: 0 1 700px;
     margin-top: 8px;
     margin-bottom: -8px;
 
@@ -158,5 +158,22 @@ p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i
     {
         opacity: 0;
         scale: 0.5;
+    }
+}
+
+@media only screen and (max-width: 920px)
+{
+    #flashcard-division
+    {
+        flex-direction: column;
+        height: 800px;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 920px)
+{
+    .variable-flex
+    {
+        flex-direction: row;
     }
 }

@@ -1,18 +1,16 @@
-function loadSavedQuotes()
+function loadQuotes(query, ids)
 {
     savedQuoteList = document.getElementById("saved-quotes");
-    if(savedQuotes.length === 0)
+    const quoteString = query.has("list") ? query.get("list") : null;
+    const combinedIDs = [...new Set([...ids, ...savedQuotes])]
+
+    if(combinedIDs.length !== 0) combinedIDs.forEach(id => createQuote(annotationDict[id], quoteString));
+    else
     {
         const message = document.createElement("h3");
         message.textContent = "No Quotes Saved!";
         message.style = "text-align: center";
         savedQuoteList.appendChild(message);
-    }
-    else
-    {
-        const query = new URLSearchParams(window.location.search);
-        const quoteString = query.has("list") ? query.get("list") : null;
-        savedQuotes.forEach(id => createQuote(annotationDict[id], quoteString));
     }
 }
 
@@ -27,6 +25,7 @@ function createQuote(annotation, queryString)
     : "yellow";
 
     const translucent = queryString === null ? "" : queryString.includes(annotation.id) ? "" : " translucent";
+    const bookmark = isSaved(annotation.id) ? "fa-solid" : "fa-regular";
 
     const html = `
     <li class="saved-quote${translucent}" draggable="true"
@@ -46,7 +45,7 @@ function createQuote(annotation, queryString)
             <i class="fa-solid fa-eye-slash clickable"></i>
         </button>
         <button class="delete-button quote-button" onclick="deleteAnnotation(this);">
-            <i class="fa-solid fa-bookmark clickable"></i>
+            <i class="${bookmark} fa-bookmark clickable"></i>
         </button>
     </li>`;
 
@@ -62,13 +61,12 @@ function sortList(event)
 {
     const current = sortableList.querySelector(".dragging");
     const siblings = [...sortableList.querySelectorAll(".saved-quote:not(.dragging)")];
-
     let nextSibling = siblings.find(sibling => event.clientY <= sibling.getBoundingClientRect().top + sibling.offsetHeight * 0.5);
 
     if(current.nextElementSibling !== nextSibling)
     {
         sortableList.insertBefore(current, nextSibling);
-        setQuotes(getSortedIDs());
+        setQuotes(getSortedIDs(true, false));
     }
 }
 
@@ -88,17 +86,17 @@ function sortNaturally()
         if(bIndex === -1) return -1;
         return aIndex - bIndex;
     }).forEach(node => sortableList.appendChild(node));
-
-    setQuotes(getSortedIDs());
+    setQuotes(getSortedIDs(true, false));
 }
 
-function getSortedIDs(onlyVisible = false)
+function getSortedIDs(onlySaved, onlyVisible)
 {
     let newArray = [];
 
     const children = sortableList.children;
     for(let i = 0; i < children.length; i++)
     {
+        if(onlySaved && children[i].querySelector(".fa-bookmark").classList.contains("fa-regular")) continue;
         if(onlyVisible && children[i].classList.contains("translucent")) continue;
 
         const id = children[i].querySelector("h6").textContent;
@@ -136,14 +134,14 @@ function moveUp(element)
 {
     if(element.previousElementSibling === null) return;
     sortableList.insertBefore(element, element.previousElementSibling);
-    setQuotes(getSortedIDs());
+    setQuotes(getSortedIDs(true, false));
 }
 
 function moveDown(element)
 {
     if(element.nextElementSibling === null) return;
     sortableList.insertBefore(element, element.nextElementSibling.nextElementSibling);
-    setQuotes(getSortedIDs());
+    setQuotes(getSortedIDs(true, false));
 }
 
 function hideAnnotation(element)
@@ -157,13 +155,15 @@ function deleteAnnotation(element)
 {
     const classes = element.querySelector("i").classList;
     const id = element.parentNode.querySelector("h6").textContent;
-    if(classes.contains("fa-solid")) unsaveQuote(id);
-    else
-    {
-        saveQuote(id);
-        setQuotes(getSortedIDs());
-    }
+    const wasSaved = classes.contains("fa-solid");
 
     classes.toggle("fa-solid");
     classes.toggle("fa-regular");
+
+    if(wasSaved) unsaveQuote(id);
+    else
+    {
+        saveQuote(id);
+        setQuotes(getSortedIDs(true, false));
+    }
 }

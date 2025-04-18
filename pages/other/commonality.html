@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/styles/common.css">
     <link rel="stylesheet" href="/styles/specific/header.css">
     <link rel="stylesheet" href="/styles/specific/banner.css">
+    <link rel="stylesheet" href="/styles/specific/graph.css">
     <link rel="stylesheet" href="/styles/themes/commonality.css">
 
     <script src="https://kit.fontawesome.com/74129ef75e.js" crossorigin="anonymous"></script>
@@ -21,12 +22,17 @@
 </head>
 <body>
     <nav class="centered-horizontal">
-        <nav class="page full-page flex-vertical">
+        <nav class="page full-page">
             <nav class="banner">
                 <i class="fa-solid fa-lightbulb icon-left"></i>
                 <i class="fa-solid fa-hexagon-nodes icon-right"></i>
                 <h1>Commonality</h1>
             </nav>
+
+            <h2>Graph View</h2>
+            <div id="graph"></div>
+            <script src="/scripts/getter.js"></script>
+            <script src="/scripts/grapher.js"></script>
         </nav>
     </nav>
 </body>

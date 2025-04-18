@@ -14,7 +14,7 @@ function generateURL()
     if(form["hidden"].checked) options += "h";
     params.searchParams.set("opts", options);
 
-    const quotes = getSortedIDs(true);
+    const quotes = getSortedIDs(false, true);
     params.searchParams.set("list", quotes.join(""));
     return params.href;
 }
@@ -149,8 +149,11 @@ function refreshCard(index)
     {
         const annotation = annotationDict[ids[order[index]]];
         counter.innerHTML = `${index + 1}/${ids.length}`;
-        clue.innerHTML = getProperty(annotation, typeString[0]);
         answer.innerHTML = getProperty(annotation, typeString[1]);
+
+        const clueText = getProperty(annotation, typeString[0]);
+        if(optionString.includes("h")) window.setTimeout(() => loadClueSlowly(clueText, 0.0), 0);
+        else clue.innerHTML = clueText;
 
         flashcard.classList.remove("t");
         flashcard.classList.remove("h");
@@ -163,11 +166,23 @@ function refreshCard(index)
     }, 100);
 }
 
-function loadFlashcards()
+const speed = 0.2;
+function loadClueSlowly(clueText, stage)
 {
-    const query = new URLSearchParams(window.location.search);
-    if(!query.has("list") || query.get("list").length === 0) return;
+    if(stage >= 1)
+    {
+        clue.innerHTML = clueText;
+        return;
+    }
 
+    revealedPart = clueText.substring(0, stage * clueText.length);
+    clue.innerHTML = revealedPart;
+
+    window.setTimeout(() => loadClueSlowly(clueText, stage + 0.01 * speed), 10);
+}
+
+function loadFlashcards(query)
+{
     typeString = query.get("type");
     optionString = query.get("opts");
     updateForm();
@@ -181,6 +196,7 @@ function loadFlashcards()
 
 loadAnnotations(() =>
 {
-    loadFlashcards();
-    loadSavedQuotes();
+    const query = new URLSearchParams(window.location.search);
+    if(query.has("list") && query.get("list").length !== 0) loadFlashcards(query);
+    loadQuotes(query, ids);
 });

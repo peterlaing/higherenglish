@@ -27,7 +27,7 @@ function viewAnnotation(id, clicked)
     if(annotationPanel === null) getPanelElements();
 
     const annotation = annotations[id];
-    authorText.innerHTML = annotation.author;// + ` (${id})`;
+    authorText.innerHTML = `${annotation.author} [${id}]`;
     quoteText.innerHTML = `<cite>${annotation.quote}</cite>`;
     analysisSpan.innerHTML = getAnalysisHTML(annotation.analysis);
     saveButton.setAttribute("onclick", `saveAnnotation("${id}");`);
@@ -57,7 +57,7 @@ function fixTagList(annotation)
 {
     tagList.innerHTML = "";
     for(let tag of annotation.tags)
-        tagList.innerHTML +=`<a href="/pages/other/search.html?q=${tag}" class="theme-search">${tag}</a>`;
+        tagList.innerHTML +=`<a href="/pages/other/search.html?q=%${tag}" class="theme-search">${tag}</a>`;
 }
 
 function updateBookmark(id)

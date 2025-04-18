@@ -5,19 +5,50 @@ function searchForQuery(query)
     searchBar.value = query;
 
     let count = 0;
-    const term = query.toLowerCase();
-
-    for(let annotation of annotationList)
+    if(query[0] == "%")
     {
-        const quote = annotation.quote.toLowerCase();
-        if(quote.includes(term))
+        const search = query.substring(1, query.length);
+        const input = search.split(",");
+
+        let tags = [];
+        for(let thing of input)
+            tags.push(thing.trim().replace(/\s+/g, " ").toLowerCase());
+
+        for(let annotation of annotationList)
         {
-            count += 1;
-            createQuote(annotation, query);
+            let ok = true;
+            for(let tag of tags)
+            {
+                if(!annotation.tags.some(t => t.toLowerCase() === tag))
+                {
+                    ok = false;
+                    break;
+                }
+            }
+            if(ok)
+            {
+                count += 1;
+                createQuote(annotation, query);
+            }
+        }
+    }
+    else
+    {
+        const term = query.toLowerCase();
+
+        for(let annotation of annotationList)
+        {
+            const quote = annotation.quote.toLowerCase();
+            if(quote.includes(term))
+            {
+                count += 1;
+                createQuote(annotation, query);
+            }
         }
     }
 
     updateCounter(count);
+    if(count == 0 && query[0] == "%") displayMessage();
 }
 
 function updateCounter(count)
@@ -29,6 +60,11 @@ function updateCounter(count)
 
     const title = document.getElementById("result-count");
     title.textContent = message;
+}
+
+function displayMessage()
+{
+    document.getElementById("tag-message").classList.remove("hidden");
 }
 
 let quoteList = null;
