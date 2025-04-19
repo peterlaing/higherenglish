@@ -1,4 +1,4 @@
-#list-title
+#list-title, #list-title-short
 {
     position: relative;
     bottom: 12px;
@@ -113,3 +113,21 @@
 .red + p    { color:            var(--red-9);    }
 .yellow     { background-color: var(--yellow-4); }
 .yellow + p { color:            var(--yellow-9); }
+
+@media only screen and (max-width: 640px)
+{
+    .draggable { display: none; }
+    .saved-quote { margin-left: 8px; }
+}
+
+#settings-title-short { display: none; }
+#list-title-short { display: none; }
+
+@media only screen and (max-width: 560px)
+{
+    .move-up, .move-down { display: none; }
+    #list-title { display: none; }
+    #list-title-short { display: block; }
+    #settings-title { display: none; }
+    #settings-title-short { display: block; }
+}

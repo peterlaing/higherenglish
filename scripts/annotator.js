@@ -5,6 +5,7 @@ let analysisSpan = null;
 let tagList = null;
 let saveButton = null;
 let bookmarkIcon = null;
+let commonalityLink = null;
 let storyPanel = null;
 
 function getPanelElements()
@@ -16,6 +17,7 @@ function getPanelElements()
     tagList = document.getElementById("theme-list");
     saveButton = document.getElementById("save");
     bookmarkIcon = document.getElementById("bookmark");
+    commonalityLink = document.getElementById("commonality-link");
     storyPanel = document.getElementById("story");
 
     document.getElementById("story-division").appendChild(annotationPanel);
@@ -28,9 +30,10 @@ function viewAnnotation(id, clicked)
 
     const annotation = annotations[id];
     authorText.innerHTML = `${annotation.author} [${id}]`;
-    quoteText.innerHTML = `<cite>${annotation.quote}</cite>`;
+    quoteText.innerHTML = `<cite>${parseQuote(annotation.quote)}</cite>`;
     analysisSpan.innerHTML = getAnalysisHTML(annotation.analysis);
     saveButton.setAttribute("onclick", `saveAnnotation("${id}");`);
+    commonalityLink.href = `/commonality?id=${id}`;
     fixTagList(annotation);
     updateBookmark(id);
 
@@ -57,7 +60,7 @@ function fixTagList(annotation)
 {
     tagList.innerHTML = "";
     for(let tag of annotation.tags)
-        tagList.innerHTML +=`<a href="/pages/other/search.html?q=%${tag}" class="theme-search">${tag}</a>`;
+        tagList.innerHTML +=`<a href="/search?q=!${tag}" class="theme-search">${tag}</a>`;
 }
 
 function updateBookmark(id)

@@ -6,33 +6,39 @@
     gap: 20px;
 }
 
-#tag-message ul
+#tag-message li, a
+{
+    font-size: 24px;
+    color: var(--colour-9);
+    text-decoration: none;
+}
+
+.tag-column
 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#tag-message li, a
-{
-    font-size: 28px;
-    color: var(--colour-9);
-    text-decoration: none;
-}
-
 .found-quote
 {
     position: relative;
+    top: 0px;
+    padding: 12px;
+
     background-color: var(--gray-2);
     box-shadow: 0px 8px var(--gray-3);
     border-radius: 12px;
+
     display: flex;
     flex-direction: row;
-    padding: 12px;
-    text-decoration: none;
-    gap: 12px;
     justify-content: space-between;
     align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+    transition: top var(--anim-time),
+    box-shadow var(--anim-time);
 }
 
 .found-quote:hover
@@ -61,3 +67,37 @@
 .blue       { background-color: var(--blue-4);   }
 .red        { background-color: var(--red-4);    }
 .yellow     { background-color: var(--yellow-4); }
+
+span
+{
+    position: relative;
+}
+
+.quote-button
+{
+    background-color: var(--gray-2);
+    outline: none;
+    border: none;
+
+    position: absolute;
+    right: 12px;
+    bottom: calc(50% - 22px);
+
+    font-size: 32px;
+    color: var(--gray-5);
+    transition: scale var(--anim-time),
+    bottom var(--anim-time);
+}
+
+.found-quote:hover + .quote-button { bottom: calc(50% - 24px); }
+.quote-button:hover
+{
+    scale: 1.15;
+    color: var(--green-6);
+}
+.saved-quote:hover { color: var(--red-6); }
+.quote-button > i
+{
+    transition: scale var(--anim-time),
+    color var(--anim-time);
+}

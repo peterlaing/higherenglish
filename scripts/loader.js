@@ -13,7 +13,8 @@ async function loadAnnotations(story)
     json.forEach(async annotation =>
     {
         annotations[annotation.id] = annotation;
-        await addAnnotation(annotation);
+        const success = await addAnnotation(annotation);
+        if(!success) console.log(`Failed to add ${annotation.id}`);
     });
 
     findTarget();
@@ -30,20 +31,31 @@ async function addAnnotation(annotation)
         {
             const before = text.slice(0, index);
             const after = text.slice(index + annotation.quote.length);
-            paragraph.innerHTML =`${before}<span id="${annotation.id}" class="annotation clickable" onclick="viewAnnotation('${annotation.id}', this);">${annotation.quote}</span>${after}`;
 
-            return;
+            paragraph.innerHTML = `${before}<span id="${annotation.id}" class="annotation clickable"
+            href="?id=${annotation.id}" onclick="linkSilently('${annotation.id}', event); findTarget();"
+            >${annotation.quote}</span>${after}`;
+
+            return true;
         }
     };
+    return false;
 }
 
-//`${before}<a id="${annotation.id}" class="annotation clickable" onclick="viewAnnotation('${annotation.id}', this);">${annotation.quote}</span>${after}`;
-/*
+/*BUTTON VERSION
+`${before}<span id="${annotation.id}" class="annotation clickable" onclick="viewAnnotation('${annotation.id}', this);">${annotation.quote}</span>${after}`;
+
+LINK VERSION
 `${before}
 <span id="${annotation.id}" class="annotation clickable"
 href="?id=${annotation.id}" onclick="event.preventDefault(); history.pushState(null, '', '?id=${annotation.id}'); findTarget();"
->${annotation.quote}</span>${after}`;
-*/
+>${annotation.quote}</span>${after}`;*/
+
+function linkSilently(annotationID, event)
+{
+    event.preventDefault();
+    history.replaceState(null, "", `?id=${annotationID}`);
+}
 
 function findTarget()
 {

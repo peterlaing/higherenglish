@@ -1,702 +1,709 @@
 [
     {
         "id":"m001",
-        "quote":"His clothes were dripping as he came in. The water was streaming down his cheeks",
+        "quote":"His clothes were dripping as he came in. The water was streaming down his cheeks,",
         "author":"Peter Laing",
         "analysis":"The dull, rainy weather represents the boring, unfortunate lives of both the mother and the son. Could also symbolise the idea of discomfort or drudgery, as if every day is difficult and a drag.",
-        "tags":[]
+        "tags":["Exposition", "Pathetic Fallacy", "Misery", "Monotony", "Son"]
     },
     {
         "id":"m002",
-        "quote":"The house was in partial darkness",
+        "quote":"The house was in partial darkness,",
         "author":"Peter Laing",
         "analysis":"The dark, gloomy setting could symbolise the dark, horrible times they’re going through, as well as the fact that it is metaphorically difficult for them to see a way forward in life.",
-        "tags":[]
+        "tags":["Exposition", "Poverty", "Symbolism", "Misery"]
     },
     {
         "id":"m003",
         "quote":"the daylight was hooded by thick yellow curtains",
         "author":"Peter Laing",
         "analysis":"The daylight being hooded by the curtains may represent how both the mother and the son block out and cloud the happiness from each other’s lives.\nAlso, the colour yellow typically represents happiness, sunshine or enjoyment, yet here it seems to be darker, dingier, and more sickly, perhaps symbolising the mother’s poor condition.",
-        "tags":[]
+        "tags":["Symbolism", "Misery", "Colour", "Mother", "Son"]
     },
     {
         "id":"m004",
-        "quote":"it had been a cold, dismal afternoon in the fields",
+        "quote":"it had been a cold, dismal afternoon in the fields. ",
         "author":"Peter Laing",
         "analysis":"The coldness could represent the cold, bitter realities that they both face on a daily basis - the idea that there is no hope for either of them, and that nothing brings them joy. Reflective of the son’s mood in particular.",
-        "tags":[]
+        "tags":["Pathetic Fallacy", "Exposition", "Misery", "Permanence", "Rurality"]
     },
     {
         "id":"m005",
         "quote":"The weather was extraordinarily bad for the time of year",
         "author":"Peter Laing",
-        "analysis":"**Interpretation 1:** Suggests that this misery and melancholy is not limited to any specific time period. Instead they face this all year round, with some days being only slightly worse than others.\n**Interpretation 2:** Foreshadows that this will be a particularly bad day for both of them and that their relationship is at an all-time low.",
-        "tags":[]
+        "analysis":"Foreshadows that this will be a particularly bad day for both of them as their relationship is at an all-time low. Could also suggest that this misery is not limited to any specific time period as although it is not normal for this time of year, it is quite regular here.",
+        "tags":["Pathetic Fallacy", "Exposition", "Misery", "Permanence", "Family"]
     },
     {
         "id":"m006",
-        "quote":"gathering the sheaves into stacks was both monotonous and uncomfortable",
+        "quote":"gathering the sheaves into stacks was both monotonous and uncomfortable.",
         "author":"Peter Laing",
         "analysis":"Shows that the son feels incredibly dissatisfied with his life, being forced to not only look after his elderly mother, but also work on the farm, yet without receiving anything for his dull, repetitive work.\n![](sheaves.jpg)",
-        "tags":[]
+        "tags":["Son", "Monotony", "Misery", "Sacrifice", "Rurality"]
     },
     {
         "id":"m007",
         "quote":"He held the match cupped within his hands to warm them",
         "author":"Peter Laing",
         "analysis":"Literally, this emphasises how cold and dark it is, however the coldness could also represent the mother’s cold, bitter personality, and therefore the son here is searching for some kind of warmth or care.",
-        "tags":[]
+        "tags":["Symbolism", "Characterisation", "Mother", "Isolation"]
     },
     {
         "id":"m008",
-        "quote":"the match flickered and went out with an apologetic cough",
+        "quote":"The forehead was smooth and tanned, the nose thin though not incisive, the mouth curved and petulant, and the chin small and round. ",
         "author":"Peter Laing",
-        "analysis":"The fact that they rely on lamplight highlights their isolation and poverty. The flame extinguishing could also be symbolic of the death of the father, who was the light in their lives, and the subsequent disownment of the son by his own mother.",
-        "tags":[]
+        "analysis":"The son is described as ‘handsome’ and numerous physical traits are listed out, which emphasises his youth and therefore his potential for a great life, but that he is being held back by his mother.",
+        "tags":["Characterisation", "Son", "Naivety", "Word Choice"]
     },
     {
         "id":"m009",
-        "quote":"When the lamp was lit, it showed a moderately sized kitchen",
+        "quote":"It was a good-looking face, though it was a face which had something childish about it.",
         "author":"Peter Laing",
-        "analysis":"Gives a sense of claustrophobia within the house, suggesting that the rooms are not particularly spacious. This reflects the confinement and isolation of the mother and the son, both of whom feel trapped.",
-        "tags":[]
+        "analysis":"Suggests that although he is handsome, he isn’t fully mature or independent, potentially due to the confidence problems he has gained from dealing with his mother’s abusive comments.",
+        "tags":["Characterisation", "Son", "Naivety", "Upbringing"]
     },
     {
         "id":"m010",
-        "quote":"the walls of which were painted a dull yellow",
-        "author":"Peter Laing",
-        "analysis":"This second mention of the colour yellow emphasises the monochromatic appearance of the interior, which could partially explain the mother’s permanent bad mood - for her, every day is the same long, boring, drag, which is reflected in the lack of variation in the house.",
-        "tags":[]
-    },
-    {
-        "id":"m011",
-        "quote":"numerous shelves which held numerous dishes, some whole, some broken",
-        "author":"Peter Laing",
-        "analysis":"The idea of many dishes being broken highlights the house’s derelict nature, which could emphasise the mother’s neglect for her son, while the idea of being broken could be symbolic of their relationship.",
-        "tags":[]
-    },
-    {
-        "id":"m012",
-        "quote":"A little china dog looked over the edge as if searching for crumbs",
-        "author":"Peter Laing",
-        "analysis":"Symbolises the son’s constant but ever-failing search for acceptance and love from his mother, who has seemingly disowned him.",
-        "tags":[]
-    },
-    {
-        "id":"m013",
-        "quote":"four-poster bed with soiled pillows and a coverlet of some dark, rough material",
-        "author":"Peter Laing",
-        "analysis":"The idea that the bed is uncomfortable could represent the discomfort and unease that both the mother and the son feel in their lives. They rarely feel relaxed around each other, which builds tension and introduces the conflict before any dialogue is spoken.",
-        "tags":[]
-    },
-    {
-        "id":"m014",
-        "quote":"It was a good-looking face, though it was a face which had something childish about it",
-        "author":"Peter Laing",
-        "analysis":"Suggests that although he is handsome, he isn’t fully mature or independent, potentially due to the confidence problems he has gained from dealing with his mother’s abusive comments.",
-        "tags":[]
-    },
-    {
-        "id":"m015",
-        "quote":"her mouth tightly shut and prim and anaemic",
-        "author":"Peter Laing",
-        "analysis":"Links to her illness, as ‘anaemic’ implies pale, colourless, and ill, while ‘prim’ suggests that her face has a stiff and disapproving appearance.",
-        "tags":[]
-    },
-    {
-        "id":"m016",
-        "quote":"There was a bitter smile on her lips",
-        "author":"Peter Laing",
-        "analysis":"Characterises the mother as mean and unloving. The word ‘bitter’ is repeated numerous times throughout the story to emphasise her spite and resentment of her son.",
-        "tags":[]
-    },
-    {
-        "id":"m017",
-        "quote":"just as you sometimes see the insurance man coming to the door with the same smile each day",
-        "author":"Peter Laing",
-        "analysis":"Imagery comparing her to an insurance man, which suggests that she is selfish and dislikeable. Her smile appears to be one of malice rather than of kindness.",
-        "tags":[]
-    },
-    {
-        "id":"m018",
-        "quote":"as if the woman were wrestling with some terrible witch’s idea in dreams",
-        "author":"Peter Laing",
-        "analysis":"The mother is tormented by her illness, almost fighting herself internally, which perhaps explains the reason for her personality throughout the story.",
-        "tags":[]
-    },
-    {
-        "id":"m019",
-        "quote":"The sticks fell out of place and he cursed vindictively and helplessly",
-        "author":"Peter Laing",
-        "analysis":"His clumsiness and subsequent response implies that he feels stressed and overwhelmed by this life of misery.",
-        "tags":[]
-    },
-    {
-        "id":"m020",
-        "quote":"some state of innocence, some state to which he could not return",
-        "author":"Peter Laing",
-        "analysis":"The son appears to be reminiscing of the old times, before his mother fell ill and possibly when his father was still around. This nostalgic memory is one of the only things which seems to bring him joy in the entire story.",
-        "tags":[]
-    },
-    {
-        "id":"m021",
-        "quote":"The clock struck five wheezingly",
-        "author":"Peter Laing",
-        "analysis":"’Wheezingly’ suggests a certain difficulty and/or reluctance, literally that caused by breathing issues such as asthma, but metaphorically that even the clock feels the struggle of their lives.",
-        "tags":[]
-    },
-    {
-        "id":"m022",
-        "quote":"which immediately became still and dangerous again",
-        "author":"Peter Laing",
-        "analysis":"He is returning from this dreamlike nostalgia to the hardship of the present and therefore realises the reality which he faces. Note the sudden change and contrast between ‘innocence’ and ‘dangerous’",
-        "tags":[]
-    },
-    {
-        "id":"m023",
-        "quote":"‘It’s only you.’ There was relief in the voice, but there was a curious hint of contempt or acceptance",
-        "author":"Peter Laing",
-        "analysis":"The mother is relieved and somewhat thankful to know that it is only her son there, and not someone who has broken in, yet she is a bit disappointed that it is the son, whom she clearly doesn’t care for.",
-        "tags":[]
-    },
-    {
-        "id":"m024",
-        "quote":"I sometimes don’t know why we christened you John",
-        "author":"Peter Laing",
-        "analysis":"The mother seems to regret having her son, as she has now effectively disowned him.",
-        "tags":[]
-    },
-    {
-        "id":"m025",
-        "quote":"My father was never like you. He was a man who knew his business",
-        "author":"Peter Laing",
-        "analysis":"She draws a comparison between the son and his father. The father was evidently more competent and thus valuable in her eyes, whereas the son is seen as a waste of space.",
-        "tags":[]
-    },
-    {
-        "id":"m026",
-        "quote":"snapped pettishly",
-        "author":"Peter Laing",
-        "analysis":"Suggests a sort of impulsive, unreasonable tone.",
-        "tags":[]
-    },
-    {
-        "id":"m027",
-        "quote":"he said despairingly",
-        "author":"Peter Laing",
-        "analysis":"The son is obviously used to these negative, hurtful comments and therefore simply ignores them. He feels powerless and knows he can’t do anything to change her mind.",
-        "tags":[]
-    },
-    {
-        "id":"m028",
-        "quote":"She had always looked upon him as her husband’s son, not as her own",
-        "author":"Peter Laing",
-        "analysis":"The mother accepts no responsibility for the faults passed onto the son, characterising her as quite selfish. Also shows how little she cares for him now that the father is gone.",
-        "tags":[]
-    },
-    {
-        "id":"m029",
-        "quote":"You keep mooning about the house, pacing up and down with your hands in your pockets",
-        "author":"Peter Laing",
-        "analysis":"He has apparently been wandering around the house in an aimless manner, which is likely because he always has stuff on his mind and feels stressed out by dealing with his mother.",
-        "tags":[]
-    },
-    {
-        "id":"m030",
-        "quote":"He pottered about, putting water in the kettle",
-        "author":"Peter Laing",
-        "analysis":"Suggests that many of his tasks are rather trivial, dull, and simple, hence why the mother feels he is useless.",
-        "tags":[]
-    },
-    {
-        "id":"m031",
-        "quote":"all his faults she attributed to hereditary weaknesses on his father’s side",
-        "author":"Peter Laing",
-        "analysis":"She is unwilling to take blame for anything, and instead pins it solely on the father’s genetics, which is highly unlikely, even ironic given that many of these faults are not genetic at all, but rather consequential of his circumstances.",
-        "tags":[]
-    },
-    {
-        "id":"m032",
-        "quote":"Your father’s people had something wrong with their heads, it was in your family but not in ours",
-        "author":"Peter Laing",
-        "analysis":"She feels a sense of superiority despite being physically weak. She thinks highly of herself, while making excuses to put the son down, portraying her as arrogant and wicked. This is also incredibly discouraging for the son.",
-        "tags":[]
-    },
-    {
-        "id":"m033",
-        "quote":"you’ll be taken to the asylum",
-        "author":"Peter Laing",
-        "analysis":"She seems to be treating the son’s stress and depression as sins, writing him off as crazy instead of understanding that she is the one causing it all.",
-        "tags":[]
-    },
-    {
-        "id":"m034",
-        "quote":"But she wasn’t to be stopped",
-        "author":"Peter Laing",
-        "analysis":"Emphasises the unceasing, relentless nature of the mother’s mean and unforgiving comments.",
-        "tags":[]
-    },
-    {
-        "id":"m035",
-        "quote":"waiting desperately for the sibilant noise to stop",
-        "author":"Peter Laing",
-        "analysis":"A loud, annoying hissing sound is coming from the kettle. This could, however, also be symbolic of the mother’s comments, implying that she is snakelike and evil.",
-        "tags":[]
-    },
-    {
-        "id":"m036",
         "quote":"rather stolid",
         "author":"Peter Laing",
         "analysis":"Devoid of emotion, perhaps suggesting that the son has been reduced to a mere shell of himself by the torment from his mother.",
-        "tags":[]
+        "tags":["Word Choice", "Characterisation", "Son", "Misery", "Isolation"]
+    },
+    {
+        "id":"m011",
+        "quote":"netted by little red lines which divided them up like a graph.",
+        "author":"Peter Laing",
+        "analysis":"The colour red has connotations of anger or danger, therefore the red lines on the son’s face hint at his built-up rage.",
+        "tags":["Colour", "Symbolism", "Characterisation", "Son", "Hatred", "Motif"]
+    },
+    {
+        "id":"m012",
+        "quote":"the match flickered and went out with an apologetic cough,",
+        "author":"Peter Laing",
+        "analysis":"The fact that they rely on lamplight highlights their isolation and poverty. The flame extinguishing could also be symbolic of the death of the father, who was the light in their lives, and the subsequent disownment of the son by his own mother.",
+        "tags":["Isolation", "Poverty", "Symbolism", "Family", "Misery"]
+    },
+    {
+        "id":"m013",
+        "quote":"When the lamp was lit, it showed a moderately sized kitchen, ",
+        "author":"Peter Laing",
+        "analysis":"Gives a sense of claustrophobia within the house, suggesting that the rooms are not particularly spacious. This reflects the confinement and isolation of the mother and the son, both of whom feel trapped.",
+        "tags":["Exposition", "Word Choice", "Isolation"]
+    },
+    {
+        "id":"m014",
+        "quote":"the walls of which were painted a dull yellow.",
+        "author":"Peter Laing",
+        "analysis":"This second mention of the colour yellow emphasises the monochromatic appearance of the interior, which could partially explain the mother’s permanent bad mood - for her, every day is the same long, boring, drag, which is reflected in the lack of variation in the house.",
+        "tags":["Exposition", "Colour", "Monotony", "Misery", "Pathetic Fallacy"]
+    },
+    {
+        "id":"m015",
+        "quote":"numerous shelves which held numerous dishes, some whole, some broken. ",
+        "author":"Peter Laing",
+        "analysis":"The idea of many dishes being broken highlights the house’s derelict nature, which could emphasise the mother’s neglect for her son, while the idea of being broken could be symbolic of their relationship.",
+        "tags":["Exposition", "Imagery", "Symbolism", "Family"]
+    },
+    {
+        "id":"m016",
+        "quote":"A little china dog looked over the edge as if searching for crumbs:",
+        "author":"Peter Laing",
+        "analysis":"Symbolises the son’s constant but ever-failing search for acceptance and love from his mother, who has seemingly disowned him.",
+        "tags":["Symbolism", "Isolation", "Family", "Son"]
+    },
+    {
+        "id":"m017",
+        "quote":"four-poster bed with soiled pillows and a coverlet of some dark, rough material.",
+        "author":"Peter Laing",
+        "analysis":"The idea that the bed is uncomfortable could represent the discomfort and unease that both the mother and the son feel in their lives. They rarely feel relaxed around each other, which builds tension and introduces the conflict before any dialogue is spoken.",
+        "tags":["Symbolism", "Exposition", "Misery", "Context", "Illness"]
+    },
+    {
+        "id":"m018",
+        "quote":"her mouth tightly shut and prim and anaemic. ",
+        "author":"Peter Laing",
+        "analysis":"Links to her illness, as ‘anaemic’ implies pale, colourless, and ill, while ‘prim’ suggests that her face has a stiff and disapproving appearance.",
+        "tags":["Characterisation", "Mother", "Word Choice", "Polysyndeton", "Rule of Three", "Illness"]
+    },
+    {
+        "id":"m019",
+        "quote":"There was a bitter smile on her lips",
+        "author":"Peter Laing",
+        "analysis":"Characterises the mother as mean and unloving. The word ‘bitter’ is repeated numerous times throughout the story to emphasise her spite and resentment of her son.",
+        "tags":["Characterisation", "Word Choice", "Mother", "Unkindness", "Repetition", "Motif"]
+    },
+    {
+        "id":"m020",
+        "quote":"just as you sometimes see the insurance man coming to the door with the same smile each day,",
+        "author":"Peter Laing",
+        "analysis":"Imagery comparing her to an insurance man, which suggests that she is selfish and dislikeable. Her smile appears to be one of malice rather than of kindness.",
+        "tags":["Characterisation", "Mother", "Simile", "Unkindness"]
+    },
+    {
+        "id":"m021",
+        "quote":"as if the woman were wrestling with some terrible witch’s idea in dreams.",
+        "author":"Peter Laing",
+        "analysis":"The mother is tormented by her illness, almost fighting herself internally, which perhaps explains the reason for her personality throughout the story.",
+        "tags":["Characterisation", "Mother", "Simile", "Isolation", "Hatred", "Misery", "Illness"]
+    },
+    {
+        "id":"m022",
+        "quote":"The sticks fell out of place and he cursed vindictively and helplessly.",
+        "author":"Peter Laing",
+        "analysis":"His clumsiness and subsequent response implies that he feels stressed and overwhelmed by this life of misery.",
+        "tags":["Characterisation", "Son", "Incompetence", "Word Choice", "Misery", "Tension"]
+    },
+    {
+        "id":"m023",
+        "quote":"some state of innocence, some state to which he could not return:",
+        "author":"Peter Laing",
+        "analysis":"The son appears to be reminiscing of the old times, before his mother fell ill and possibly when his father was still around. This nostalgic memory is one of the only things which seems to bring him joy in the entire story.",
+        "tags":["Nostalgia", "Upbringing", "Family", "Contentment", "Son"]
+    },
+    {
+        "id":"m024",
+        "quote":"which immediately became still and dangerous again.",
+        "author":"Peter Laing",
+        "analysis":"He is returning from this dreamlike nostalgia to the hardship of the present and therefore realises the reality which he faces. Note the sudden change and contrast between ‘innocence’ and ‘dangerous’",
+        "tags":["Contrast", "Realisation", "Misery", "Word Choice"]
+    },
+    {
+        "id":"m025",
+        "quote":"The clock struck five wheezingly",
+        "author":"Peter Laing",
+        "analysis":"’Wheezingly’ suggests difficulty and/or reluctance, literally that caused by breathing issues, but here it is used metaphorically to imply that even the clock feels the struggle of their lives and doesn’t want to move forwards.",
+        "tags":["Word Choice", "Personification", "Reluctance", "Monotony", "Illness"]
+    },
+    {
+        "id":"m026",
+        "quote":"‘It’s only you.’ There was relief in the voice, but there was a curious hint of contempt or acceptance.",
+        "author":"Peter Laing",
+        "analysis":"The mother is relieved and somewhat thankful to know that it is only her son there, and not someone who has broken in, yet she is a bit disappointed that it is the son, whom she clearly doesn’t care for.",
+        "tags":["Characterisation", "Mother", "Unkindness", "Tone", "Word Choice"]
+    },
+    {
+        "id":"m027",
+        "quote":"snapped pettishly,",
+        "author":"Peter Laing",
+        "analysis":"Suggests a sort of impulsive, unreasonable tone, which again characterises the mother as highly unkind and unreasonable towards her son.",
+        "tags":["Mother", "Hatred", "Tone", "Selfishness", "Conflict"]
+    },
+    {
+        "id":"m028",
+        "quote":"I sometimes don’t know why we christened you John",
+        "author":"Peter Laing",
+        "analysis":"The mother seems to regret having her son, as she has now effectively disowned him.",
+        "tags":["Mother", "Family", "Hatred", "Son", "Unkindness", "Denial"]
+    },
+    {
+        "id":"m029",
+        "quote":"My father was never like you. He was a man who knew his business.",
+        "author":"Peter Laing",
+        "analysis":"She draws a comparison between the son and his father. The father was evidently more competent and thus valuable in her eyes, whereas the son is seen as a waste of space.",
+        "tags":["Family", "Contrast", "Incompetence", "Unkindness", "Change", "Judgement", "Denial"]
+    },
+    {
+        "id":"m030",
+        "quote":"he said despairingly.",
+        "author":"Peter Laing",
+        "analysis":"The son is obviously used to these negative, hurtful comments and therefore simply ignores them. He feels powerless and knows he can’t do anything to change her mind.",
+        "tags":["Tone", "Son", "Monotony", "Misery", "Avoidance"]
+    },
+    {
+        "id":"m031",
+        "quote":"Can’t you get a new record for your gramophone.",
+        "author":"Peter Laing",
+        "analysis":"A metaphor for the mother’s stubbornness. The son compares her to a gramophone with only a select few records, suggesting that she eternally repeats the same arguments.",
+        "tags":["Imagery", "Metaphor", "Characterisation", "Mother", "Monotony", "Permanence"]
+    },
+    {
+        "id":"m032",
+        "quote":"But she wasn’t to be stopped.",
+        "author":"Peter Laing",
+        "analysis":"Emphasises the unceasing, relentless nature of the mother’s mean and unforgiving comments.",
+        "tags":["Characterisation", "Mother", "Permanence", "Conflict"]
+    },
+    {
+        "id":"m033",
+        "quote":"You keep mooning about the house, pacing up and down with your hands in your pockets.",
+        "author":"Peter Laing",
+        "analysis":"He has apparently been wandering around the house in an aimless manner, which is likely because he always has stuff on his mind and feels stressed out by dealing with his mother.",
+        "tags":["Word Choice", "Misery", "Son", "Conflict", "Judgement", "Paranoia"]
+    },
+    {
+        "id":"m034",
+        "quote":"you’ll be taken to the asylum.",
+        "author":"Peter Laing",
+        "analysis":"She seems to be treating the son’s stress and depression as sins, writing him off as crazy instead of understanding that she is the one causing it all.",
+        "tags":["Mother", "Son", "Conflict", "Unkindness", "Ignorance", "Judgement", "Paranoia"]
+    },
+    {
+        "id":"m035",
+        "quote":"Your father’s people had something wrong with their heads, it was in your family but not in ours.",
+        "author":"Peter Laing",
+        "analysis":"She feels a sense of superiority despite being physically weak. She thinks highly of herself, while making excuses to put the son down, portraying her as arrogant and wicked. This is also incredibly discouraging for the son.",
+        "tags":["Family", "Irony", "Arrogance", "Unkindness", "Conflict", "Paranoia", "Denial"]
+    },
+    {
+        "id":"m036",
+        "quote":"She had always looked upon him as her husband’s son, not as her own",
+        "author":"Peter Laing",
+        "analysis":"The mother accepts no responsibility for the faults passed onto the son, characterising her as quite selfish. Also shows how little she cares for him now that the father is gone.",
+        "tags":["Family", "Context", "Selfishness", "Unkindness", "Judgement", "Identity", "Denial"]
     },
     {
         "id":"m037",
-        "quote":"The forehead was smooth and tanned, the nose thin though not incisive, the mouth curved and petulant, and the chin small and round",
+        "quote":"all his faults she attributed to hereditary weaknesses on his father’s side.",
         "author":"Peter Laing",
-        "analysis":"The son is described as ‘handsome’ and numerous physical traits are listed out, which emphasises his youth and therefore his potential for a great life, but that he is being held back by his mother.",
-        "tags":[]
+        "analysis":"She is unwilling to take blame for anything, and instead pins it solely on the father’s genetics, which is highly unlikely, even ironic given that many of these faults are not genetic at all, but rather consequential of his circumstances.",
+        "tags":["Characterisation", "Mother", "Selfishness", "Irony", "Denial"]
     },
     {
         "id":"m038",
-        "quote":"Can’t you get a new record for your gramophone",
+        "quote":"He pottered about, putting water in the kettle, ",
         "author":"Peter Laing",
-        "analysis":"A metaphor for the mother’s stubbornness. The son compares her to a gramophone with only a select few records, suggesting that she eternally repeats the same arguments.",
-        "tags":[]
+        "analysis":"Suggests that many of his tasks are rather trivial, dull, and simple, hence why the mother feels he is useless.",
+        "tags":["Context", "Son", "Monotony", "Sacrifice", "Paranoia"]
     },
     {
         "id":"m039",
-        "quote":"netted by little red lines which divided them up like a graph",
+        "quote":"waiting desperately for the sibilant noise to stop.",
         "author":"Peter Laing",
-        "analysis":"The colour red has connotations of anger or danger, therefore the red lines on the son’s face hint at his built-up rage.",
-        "tags":[]
+        "analysis":"A loud, annoying hissing sound is coming from the kettle. This could, however, also be symbolic of the mother’s comments, implying that she is snakelike and evil.",
+        "tags":["Word Choice", "Imagery", "Symbolism", "Unkindness", "Hatred", "Characterisation", "Mother", "Paranoia"]
     },
     {
         "id":"m040",
-        "quote":"He moved about inside this sea of sound trying to keep detached, trying to force himself from listening",
+        "quote":"He moved about inside this sea of sound trying to keep detached, trying to force himself from listening.",
         "author":"Peter Laing",
         "analysis":"The imagery of the sea suggests that he is metaphorically drowning in his mother’s insults, and could also symbolise the isolation that he feels, as if he’s trapped out at sea.",
-        "tags":[]
+        "tags":["Imagery", "Metaphor", "Son", "Isolation", "Misery", "Avoidance", "Paranoia"]
     },
     {
         "id":"m041",
-        "quote":"burst venomously towards him",
+        "quote":"burst venomously towards him,",
         "author":"Peter Laing",
         "analysis":"Links back to the comparison of the mother to a snake, who lacks empathy and is seemingly quite aggressive towards her son.",
-        "tags":[]
+        "tags":["Word Choice", "Symbolism", "Characterisation", "Mother", "Hatred"]
     },
     {
         "id":"m042",
-        "quote":"Most often however they stung him and stood quivering in his flesh",
+        "quote":"Most often however they stung him and stood quivering in his flesh,",
         "author":"Peter Laing",
         "analysis":"Suggests that the pain and wounding that he feels mentally due to his mother is so intense and real that it is almost physical.",
-        "tags":[]
+        "tags":["Word Choice", "Imagery", "Metaphor", "Misery", "Hatred"]
     },
     {
         "id":"m043",
-        "quote":"she enjoyed pricking him with her subtle arrows",
+        "quote":"she enjoyed pricking him with her subtle arrows. ",
         "author":"Peter Laing",
-        "analysis":"Links to the previous references to arrows, such as the \"bitter barbs\" and \"quivering\", which altogether implies that she inflicts real damage upon him.",
-        "tags":[]
+        "analysis":"Links to the previous references to arrows, such as the “bitter barbs” and “quivering”, which altogether implies that she inflicts real damage upon him.",
+        "tags":["Characterisation", "Mother", "Conflict", "Unkindness", "Selfishness"]
     },
     {
         "id":"m044",
-        "quote":"He swung round on his eddying island as if he had seen that the seas were relenting, drawing back",
-        "author":"Peter Laing",
-        "analysis":"Links to the previous metaphor of drowning in the \"sea of sound\" by mentioning his \"eddying island\", which also brings in the theme of isolation.\nThe idea that \"the seas were relenting\" relates to the idea that his mother seemed to be calming down, however this would appear to be a disillusion.",
-        "tags":[]
-    },
-    {
-        "id":"m045",
-        "quote":"‘Yes,’ he said joyously",
-        "author":"Peter Laing",
-        "analysis":"Despite her clear lack of care for him and his actions, he still feels somewhat hopeful that she’ll be appreciative of his successes.",
-        "tags":[]
-    },
-    {
-        "id":"m046",
-        "quote":"His weakness was pitiful: his childish blue eyes brimmed with tears",
-        "author":"Peter Laing",
-        "analysis":"Reinforces his characterisation as childish and immature. Suggests that his childhood has been stunted in some way and thus he never fully reached adulthood despite his physical age.",
-        "tags":[]
-    },
-    {
-        "id":"m047",
-        "quote":"murderous determination",
-        "author":"Peter Laing",
-        "analysis":"This contrast between innocent childishness and dangerous thoughts parallels the beginning of the story where he is described as both \"deep and unquestioning\", but also \"dangerous and irresponsible\".",
-        "tags":[]
-    },
-    {
-        "id":"m048",
-        "quote":"little red lines which crossed and recrossed like a graph",
-        "author":"Peter Laing",
-        "analysis":"Again paralleling the introduction, ICS reiterates the idea of the red lines, which as previously discussed, could be symbolic of his built up fury towards his mother.",
-        "tags":[]
-    },
-    {
-        "id":"m049",
-        "quote":"Anyway he’s got his day’s work to do and you haven’t.",
-        "author":"Peter Laing",
-        "analysis":"This statement is ironic and highlights the disconnect between the thoughts of the mother and the son. The son is of course working, only around the house instead of in a typical job. He is portrayed as being constantly busy and having to do things, yet the mother sees him as lazy and useless.",
-        "tags":[]
-    },
-    {
-        "id":"m050",
-        "quote":"Of course Roddy doesn’t want to help you",
-        "author":"Peter Laing",
-        "analysis":"Here the mother is making the son feel worthless compared to the others of his age, despite the fact that there’s no real reason for any of the others to dislike him. She is trying to convince him that the outer world will share her evil viewpoint.",
-        "tags":[]
-    },
-    {
-        "id":"m051",
-        "quote":"It isn’t my fault I haven’t.",
-        "author":"Peter Laing",
-        "analysis":"The son claims that the sole reason for him being trapped in this reality is his mother, which could be true, but is made deliberately ambiguous by the story’s third-person limited narrative, which focuses only on the son’s point of view.\nWe are unsure of what the son’s true personality was like before the events of the story, and therefore the mother could be right about his lack of ambition.",
-        "tags":[]
-    },
-    {
-        "id":"m052",
         "quote":"He had now become so sensitive",
         "author":"Peter Laing",
         "analysis":"Highlights the negative impact that their broken relationship has had on him, with the son now changing and becoming more insecure and isolated.",
-        "tags":[]
+        "tags":["Characterisation", "Son", "Isolation", "Misery", "Belonging", "Paranoia"]
+    },
+    {
+        "id":"m045",
+        "quote":"He swung round on his eddying island as if he had seen that the seas were relenting, drawing back.",
+        "author":"Peter Laing",
+        "analysis":"Links to the previous metaphor of drowning in the “sea of sound” by mentioning his “eddying island”, which also brings in the theme of isolation.\nThe idea that “the seas were relenting” relates to the idea that his mother seemed to be calming down, however this would appear to be a disillusion.",
+        "tags":["Reference", "Imagery", "Metaphor", "Isolation", "Exclusion"]
+    },
+    {
+        "id":"m046",
+        "quote":"‘Yes,’ he said joyously.",
+        "author":"Peter Laing",
+        "analysis":"Despite her clear lack of care for him and his actions, he still feels somewhat hopeful that she’ll be appreciative of his successes.",
+        "tags":["Family", "Son", "Tone"]
+    },
+    {
+        "id":"m047",
+        "quote":"His weakness was pitiful: his childish blue eyes brimmed with tears.",
+        "author":"Peter Laing",
+        "analysis":"Reinforces his characterisation as childish and immature. Suggests that his childhood has been stunted in some way and thus he never fully reached adulthood despite his physical age.\nThe colour of his eyes likely represents his sad emotional state as blue is typically symbolic of sadness.",
+        "tags":["Characterisation", "Son", "Naivety", "Incompetence", "Colour"]
+    },
+    {
+        "id":"m048",
+        "quote":"murderous determination:",
+        "author":"Peter Laing",
+        "analysis":"This contrast between innocent childishness and dangerous thoughts parallels the beginning of the story where he is described as both “deep and unquestioning”, but also “dangerous and irresponsible”.",
+        "tags":["Word Choice", "Contrast", "Characterisation", "Hatred"]
+    },
+    {
+        "id":"m049",
+        "quote":"little red lines which crossed and recrossed like a graph.",
+        "author":"Peter Laing",
+        "analysis":"Again paralleling the introduction, ICS reiterates the idea of the red lines, which as previously discussed, could be symbolic of his built up fury towards his mother.",
+        "tags":["Reference", "Colour", "Simile", "Characterisation", "Hatred", "Motif"]
+    },
+    {
+        "id":"m050",
+        "quote":"Of course Roddy doesn’t want to help you.",
+        "author":"Peter Laing",
+        "analysis":"Here the mother is making the son feel worthless compared to the others of his age, despite the fact that there’s no real reason for any of the others to dislike him. She is trying to convince him that the outer world will share her evil viewpoint.",
+        "tags":["Mother", "Unkindness", "Irony", "Selfishness", "Judgement"]
+    },
+    {
+        "id":"m051",
+        "quote":"Anyway he’s got his day’s work to do and you haven’t.",
+        "author":"Peter Laing",
+        "analysis":"This statement is ironic and highlights the disconnect between the thoughts of the mother and the son. The son is of course working, only around the house instead of in a typical job. He is portrayed as being constantly busy and having to do things, yet the mother sees him as lazy and useless.",
+        "tags":["Irony", "Ignorance", "Mother", "Conflict", "Sacrifice"]
+    },
+    {
+        "id":"m052",
+        "quote":"It isn’t my fault I haven’t.",
+        "author":"Peter Laing",
+        "analysis":"The son claims that the sole reason for him being trapped in this reality is his mother, which could be true, but is made deliberately ambiguous by the story’s third-person limited narrative, which focuses only on the son’s point of view.\nWe are unsure of what the son’s true personality was like before the events of the story, and therefore the mother could be right about his lack of ambition.",
+        "tags":["Characterisation", "Son", "Isolation", "Sacrifice", "Narrative", "Denial"]
     },
     {
         "id":"m053",
-        "quote":"The old interminable argument was beginning again: he always made fresh attacks but as often retired defeated",
+        "quote":"The old interminable argument was beginning again: he always made fresh attacks but as often retired defeated.",
         "author":"Peter Laing",
-        "analysis":"Shows how stubborn the mother is, apparently making the same or similar arguments every day, which emphasises the monotony of their lives explored previously.\nThe idea that the son \"as often retired defeated\" also demonstrates how powerless he feels in this situation.",
-        "tags":[]
+        "analysis":"Shows how stubborn the mother is, apparently making the same or similar arguments every day, which emphasises the monotony of their lives explored previously.\nThe idea that the son “as often retired defeated” also demonstrates how powerless he feels in this situation.",
+        "tags":["Characterisation", "Mother", "Permanence", "Word Choice", "Monotony"]
     },
     {
         "id":"m054",
-        "quote":"It’s because you’ve been in bed there for ten years now",
+        "quote":"It’s because you’ve been in bed there for ten years now. ",
         "author":"Peter Laing",
         "analysis":"The son is taking some action here by blaming this mess on his mother, which it may be in part, however the fact that these troubles still persist after 10 years highlights the son’s timidness and lack of courage to make change.",
-        "tags":[]
+        "tags":["Character Arc", "Hatred", "Permanence", "Reluctance", "Illness", "Denial"]
     },
     {
         "id":"m055",
-        "quote":"all the time he knew she would never say, and she knew that he would never take any action",
+        "quote":"Do you <i>want</i> me to take a job? I’ll take a job tomorrow… if you’ll only say!",
         "author":"Peter Laing",
-        "analysis":"There is a clear back-and-forth between the mother and son, hence why they both feel trapped. The mother is physically unable to do anything, having been hindered by her illness.\nThe son, on the other hand, is being held back only mentally, primarily by his own lack of confidence and self-esteem, but also by his laziness and lack of ambition. He blames everything on his mother, however shows no real determination as he technically *could* leave.",
-        "tags":[]
+        "analysis":"The truth behind this line is ambiguous from both sides. The son claims that he would be willing to take a job if he had the opportunity, but since the story is told entirely from his perspective, it is unclear whether or not it is really just laziness.\nThe mother, although constantly pushing him to get a job, likely doesn’t actually want him to as she knows she is dependent on his care. What this suggests is that her evil comments may be, at least in part, reverse psychology to prevent him from doing so.",
+        "tags":["Hatred", "Sacrifice", "Irony", "Awareness", "Reluctance", "Rhetorical Question", "Denial"]
     },
     {
         "id":"m056",
-        "quote":"He was making the same eternal argument and the same eternal concession",
+        "quote":"He was making the same eternal argument and the same eternal concession:",
         "author":"Peter Laing",
         "analysis":"Emphasises the never-ending failure that comes from his repeated attempts to suppress his mother’s comments. He is obviously hurt by them and wants her to stop, but always ends up giving up.",
-        "tags":[]
+        "tags":["Repetition", "Monotony", "Permanence", "Characterisation", "Son"]
     },
     {
         "id":"m057",
-        "quote":"Why, you’d be no good in a job. The manager would always be coming to show you what you had done wrong, and you’d get confused with all those strange faces and they’d laugh at you",
+        "quote":"all the time he knew she would never say, and she knew that he would never take any action.",
         "author":"Peter Laing",
-        "analysis":"The mother is again comparing the son to his peers in order to put him down. She thinks of him as useless and incompetent and is trying to make him think the same way of himself.",
-        "tags":[]
+        "analysis":"There is a clear back-and-forth between the mother and son, hence why they both feel trapped. The mother is physically unable to do anything, having been hindered by her illness.\nThe son, on the other hand, is being held back only mentally, primarily by his own lack of confidence and self-esteem, but also by his laziness and lack of ambition. He blames everything on his mother, however shows no real determination as he technically <i>could</i> leave.",
+        "tags":["Repetition", "Contrast", "Conflict", "Mother", "Son", "Denial"]
     },
     {
         "id":"m058",
-        "quote":"mute, suffering animal",
+        "quote":"Why, you’d be no good in a job. The manager would always be coming to show you what you had done wrong, and you’d get confused with all those strange faces and they’d laugh at you.",
         "author":"Peter Laing",
-        "analysis":"By comparing the son to an animal, ICS is implying a sort of primitiveness and lack of understanding, which again links to his immaturity.",
-        "tags":[]
+        "analysis":"The mother is again comparing the son to his peers in order to put him down. She thinks of him as useless and incompetent and is trying to make him think the same way of himself.",
+        "tags":["Mother", "Unkindness", "Incompetence", "Isolation", "Listing", "Judgement"]
     },
     {
         "id":"m059",
-        "quote":"His babyish eyes would be smitten by a hellish despair",
+        "quote":"His babyish eyes would be smitten by a hellish despair,",
         "author":"Peter Laing",
-        "analysis":"The contrast between \"babyish\" and \"hellish\" here highlights the power imbalance between the mother and the son, where she, despite being bedridden, is much more dominant and abusive.",
-        "tags":[]
+        "analysis":"The contrast between “babyish” and “hellish” here highlights the power imbalance between the mother and the son, where she, despite being bedridden, is much more dominant and abusive.",
+        "tags":["Contrast", "Juxtaposition", "Conflict", "Naivety", "Unkindness"]
     },
     {
         "id":"m060",
-        "quote":"she would strike his confidence dead with her hateful words",
+        "quote":"mute, suffering animal.",
         "author":"Peter Laing",
-        "analysis":"Her comments have had a profound impact on the son’s mental health, to the point that he feels unable to escape this bitter reality.",
-        "tags":[]
+        "analysis":"By comparing the son to an animal, ICS is implying a sort of primitiveness and lack of understanding, which again links to his immaturity.",
+        "tags":["Imagery", "Metaphor", "Word Choice", "Naivety", "Characterisation", "Son"]
     },
     {
         "id":"m061",
-        "quote":"his cowardice still lay there waiting for him, particularly in the dark nights of his mind when the shadow lay as if by a road, watching him, tripping behind him, changing its shape",
+        "quote":"she would strike his confidence dead with her hateful words.",
         "author":"Peter Laing",
-        "analysis":"His cowardice and insecurity is being personified like some sort of predatory creature which is hunting him down, causing him to be unable to fix his problems.",
-        "tags":[]
+        "analysis":"Her comments have had a profound impact on the son’s mental health, to the point that he feels unable to escape this bitter reality.",
+        "tags":["Metaphor", "Son", "Misery", "Isolation"]
     },
     {
         "id":"m062",
-        "quote":"Why should anybody laugh at me? They don’t laugh at the other chaps. Everybody makes mistakes. I could learn as quickly as any of them.",
+        "quote":"his cowardice still lay there waiting for him, particularly in the dark nights of his mind when the shadow lay as if by a road, watching him, tripping behind him, changing its shape, ",
         "author":"Peter Laing",
-        "analysis":"All of these comments are causing the son to doubt his own worth and abilities. He now has to actually tell himself that it’s meaningless in order to prevent himself from truly believing that he is less valuable than the others of his age.",
-        "tags":[]
+        "analysis":"His cowardice and insecurity is being personified like some sort of predatory creature which is hunting him down, causing him to be unable to fix his problems.",
+        "tags":["Personification", "Simile", "Imagery", "Misery", "Isolation"]
     },
     {
         "id":"m063",
         "quote":"till the sun came to shine on it",
         "author":"Peter Laing",
         "analysis":"Implies that this cowardice is like a sort of monster that is dispelled by light, linking to the idea that the son may be afraid of the dark, a common fear among children.",
-        "tags":[]
+        "tags":["Metaphor", "Personification", "Son", "Naivety"]
     },
     {
         "id":"m064",
-        "quote":"Why, I used to do his lessons for Norman Slater",
+        "quote":"Why should anybody laugh at me? They don’t laugh at the other chaps. Everybody makes mistakes. I could learn as quickly as any of them. ",
         "author":"Peter Laing",
-        "analysis":"The son believes that he *should* be a competent worker as he used to do lessons, presumably before his mother fell ill. This shows how nostalgic he feels of the past and how he misses his old life.",
-        "tags":[]
+        "analysis":"All of these comments are causing the son to doubt his own worth and abilities. He now has to actually tell himself that it’s meaningless in order to prevent himself from truly believing that he is less valuable than the others of his age.",
+        "tags":["Rhetorical Question", "Identity", "Incompetence", "Sentence Structure", "Denial"]
     },
     {
         "id":"m065",
-        "quote":"that bitter smile still upon her face",
+        "quote":"Why, I used to do his lessons for Norman Slater.",
         "author":"Peter Laing",
-        "analysis":"Referencing the introduction (when the mother wakes up), where her selfish, false smile is described. Note that this is the third time the word ’bitter’ has been used to describe her.",
-        "tags":[]
+        "analysis":"The son believes that he <i>should</i> be a competent worker as he used to do lessons, presumably before his mother fell ill. This shows how nostalgic he feels of the past and how he misses his old life.",
+        "tags":["Incompetence", "Nostalgia", "Son", "Denial"]
     },
     {
         "id":"m066",
-        "quote":"Fat good you’d be at a job",
+        "quote":"that bitter smile still upon her face.",
         "author":"Peter Laing",
-        "analysis":"On a surface level, the mother appears to be merely insulting the son’s skills, however this could be interpreted differently. The mother may be aware that she depends on her son, and realises that she will die if he leaves to get a proper job, providing a reason as to why she is trapping him in this eternal cycle.",
-        "tags":[]
+        "analysis":"Referencing the introduction (when the mother wakes up), where her selfish, false smile is described. Note that this is the third time the word ’bitter’ has been used to describe her.",
+        "tags":["Reference", "Characterisation", "Mother", "Word Choice", "Unkindness", "Selfishness", "Motif"]
     },
     {
         "id":"m067",
-        "quote":"Lessons aren’t everything. You aren’t a mechanic. You can’t do anything with your hands",
+        "quote":"Lessons aren’t everything. You aren’t a mechanic. You can’t do anything with your hands.",
         "author":"Peter Laing",
-        "analysis":"Here the mother immediately dismisses and disputes the son’s argument, which implies that this may be what normally happens, hence why earlier on it was described that he \"as often retired defeated.\"",
-        "tags":[]
+        "analysis":"Here the mother immediately dismisses and disputes the son’s argument, which implies that this may be what normally happens, hence why earlier on it was described that he “as often retired defeated.”",
+        "tags":["Unkindness", "Incompetence", "Exclusion"]
     },
     {
         "id":"m068",
-        "quote":"This ignorance and inaptitude of his puzzled himself",
+        "quote":"Fat good you’d be at a job.",
         "author":"Peter Laing",
-        "analysis":"Illustrates his lack of self esteem - even he feels frustrated with his inability to perform basic tasks.",
-        "tags":[]
+        "analysis":"On a surface level, the mother appears to be merely insulting the son’s skills, however this could be interpreted differently. The mother may be aware that she depends on her son, and realises that she will die if he leaves to get a proper job, providing a reason as to why she is trapping him in this eternal cycle.",
+        "tags":["Unkindness", "Incompetence", "Awareness", "Permanence", "Isolation"]
     },
     {
         "id":"m069",
-        "quote":"it was as if something had gone wrong in his childhood",
+        "quote":"This ignorance and inaptitude of his puzzled himself.",
         "author":"Peter Laing",
-        "analysis":"The recurring idea of stunted growth is brought up again here, directly stating the son’s awareness of something going wrong in life (his mother’s illness) that prevented him from properly maturing.",
-        "tags":[]
+        "analysis":"Illustrates his lack of self esteem - even he feels frustrated with his inability to perform basic tasks.",
+        "tags":["Incompetence", "Identity", "Son", "Paranoia"]
     },
     {
         "id":"m070",
-        "quote":"which hardened into a wall beyond which he could not go through",
+        "quote":"it was as if something had gone wrong in his childhood,",
         "author":"Peter Laing",
-        "analysis":"Imagery of a literal barrier being created by his incompetence. He wants to proceed forwards, but is being blocked and hindered by something (his mother).",
-        "tags":[]
+        "analysis":"The recurring idea of stunted growth is brought up again here, directly stating the son’s awareness of something going wrong in life (his mother’s illness) that prevented him from properly maturing.",
+        "tags":["Characterisation", "Son", "Naivety", "Incompetence"]
     },
     {
         "id":"m071",
-        "quote":"paradise lay yonder",
+        "quote":"which hardened into a wall beyond which he could not go through",
         "author":"Peter Laing",
-        "analysis":"Beyond this \"wall\" lies a hopeful, prosperous future for the son, however it seems to be out of reach for him as he is unwilling to leave.",
-        "tags":[]
+        "analysis":"Imagery of a literal barrier being created by his incompetence. He wants to proceed forwards, but is being blocked and hindered by something (his mother).",
+        "tags":["Imagery", "Metaphor", "Isolation", "Permanence", "Reluctance", "Denial"]
     },
     {
         "id":"m072",
-        "quote":"watched the fire leaping about it as if it were a soul in hell",
+        "quote":"paradise lay yonder.",
         "author":"Peter Laing",
-        "analysis":"Potential symbolism of himself, where his house and circumstances are being described as \"hell\", while he is the lost soul, begging for freedom and peace.",
-        "tags":[]
+        "analysis":"Beyond this “wall” lies a hopeful, prosperous future for the son, however it seems to be out of reach for him as he is unwilling to leave.",
+        "tags":["Imagery", "Isolation", "Word Choice", "Reluctance"]
     },
     {
         "id":"m073",
-        "quote":"he felt a faint nausea as he poured the tea into them",
+        "quote":"watched the fire leaping about it as if it were a soul in hell.",
         "author":"Peter Laing",
-        "analysis":"This is likely because he is overworked and constantly busy caring for his mother.",
-        "tags":[]
+        "analysis":"Potential symbolism of himself, where his house and circumstances are being described as “hell”, while he is the lost soul, begging for freedom and peace.",
+        "tags":["Personification", "Symbolism", "Son", "Misery", "Isolation"]
     },
     {
         "id":"m074",
-        "quote":"settling herself laboriously back against the pillows",
+        "quote":"he felt a faint nausea as he poured the tea into them.",
         "author":"Peter Laing",
-        "analysis":"Explains how bad the mother’s condition must be, if even readjusting herself in bed is difficult. May be intentional to make the reader feel somewhat sympathetic towards the mother.",
-        "tags":[]
+        "analysis":"This is likely because he is overworked and constantly busy caring for his mother.",
+        "tags":["Context", "Monotony", "Sacrifice", "Illness"]
     },
     {
         "id":"m075",
-        "quote":"Why didn’t you wash this tray? Can’t you see it’s all dirty round the edges?",
+        "quote":"settling herself laboriously back against the pillows.",
         "author":"Peter Laing",
-        "analysis":"Despite the son toiling and slaving away each and every day, the mother is incredibly ungrateful for it and instead manages to pick holes in every kind action.",
-        "tags":[]
+        "analysis":"Explains how bad the mother’s condition must be, if even readjusting herself in bed is difficult. May be intentional to make the reader feel somewhat sympathetic towards the mother.",
+        "tags":["Word Choice", "Mother", "Illness"]
     },
     {
         "id":"m076",
-        "quote":"spiteful, bitter face",
+        "quote":"Why didn’t you wash this tray? Can’t you see it’s all dirty round the edges?",
         "author":"Peter Laing",
-        "analysis":"Again repeating the motif of bitterness.",
-        "tags":[]
+        "analysis":"Despite the son toiling and slaving away each and every day, the mother is incredibly ungrateful for it and instead manages to pick holes in every kind action.",
+        "tags":["Sacrifice", "Rhetorical Question", "Selfishness", "Unkindness", "Judgement"]
     },
     {
         "id":"m077",
-        "quote":"he took out a pack of cigarettes and lit one nervously and self-consciously",
+        "quote":"spiteful, bitter face.",
         "author":"Peter Laing",
-        "analysis":"Smoking is known to induce feelings of relaxation or calmness, therefore he likely smokes as a form of escapism from the torture that he faces on a daily basis.",
-        "tags":[]
+        "analysis":"Again repeating the motif of bitterness.",
+        "tags":["Word Choice", "Motif", "Characterisation", "Mother"]
     },
     {
         "id":"m078",
-        "quote":"Cigarettes again? Don’t you know that there’s very little money coming into the house",
+        "quote":"he took out a pack of cigarettes and lit one nervously and self-consciously.",
         "author":"Peter Laing",
-        "analysis":"The mother is furious that the son is wasting their limited budget on himself rather than on her, which even further characterises her as selfish.",
-        "tags":[]
+        "analysis":"Smoking is known to induce feelings of relaxation or calmness, therefore he likely smokes as a form of escapism from the torture that he faces on a daily basis.",
+        "tags":["Misery", "Sacrifice", "Identity", "Son", "Contentment", "Paranoia"]
     },
     {
         "id":"m079",
-        "quote":"If it weren’t for your father’s pension where would you be",
+        "quote":"Cigarettes again? Don’t you know that there’s very little money coming into the house. ",
         "author":"Peter Laing",
-        "analysis":"Links back to the idea of the father’s competence that she believes was not passed onto the son since he is unemployed.",
-        "tags":[]
+        "analysis":"The mother is furious that the son is wasting their limited budget on himself rather than on her, which even further characterises her as selfish.",
+        "tags":["Rhetorical Question", "Poverty", "Selfishness", "Mother", "Judgement"]
     },
     {
         "id":"m080",
-        "quote":"Why are you sitting there like a dummy, you silly fool!",
+        "quote":"If it weren’t for your father’s pension where would you be…",
         "author":"Peter Laing",
-        "analysis":"Her resentful emotions reach a peak here, as she is clearly impatient and fed up with the son’s behaviour, which portrays her as extremely heartless and dislikeable.",
-        "tags":[]
+        "analysis":"Links back to the idea of the father’s competence that she believes was not passed onto the son since he is unemployed.",
+        "tags":["Reference", "Family", "Poverty", "Unkindness", "Incompetence", "Upbringing"]
     },
     {
         "id":"m081",
-        "quote":"He took no notice",
+        "quote":"Why are you sitting there like a dummy, you silly fool!",
         "author":"Peter Laing",
-        "analysis":"The son is likely used to this, with it potentially happening daily as is hinted at through the pathetic fallacy in the introduction.",
-        "tags":[]
+        "analysis":"Her resentful emotions reach a peak here, as she is clearly impatient and fed up with the son’s behaviour, which portrays her as extremely heartless and dislikeable.",
+        "tags":["Tension", "Hatred", "Unkindness", "Rhetorical Question"]
     },
     {
         "id":"m082",
-        "quote":"he felt himself in a dark cave from which there was never to be any escape",
+        "quote":"He took no notice,",
         "author":"Peter Laing",
-        "analysis":"Reflects the son’s mental state - he is detached from reality and confined to a dark place where he cannot see the light or the way forwards.",
-        "tags":[]
+        "analysis":"The son is likely used to this, with it potentially happening daily as is hinted at through the pathetic fallacy in the introduction.",
+        "tags":["Son", "Avoidance", "Permanence"]
     },
     {
         "id":"m083",
-        "quote":"they had lost their import, their impact, and their usefulness",
+        "quote":"he felt himself in a dark cave from which there was never to be any escape.",
         "author":"Peter Laing",
-        "analysis":"The listing here emphasises how powerless the son is, being unable to even stand up to her if he tries.",
-        "tags":[]
+        "analysis":"Reflects the son’s mental state - he is detached from reality and confined to a dark place where he cannot see the light or the way forwards.",
+        "tags":["Symbolism", "Isolation", "Metaphor", "Son"]
     },
     {
         "id":"m084",
-        "quote":"Now however he was looking at her as if he had never seen her before",
+        "quote":"they had lost their import, their impact, and their usefulness.",
         "author":"Peter Laing",
-        "analysis":"The son appears to have had a revelation that he feels may finally allow him to overpower his mother’s bitter comments.",
-        "tags":[]
+        "analysis":"The listing here emphasises how powerless the son is, being unable to even stand up to her if he tries.",
+        "tags":["Rule of Three", "Listing", "Son", "Permanence"]
     },
     {
         "id":"m085",
-        "quote":"birdlike quickness: she seemed to be pecking at the bread with a sharp beak in the same way as she pecked cruelly at his defences",
+        "quote":"Now however he was looking at her as if he had never seen her before.",
         "author":"Peter Laing",
-        "analysis":"Comparing her to a bird (likely a bird of prey), suggesting that he is, at this moment, thinking of her as animalistic rather than human. His sentimentality and care for her is suddenly destroyed, hinting that he may retaliate.",
-        "tags":[]
+        "analysis":"The son appears to have had a revelation that he feels may finally allow him to overpower his mother’s bitter comments.",
+        "tags":["Realisation", "Son", "Hatred", "Conflict", "Character Arc", "Awareness", "Tension", "Judgement"]
     },
     {
         "id":"m086",
-        "quote":"this thing",
+        "quote":"birdlike quickness: she seemed to be pecking at the bread with a sharp beak in the same way as she pecked cruelly at his defences.",
         "author":"Peter Laing",
-        "analysis":"This dehumanises her by referring to her as a ‘thing’ instead of a person, which confirms the ideas of the previous paragraph.",
-        "tags":[]
+        "analysis":"Comparing her to a bird (likely a bird of prey), suggesting that he is, at this moment, thinking of her as animalistic rather than human. His sentimentality and care for her is suddenly destroyed, hinting that he may retaliate.",
+        "tags":["Imagery", "Metaphor", "Symbolism", "Hatred", "Unkindness", "Conflict"]
     },
     {
         "id":"m087",
-        "quote":"What is she anyway?",
+        "quote":"this thing",
         "author":"Peter Laing",
-        "analysis":"The numerous rhetorical questions here emphasise the son’s bewilderment as to why he hasn’t rebelled yet. He seems to have finally discovered some thought that would now allow him to escape.",
-        "tags":[]
+        "analysis":"This dehumanises her by referring to her as a ‘thing’ instead of a person, which confirms the ideas of the previous paragraph.",
+        "tags":["Word Choice", "Hatred", "Conflict", "Son", "Mother"]
     },
     {
         "id":"m088",
-        "quote":"But what if she’s pretending? What if there is nothing wrong with her?",
+        "quote":"What is she anyway?",
         "author":"Peter Laing",
-        "analysis":"The son really appears to be overthinking things, potentially due to paranoia setting in from the isolation that he is enduring.",
-        "tags":[]
+        "analysis":"The numerous rhetorical questions here emphasise the son’s bewilderment as to why he hasn’t rebelled yet. He seems to have finally discovered some thought that would now allow him to escape.",
+        "tags":["Rhetorical Question", "Repetition", "Realisation", "Character Arc", "Denial"]
     },
     {
         "id":"m089",
-        "quote":"At this a rage shook him so great that he flung his half-consumed cigarette in the direction of the fire in an abrupt, savage gesture",
+        "quote":"But what if she’s pretending? What if there is nothing wrong with her? ",
         "author":"Peter Laing",
-        "analysis":"This appears to be the turning point for him. He finally seems to have an opportunity, and is so enraged that he may take action.",
-        "tags":[]
+        "analysis":"The son really appears to be overthinking things, potentially due to paranoia setting in from the isolation that he is enduring.",
+        "tags":["Son", "Isolation", "Paranoia", "Awareness", "Judgement", "Denial"]
     },
     {
         "id":"m090",
-        "quote":"Then he walked to the door, opened it, and stood listening to rain",
+        "quote":"At this a rage shook him so great that he flung his half-consumed cigarette in the direction of the fire in an abrupt, savage gesture.",
         "author":"Peter Laing",
-        "analysis":"This is quite an anti-climax, as we are led to expect something big to happen, yet all he does is take a step outside, which explains why he is still trapped - he just doesn’t have to confidence to do anything about it.\nAlthough ambiguous, the fact that the story ends with rain could also be symbolic of sadness and melancholy as it typically is. Could represent the lack of hope for the son’s future, as if he missed his opportunity.\nThe fact that it rains for the entirety of the story could also be symbolic of the unchanging events of the story, and that nothing will ever improve.",
-        "tags":[]
+        "analysis":"This appears to be the turning point for him. He finally seems to have an opportunity, and is so enraged that he may take action.",
+        "tags":["Hatred", "Tension", "Violence", "Change"]
     },
     {
         "id":"m091",
-        "quote":"That would be the boys going to the town to enjoy themselves",
+        "quote":"That would be the boys going to the town to enjoy themselves. ",
         "author":"Peter Laing",
         "analysis":"Shows how lonely and isolated the son is, being unable to go out and have a social life due to the work he is forced to do for his mother.",
-        "tags":[]
+        "tags":["Son", "Isolation", "Exclusion", "Sacrifice", "Judgement", "Paranoia"]
     },
     {
         "id":"m092",
         "quote":"He shivered inside his loneliness and then rage took hold of him again. How he hated her!",
         "author":"Peter Laing",
         "analysis":"The cost of the son’s duties have ended up being his satisfaction with life. He feels empty and lost, and now realising that this is his mother’s fault, he enters into a state of wrath.",
-        "tags":[]
+        "tags":["Son", "Hatred", "Conflict", "Judgement"]
     },
     {
         "id":"m093",
-        "quote":"rising like a hen’s out of her plain white nightgown",
+        "quote":"rising like a hen’s out of her plain white nightgown.",
         "author":"Peter Laing",
         "analysis":"Shows how physically weak and vulnerable she really is, even comparing her to a stupid, incapable domestic bird. This is what leads us to believe that the son may attempt to kill her so as to end this cycle.",
-        "tags":[]
+        "tags":["Characterisation", "Imagery", "Simile", "Delicacy", "Illness", "Selfishness"]
     },
     {
         "id":"m094",
-        "quote":"he felt as if he were on a boat on the limitless ocean, just as his house was on a limitless moorland",
+        "quote":"he felt as if he were on a boat on the limitless ocean, just as his house was on a limitless moorland.",
         "author":"Peter Laing",
         "analysis":"Compares living on a rural farm to being trapped out at sea, emphasising the lonely, isolating nature of life in a remote village.",
-        "tags":[]
+        "tags":["Reference", "Isolation", "Rurality", "Simile", "Imagery"]
     },
     {
         "id":"m095",
-        "quote":"the rain beat like a benediction on the roof",
+        "quote":"the rain beat like a benediction on the roof.",
         "author":"Peter Laing",
         "analysis":"Pathetic fallacy suggesting that the rain is almost cheering him on to do something; giving him mental clarity and a sense of power.",
-        "tags":[]
+        "tags":["Pathetic Fallacy", "Simile", "Character Arc"]
     },
     {
         "id":"m096",
-        "quote":"His mind was in a turmoil of hate, so that he wanted to smash the cup, smash the furniture, smash the house",
+        "quote":"carrying the rubbish and debris of his mind in its wake.",
         "author":"Peter Laing",
-        "analysis":"By revealing the son’s inner thoughts, we can understand how frustrated he is with the whole ordeal. He is clearly enraged by her ungratefulness and wants to break something, potentially hinting at a violent solution to his problem.",
-        "tags":[]
+        "analysis":"Imagery of the son’s mind being cluttered with worthless, meaningless thoughts, showing how deeply he is affected by his mother’s words.",
+        "tags":["Imagery", "Metaphor", "Isolation", "Hatred", "Judgement"]
     },
     {
         "id":"m097",
-        "quote":"He would show her, avenge her insults with his unintelligent hands",
+        "quote":"His mind was in a turmoil of hate, so that he wanted to smash the cup, smash the furniture, smash the house.",
         "author":"Peter Laing",
-        "analysis":"The son evidently wants to disprove the mother’s mean comments and show her that he is capable by means of attacking her.",
-        "tags":[]
+        "analysis":"By revealing the son’s inner thoughts, we can understand how frustrated he is with the whole ordeal. He is clearly enraged by her ungratefulness and wants to break something, potentially hinting at a violent solution to his problem.",
+        "tags":["Narrative", "Hatred", "Violence", "Word Choice"]
     },
     {
         "id":"m098",
-        "quote":"bitter, bitter smile upon her face",
+        "quote":"He would show her, avenge her insults with his unintelligent hands.",
         "author":"Peter Laing",
-        "analysis":"The repetition of ‘bitter’ twice here reinforces the word as a motif, having been mentioned a total of seven times throughout the story.",
-        "tags":[]
+        "analysis":"The son evidently wants to disprove the mother’s mean comments and show her that he is capable by means of attacking her.",
+        "tags":["Hatred", "Violence", "Character Arc", "Word Choice"]
     },
     {
         "id":"m099",
         "quote":"She was asleep, curled up in the warmth",
         "author":"Peter Laing",
         "analysis":"Ironically, despite all the action going on internally in the son’s head, the mother is asleep for the ending and thus doesn’t even understand how close she came to being murdered there and then.\nThe idea of warmth also provides a contrast with the cold, rainy weather and the bitterness of her own personality, perhaps referencing how much more comfortable her life is compared to the son’s (although that is debatable).",
-        "tags":[]
+        "tags":["Contrast", "Irony", "Juxtaposition", "Ignorance"]
     },
     {
         "id":"m100",
-        "quote":"carrying the rubbish and debris of his mind in its wake",
+        "quote":"bitter, bitter smile upon her face.",
         "author":"Peter Laing",
-        "analysis":"Imagery of the son’s mind being cluttered with worthless, meaningless thoughts, showing how deeply he is affected by his mother’s words.",
-        "tags":[]
+        "analysis":"The repetition of ‘bitter’ twice here reinforces the word as a motif, having been mentioned a total of seven times throughout the story.",
+        "tags":["Repetition", "Mother", "Unkindness", "Motif"]
+    },
+    {
+        "id":"m101",
+        "quote":"Then he walked to the door, opened it, and stood listening to rain.",
+        "author":"Peter Laing",
+        "analysis":"This is quite an anti-climax, as we are led to expect something big to happen, yet all he does is take a step outside, which explains why he is still trapped - he just doesn’t have to confidence to do anything about it.\nAlthough ambiguous, the fact that the story ends with rain could also be symbolic of sadness and melancholy as it typically is. Could represent the lack of hope for the son’s future, as if he missed his opportunity.\nThe fact that it rains for the entirety of the story could also be symbolic of the unchanging events of the story, and that nothing will ever improve.",
+        "tags":["Anticlimax", "Permanence", "Incompetence", "Avoidance", "Symbolism", "Misery", "Isolation"]
     }
 ]

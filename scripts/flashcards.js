@@ -131,7 +131,7 @@ function parseAnalysis(analysis)
 
 function getProperty(annotation, character)
 {
-    return character == "q" ? annotation.quote
+    return character == "q" ? parseQuote(annotation.quote)
     : character == "a" ? parseAnalysis(annotation.analysis)
     : character == "t" ? annotation.tags.join(", ")
     : annotation.id;

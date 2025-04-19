@@ -1,7 +1,7 @@
 #graph
 {
     position: relative;
-    margin-top: 24px;
+    margin-top: 48px;
 
     background-color: var(--gray-2);
     box-shadow: 0px -8px var(--gray-3);
@@ -66,8 +66,9 @@
     padding: 12px 20px;
 
     background-color: var(--gray-1);
-    box-shadow: 0px 8px var(--gray-3);
-    border-radius: 32px 32px 32px 0px;
+    box-shadow: 0px 6px color-mix(in srgb, var(--gray-3), var(--gray-4));
+    border-radius: 40px 40px 40px 0px;
+    border: 6px solid color-mix(in srgb, var(--gray-2), var(--gray-3));
 
     pointer-events: none;
     opacity: 0;
@@ -78,6 +79,7 @@
 {
     font-size: 22px;
     text-align: justify;
+    hyphens: auto;
 }
 
 .node:hover .tooltip, .node.hover .tooltip { opacity: 1; }

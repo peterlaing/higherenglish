@@ -1,11 +1,113 @@
 const tagImportance =
 {
-    /*
-    general things like characterisation/exposition are:      0.6x
-    most normal things, such as characters/themes are:        1.0x
-    basic ruae techniques like word choice or imagery are:    1.2x
-    specific literary devices like colour/symbolism are:      1.8x
-    */
+    //General Techniques
+    "Characterisation": 0.6,
+    "Context":          0.6,
+    "Exposition":       0.6,
+    "Imagery":          0.6,
+
+    //Characters
+    "Thin Woman":    0.9,
+    "Fat Woman":     0.9,
+    "Elder":         1.0,
+    "Mr Jackson":    0.9,
+    "Mrs Jackson":   0.9,
+    "The Factor":    1.0,
+    "Youths":        1.0,
+    "Murdo":         0.9,
+    "Mary":          0.9,
+    "Mother":        0.9,
+    "Son":           0.9,
+
+    //Key Themes
+    "Apartheid":     1.0,
+    "Belonging":     1.0,
+    "Community":     1.0,
+    "Conformity":    1.0,
+    "Identity":      1.0,
+    "Impact of War": 1.0,
+    "Isolation":     1.0,
+    "Judgement":     1.0,
+    "Misery":        1.0,
+    "Monotony":      1.0,
+    "Nostalgia":     1.0,
+    "Permanence":    1.0,
+    "Poverty":       1.0,
+    "Prejudice":     1.0,
+    "Rurality":      1.0,
+    "Sacrifice":     1.0,
+    "Status":        1.0,
+    "Urban Life":    1.0,
+    "Village Life":  1.0,
+    "Wealth":        1.0,
+
+    //Secondary Themes
+    "Agreement":     1.0,
+    "Change":        1.0,
+    "Concealment":   1.0,
+    "Contentment":   1.0,
+    "Denial":        1.0,
+    "Exclusion":     1.0,
+    "Family":        1.0,
+    "Gossiping":     1.0,
+    "Hatred":        1.0,
+    "Illness":       1.0,
+    "Modernisation": 1.0,
+    "Neighbours":    1.0,
+    "Paranoia":      1.0,
+    "Racism":        1.0,
+    "Religion":      1.0,
+    "Supernatural":  1.0,
+    "Upbringing":    1.0,
+    "Violence":      1.0,
+
+    //Traits
+    "Awareness":     1.1,
+    "Arrogance":     1.1,
+    "Avoidance":     1.1,
+    "Incompetence":  1.1,
+    "Delicacy":      1.1,
+    "Greed":         1.1,
+    "Ignorance":     1.1,
+    "Jealousy":      1.1,
+    "Naivety":       1.1,
+    "Reluctance":    1.1,
+    "Selfishness":   1.1,
+    "Unkindness":    1.1,
+
+    //Simple Techniques
+    "Contrast":        1.2,
+    "Conflict":        1.2,
+    "Listing":         1.3,
+    "Metaphor":        1.1,
+    "Repetition":      1.2,
+    "Reference":       1.1,
+    "Simile":          1.1,
+    "Word Choice":     0.9,
+
+    //Better Techniques
+    "Anonymity":           1.5,
+    "Character Arc":       1.3,
+    "Irony":               1.5,
+    "Mockery":             1.4,
+    "Narrative":           1.4,
+    "Rule of Three":       1.4,
+    "Rhetorical Question": 1.3,
+    "Sentence Structure":  1.3,
+    "Tension":             1.3,
+    "Tone":                1.3,
+
+    //Advanced Techniques
+    "Anticlimax":          1.7,
+    "Colloquialism":       1.8,
+    "Colour":              1.8,
+    "Hyperbole":           1.6,
+    "Juxtaposition":       1.6,
+    "Motif":               1.5,
+    "Pathetic Fallacy":    1.8,
+    "Personification":     1.7,
+    "Polysyndeton":        1.9,
+    "Symbolism":           1.6
 };
 
 function chooseNodes()
@@ -13,11 +115,13 @@ function chooseNodes()
     let closeness = [];
     annotationList.forEach(annotation =>
     {
+        if(annotation.id === focus.id) return;
+
         let inCommon = 0;
         annotation.tags.forEach(tag =>
         {
             if(focus.tags.includes(tag))
-                inCommon += 1; //tagImportance[tag];
+                inCommon += tagImportance[tag];
         });
 
         closeness.push([annotation, inCommon]);
@@ -36,8 +140,9 @@ function chooseNodes()
         if(chosenNodes[i][1] > max) max = chosenNodes[i][1];
     }
 
-    chosenNodes.forEach(node => node[1] = 1 + (node[1] - min) / (max - min));
+    chosenNodes.forEach(node => node[1] = 1 + 0.5 * (node[1] - min) / (max - min));
     chosenNodes.sort((a, b) => a[0].quote.localeCompare(b[0].quote));
+    chosenNodes.push([focus, 10]);
     return chosenNodes;
 }
 
@@ -46,13 +151,13 @@ function colourOf(annotation)
     return annotation.id[0] == "t" ? "green"
     : annotation.id[0] == "h" ? "blue"
     : annotation.id[0] == "r" ? "red"
-    : "yellow;"
+    : "yellow";
 }
 
 function overrideZIndex(element)
 {
     graphContainer.querySelectorAll(".node").forEach(node => node.style.zIndex = 1);
-    element.style.zIndex = 2;
+    element.style.zIndex = 3;
 }
 
 let graphElements = null;
@@ -75,13 +180,29 @@ function generateGraph(nodes)
         }
         else newElement.setAttribute("onclick", "tryUpdateGraph(this);" );
 
-        newElement.addEventListener("mouseenter", () => overrideZIndex(newElement));
-        newElement.addEventListener("mouseleave", () => window.setTimeout(() => newElement.style.zIndex = 1, 350));
+        let resetTimer = null;
+        newElement.addEventListener("mouseenter", () =>
+        {
+            if(resetTimer)
+            {
+                clearTimeout(resetTimer);
+                resetTimer = null;
+            }
+            overrideZIndex(newElement)
+        });
+        newElement.addEventListener("mouseleave", () => 
+        {
+            resetTimer = window.setTimeout(() =>
+            {
+                newElement.style.zIndex = 1;
+                resetTimer = null;
+            }, 300);
+        });
 
         newElement.innerHTML = `
         <div class="dot"></div>
         <p>${nodes[i][0].id}</p>
-        <div class="tooltip"><p>${nodes[i][0].quote}</p></div>`;
+        <div class="tooltip"><p>${parseQuote(nodes[i][0].quote)}</p></div>`;
 
         graphContainer.appendChild(newElement);
         nodePairs.push([nodes[i], newElement]);
@@ -142,7 +263,7 @@ function renderGraph()
 
     setTimeout(() =>
     {
-        graphElements = generateGraph(chosenNodes, focus);
+        graphElements = generateGraph(chosenNodes);
 
         requestAnimationFrame(() =>
         {
@@ -231,8 +352,9 @@ function tryUpdateGraph(element)
             {
                 //if it's still the same one (nothing else has been pressed)
                 if(tappedElement === element) tappedElement = null;
-            }, 300);
+            }, 800);
 
+            document.querySelectorAll(".node.hover").forEach(node => node.classList.remove("hover"));
             element.classList.add("hover");
         }
     }
@@ -242,18 +364,34 @@ function tryUpdateGraph(element)
 function updateGraph(element)
 {
     const id = element.querySelector("p").textContent;
+    history.replaceState(null, "", `?id=${id}`);
+    localStorage.setItem("lastVisited", id);
+
     focus = annotationList.find(node => node.id == id);
     renderGraph();
 }
 
 let focus = null;
+function setFocus(id)
+{
+    focus = annotationDict[id];
+    history.replaceState(null, "", `?id=${id}`);
+}
+
 loadAnnotations(() =>
 {
-    focus = annotationList[0];
+    const query = new URLSearchParams(window.location.search);
+    if(query.has("id")) setFocus(query.get("id"));
+    else
+    {
+        const previousPage = localStorage.getItem("lastVisited");
+        if(previousPage !== null) setFocus(previousPage);
+        else setFocus(annotationList[0].id);
+    }
     renderGraph();
 });
 
-onresize = (event) => redrawGraph();
+onresize = () => redrawGraph();
 if("ontouchstart" in window)
 {
     document.addEventListener("touchstart", (event) =>

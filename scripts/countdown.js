@@ -12,7 +12,7 @@ function formatTimeString(time)
     let days = Math.floor(time / (1000 * 3600 * 24));
     let hours = Math.ceil(time / (1000 * 3600) % 24);
 
-    if(days == 0) return "The exam is in " + hours.toString() + " hours!";
+    if(days == 0) return "The exam is only in " + hours.toString() + " hours!";
     return "The exam is in " + days.toString() + " days and " + hours.toString() + " hours";
 }
 

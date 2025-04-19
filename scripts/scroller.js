@@ -5,9 +5,8 @@ function showPanel(clicked)
 
     window.requestAnimationFrame(() =>
     {
-        if(wasHidden) annotationPanel.style.transition = "none";
-        annotationPanel.style.width = "400px";
-        annotationPanel.style.marginLeft = "8px";
+        if(wasHidden) annotationPanel.classList.remove("use-transition");
+        annotationPanel.classList.add("opened");
 
         getPageVars(clicked, wasHidden);
     });
@@ -19,33 +18,26 @@ function getPageVars(clicked, predict)
     let topArea = 100 + 224 + 32 + 24 + 16;
     let yPos = clicked.offsetTop - topArea;
 
-    let panelHeight = 0;
-    let pageHeight = 0;
-    window.requestAnimationFrame(() =>
+    let panelHeight = predict ? 0 : annotationPanel.offsetHeight;
+    let pageHeight = predict ? 0 : storyPanel.offsetHeight;
+
+    if(!predict) movePanel(yPos, panelHeight, pageHeight);
+    else window.requestAnimationFrame(() =>
     {
-        window.requestAnimationFrame(() =>
+        panelHeight = annotationPanel.offsetHeight;
+        pageHeight = storyPanel.offsetHeight;
+
+        annotationPanel.classList.remove("opened");
+        window.requestAnimationFrame(() => 
         {
-            panelHeight = annotationPanel.offsetHeight;
-            pageHeight = storyPanel.offsetHeight;
-            movePanel(predict, yPos, panelHeight, pageHeight)
+            annotationPanel.classList.add("use-transition", "opened")
+            movePanel(yPos, panelHeight, pageHeight);
         });
     });
 }
 
-function movePanel(predict, yPos, panelHeight, pageHeight)
+function movePanel(yPos, panelHeight, pageHeight)
 {
-    if(predict)
-    {
-        annotationPanel.style.width = "0px";
-        annotationPanel.style.marginLeft = "0px";
-        window.requestAnimationFrame(() =>
-        {
-            annotationPanel.style.transition = "top 0.4s ease-in-out, width var(--anim-time), margin-left var(--anim-time)";
-            annotationPanel.style.width = "400px";
-            annotationPanel.style.marginLeft = "8px";
-        });
-    }
-
     yPos += 16; //account for top shadow
     yPos -= 54; //move a bit more within view
 
@@ -59,11 +51,18 @@ function movePanel(predict, yPos, panelHeight, pageHeight)
 
 function closeAnnotations()
 {
-    /*event.preventDefault();
-    history.pushState(null, '', window.location.pathname);*/
+    history.replaceState(null, '', window.location.pathname);
     if(selectedQuote !== null) selectedQuote.classList.remove("selected");
 
-    annotationPanel.style.width = "0px";
-    annotationPanel.style.marginLeft = "0px";
+    annotationPanel.classList.remove("opened");
     window.setTimeout(() => annotationPanel.classList.add("hidden"), 120);
+}
+
+function copyLink()
+{
+    const params = new URL(window.location.href.split("?")[0]);
+    params.searchParams.set("id", authorText.textContent.slice(-5).substring(0, 4));
+
+    navigator.clipboard.writeText(params.href);
+    alert("Copied link to clipboard!\n" + params.href);
 }

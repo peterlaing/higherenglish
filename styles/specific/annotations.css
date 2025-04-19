@@ -20,15 +20,30 @@
     margin-left: 0px;
     padding: 8px;
     padding-top: 0px;
+
     overflow: hidden;
+    transform-origin: right top;
+    scale: 0;
 
     box-shadow: 0px -8px var(--gray-3);
     background-color: var(--gray-2);
     border-radius: 10px;
+}
 
-    transition: top var(--anim-time) ease-in-out,
+.use-transition
+{
+    transition:
+    top 0.4s ease-in-out,
     width var(--anim-time),
-    margin-left var(--anim-time);
+    margin-left var(--anim-time),
+    scale var(--anim-time);
+}
+
+#annotation-panel.opened
+{
+    width: 400px;
+    margin-left: 8px;
+    scale: 1;
 }
 
 #annotation-panel img
@@ -138,6 +153,12 @@ cite
 
         width: 100% !important;
         max-height: 50vh;
+        transform: scaleY(0);
         overflow-y: auto;
+
+        transform-origin: bottom;
+        transition: transform var(--anim-time);
     }
+
+    #annotation-panel.opened { transform: scaleY(1); }
 }

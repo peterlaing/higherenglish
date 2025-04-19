@@ -34,7 +34,7 @@ function createQuote(annotation, queryString)
         <h6 class="identifier">${annotation.id}</h6>
         <i class="fa-solid fa-grip-lines-vertical draggable"></i>
         <nav class="story-mark ${colour}"></nav>
-        <p>${annotation.quote}</p>
+        <p>${parseQuote(annotation.quote)}</p>
         <button class="move-up quote-button" onclick="moveUp(parentNode);">
             <i class="fa-solid fa-arrow-up clickable"></i>
         </button>
