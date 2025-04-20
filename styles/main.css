@@ -1,18 +1,4 @@
-html
-{
-    background-color: var(--colour-4);
-}
-
-body::after
-{
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: -2;
-    background-color: var(--gray-2);
-    transform: translateY(100%);
-}
-
+html { background-color: var(--colour-4); }
 body
 {
     width: 100%;
