@@ -3,6 +3,7 @@ html
     background: linear-gradient(to bottom,
     var(--colour-4) 0px, var(--colour-4) 10px,
     var(--gray-2) 10px, var(--gray-2) 100%);
+    background-repeat: repeat;
 }
 
 body
