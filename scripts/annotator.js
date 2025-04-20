@@ -60,7 +60,7 @@ function fixTagList(annotation)
 {
     tagList.innerHTML = "";
     for(let tag of annotation.tags)
-        tagList.innerHTML +=`<a href="/search?q=!${tag}" class="theme-search">${tag}</a>`;
+        tagList.innerHTML +=`<a href="/search/?q=!${tag}" class="theme-search">${tag}</a>`;
 }
 
 function updateBookmark(id)

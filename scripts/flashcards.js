@@ -137,12 +137,24 @@ function getProperty(annotation, character)
     : annotation.id;
 }
 
+let currentTimer = null;
+function cancelTimers()
+{
+    if(currentTimer !== null)
+    {
+        clearTimeout(currentTimer);
+        currentTimer = null;
+    }
+}
+
 const flashcard = document.getElementById("flashcard");
 const counter = document.getElementById("counter");
 const clue = document.getElementById("clue");
 const answer = document.getElementById("answer");
 function refreshCard(index)
 {
+    cancelTimers();
+
     flashcard.classList.remove("fade-in");
     flashcard.classList.add("fade-out");
     window.setTimeout(() =>
@@ -152,8 +164,18 @@ function refreshCard(index)
         answer.innerHTML = getProperty(annotation, typeString[1]);
 
         const clueText = getProperty(annotation, typeString[0]);
-        if(optionString.includes("h")) window.setTimeout(() => loadClueSlowly(clueText, 0.0), 0);
-        else clue.innerHTML = clueText;
+        if(optionString.includes("h"))
+        {
+            window.setTimeout(() => loadClueSlowly(clueText, 0.0), 0);
+            if(optionString.includes("t"))
+                currentTimer = window.setTimeout(() => toNext(), 1500 / speed);
+        }
+        else
+        {
+            clue.innerHTML = clueText;
+            if(optionString.includes("t"))
+                currentTimer = window.setTimeout(() => toNext(), 3000);
+        }
 
         flashcard.classList.remove("t");
         flashcard.classList.remove("h");
@@ -166,7 +188,7 @@ function refreshCard(index)
     }, 100);
 }
 
-const speed = 0.2;
+const speed = 0.25;
 function loadClueSlowly(clueText, stage)
 {
     if(stage >= 1)

@@ -32,13 +32,89 @@ p::selection { background-color: var(--colour-6); }
     -webkit-text-fill-color: transparent;
 }
 
+.alternate-page > p { font-size: 22px; }
 .alternate-page
 {
     width: 1140px;
+    display: flex;
+    flex-direction: column;
     padding: 0px 32px;
 }
 
-.alternate-page > p
+#tab-group
 {
-    font-size: 22px;
+    height: 80px;
+    margin: 12px 0px;
+    padding: 6px 12px 16px 12px;
+    gap: 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background: linear-gradient(color-mix(in srgb, var(--colour-3) 10%, var(--colour-4)) 20%, color-mix(in srgb, var(--colour-4) 85%, var(--colour-5)));
+    box-shadow: 0px -8px var(--colour-5);
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.tab-button
+{
+    position: relative;
+    top: 0px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(var(--colour-3), color-mix(in srgb, var(--colour-3) 50%, var(--colour-4)));
+    box-shadow: 0px 8px var(--colour-5);
+    border-radius: 12px;
+    box-sizing: border-box;
+
+    transition: top var(--anim-time),
+    box-shadow var(--anim-time);
+}
+
+.tab-button:hover
+{
+    top: 2px;
+    box-shadow: 0px 6px var(--colour-5);
+}
+
+.tab-button > h4, .tab-button > i
+{
+    color: var(--colour-9);
+    text-align: center;
+    font-size: 24px;
+}
+
+.tab-button.selected
+{
+    width: calc(100% - 24px);
+    border-top: 4px solid var(--colour-2);
+    border-bottom: 4px solid var(--colour-3);
+    border-left: 4px solid color-mix(in srgb, var(--colour-2), var(--colour-3));
+    border-right: 4px solid color-mix(in srgb, var(--colour-2), var(--colour-3));
+}
+
+.invisible
+{
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+
+#description-content ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#description-content li
+{
+    font-size: 20px;
+    list-style: none;
 }

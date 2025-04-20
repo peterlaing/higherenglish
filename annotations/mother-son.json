@@ -4,14 +4,14 @@
         "quote":"His clothes were dripping as he came in. The water was streaming down his cheeks,",
         "author":"Peter Laing",
         "analysis":"The dull, rainy weather represents the boring, unfortunate lives of both the mother and the son. Could also symbolise the idea of discomfort or drudgery, as if every day is difficult and a drag.",
-        "tags":["Exposition", "Pathetic Fallacy", "Misery", "Monotony", "Son"]
+        "tags":["Setting", "Pathetic Fallacy", "Misery", "Monotony", "Son"]
     },
     {
         "id":"m002",
         "quote":"The house was in partial darkness,",
         "author":"Peter Laing",
         "analysis":"The dark, gloomy setting could symbolise the dark, horrible times they’re going through, as well as the fact that it is metaphorically difficult for them to see a way forward in life.",
-        "tags":["Exposition", "Poverty", "Symbolism", "Misery"]
+        "tags":["Setting", "Poverty", "Symbolism", "Misery"]
     },
     {
         "id":"m003",
@@ -25,14 +25,14 @@
         "quote":"it had been a cold, dismal afternoon in the fields. ",
         "author":"Peter Laing",
         "analysis":"The coldness could represent the cold, bitter realities that they both face on a daily basis - the idea that there is no hope for either of them, and that nothing brings them joy. Reflective of the son’s mood in particular.",
-        "tags":["Pathetic Fallacy", "Exposition", "Misery", "Permanence", "Rurality"]
+        "tags":["Pathetic Fallacy", "Setting", "Misery", "Permanence", "Rurality"]
     },
     {
         "id":"m005",
         "quote":"The weather was extraordinarily bad for the time of year",
         "author":"Peter Laing",
         "analysis":"Foreshadows that this will be a particularly bad day for both of them as their relationship is at an all-time low. Could also suggest that this misery is not limited to any specific time period as although it is not normal for this time of year, it is quite regular here.",
-        "tags":["Pathetic Fallacy", "Exposition", "Misery", "Permanence", "Family"]
+        "tags":["Pathetic Fallacy", "Setting", "Misery", "Permanence", "Family"]
     },
     {
         "id":"m006",
@@ -88,21 +88,21 @@
         "quote":"When the lamp was lit, it showed a moderately sized kitchen, ",
         "author":"Peter Laing",
         "analysis":"Gives a sense of claustrophobia within the house, suggesting that the rooms are not particularly spacious. This reflects the confinement and isolation of the mother and the son, both of whom feel trapped.",
-        "tags":["Exposition", "Word Choice", "Isolation"]
+        "tags":["Setting", "Word Choice", "Isolation"]
     },
     {
         "id":"m014",
         "quote":"the walls of which were painted a dull yellow.",
         "author":"Peter Laing",
         "analysis":"This second mention of the colour yellow emphasises the monochromatic appearance of the interior, which could partially explain the mother’s permanent bad mood - for her, every day is the same long, boring, drag, which is reflected in the lack of variation in the house.",
-        "tags":["Exposition", "Colour", "Monotony", "Misery", "Pathetic Fallacy"]
+        "tags":["Setting", "Colour", "Monotony", "Misery", "Pathetic Fallacy"]
     },
     {
         "id":"m015",
         "quote":"numerous shelves which held numerous dishes, some whole, some broken. ",
         "author":"Peter Laing",
         "analysis":"The idea of many dishes being broken highlights the house’s derelict nature, which could emphasise the mother’s neglect for her son, while the idea of being broken could be symbolic of their relationship.",
-        "tags":["Exposition", "Imagery", "Symbolism", "Family"]
+        "tags":["Setting", "Imagery", "Symbolism", "Family"]
     },
     {
         "id":"m016",
@@ -116,7 +116,7 @@
         "quote":"four-poster bed with soiled pillows and a coverlet of some dark, rough material.",
         "author":"Peter Laing",
         "analysis":"The idea that the bed is uncomfortable could represent the discomfort and unease that both the mother and the son feel in their lives. They rarely feel relaxed around each other, which builds tension and introduces the conflict before any dialogue is spoken.",
-        "tags":["Symbolism", "Exposition", "Misery", "Context", "Illness"]
+        "tags":["Symbolism", "Setting", "Misery", "Context", "Illness"]
     },
     {
         "id":"m018",

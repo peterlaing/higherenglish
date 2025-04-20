@@ -32,7 +32,7 @@
         "quote":"though the village appeared quiet, much had gone on in it. ",
         "author":"Peter Laing",
         "analysis":"Introduces the rural setting and the theme of village life by suggesting that small villages tend to be quite isolated and disconnected from the wider world.",
-        "tags":["Exposition", "Village Life", "Impact of War", "Rurality"]
+        "tags":["Setting", "Village Life", "Impact of War", "Rurality"]
     },
     {
         "id":"t006",
@@ -53,7 +53,7 @@
         "quote":"ships had sunk in seas which they had never seen except on maps",
         "author":"Peter Laing",
         "analysis":"Provides more context regarding the setting, which is presumably within a countryside rather than coastal as most of the villagers had never seen the sea.\n![](rural.png)",
-        "tags":["Impact of War", "Rurality", "Context", "Exposition", "Naivety"]
+        "tags":["Impact of War", "Rurality", "Context", "Setting", "Naivety"]
     },
     {
         "id":"t009",
@@ -74,7 +74,7 @@
         "quote":"pursuit of the Bismarck.",
         "author":"Peter Laing",
         "analysis":"The Bismarck was one of the strongest and largest Nazi battleships deployed during WWII, which provides an exact period as to when the story takes place.\nIt was sunk in May of 1941 by British airstrikes, torpedoes and the subsequent naval battle.\n![](bismarck.jpg)",
-        "tags":["Context", "Reference", "Exposition"]
+        "tags":["Context", "Reference", "Setting"]
     },
     {
         "id":"t012",
@@ -193,7 +193,7 @@
         "quote":"This was a bare village with little colour",
         "author":"Peter Laing",
         "analysis":"The fact that the yellowness stands out amongst the village could be symbolic of the fact that the villagers dislike those whom they see as outsiders.\n![](village.jpg)",
-        "tags":["Contrast", "Colour", "Exclusion", "Community", "Exposition"]
+        "tags":["Contrast", "Colour", "Exclusion", "Community", "Setting"]
     },
     {
         "id":"t029",

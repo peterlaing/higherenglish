@@ -148,7 +148,7 @@ function createQuote(annotation, query)
 
     const regex = new RegExp(query, "gi");
     const replaced = isInvalid(query) ? parseQuote(annotation.quote) : parseQuote(annotation.quote).replace(regex, `<b><u>${query}</u></b>`);
-    const link = `/${story}?id=${annotation.id}`;
+    const link = `/${story}/?id=${annotation.id}`;
 
     const html = `
     <span>

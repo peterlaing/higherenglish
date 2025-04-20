@@ -4,7 +4,7 @@
         "quote":"The black polished car drew up outside the brown tenement",
         "author":"Peter Laing",
         "analysis":"Contrasts the Jackson’s wealth, represented by their “black polished car”, with the poverty of the local area with its “brown tenement[s].”",
-        "tags":["Juxtaposition", "Contrast", "Colour", "Symbolism", "Poverty", "Wealth", "Exposition", "Motif"]
+        "tags":["Juxtaposition", "Contrast", "Colour", "Symbolism", "Poverty", "Wealth", "Setting", "Motif"]
     },
     {
         "id":"h002",
@@ -67,7 +67,7 @@
         "quote":"into the close whose walls were brown above and a dirty blue below, pitted with scars. ",
         "author":"Peter Laing",
         "analysis":"Illustrates the poverty present within the neighbourhood (and much of urban Glasgow during this period) by suggesting that there is a lot of physical ruination and that repairs are few and far between.",
-        "tags":["Exposition", "Poverty", "Imagery", "Metaphor", "Urban Life"]
+        "tags":["Setting", "Poverty", "Imagery", "Metaphor", "Urban Life"]
     },
     {
         "id":"h011",
@@ -81,7 +81,7 @@
         "quote":"the flat-faced shops looked back at them blankly",
         "author":"Peter Laing",
         "analysis":"Personification of the shops that used to be lively, bustling markets and have been reduced to bland, uninspired storefronts. This is done to draw attention to the degradation of the town due to deindustrialisation and modernisation.\nMay also highlight how they are unwelcome here in their hometown since they have changed so much (i.e. the flat-faced shops represent the minds of the locals)",
-        "tags":["Exposition", "Personification", "Change", "Belonging"]
+        "tags":["Setting", "Personification", "Change", "Belonging"]
     },
     {
         "id":"h013",
@@ -228,7 +228,7 @@
         "quote":"The coal-houses were incredibly still there, all padlocked and all beside each other, with discoloured doors.",
         "author":"Peter Laing",
         "analysis":"The “discoloured doors” imply that the place has fallen into ruin, likely since people have seldom visited it, hence why it has remained padlocked.",
-        "tags":["Exposition", "Imagery", "Word Choice", "Poverty"]
+        "tags":["Setting", "Imagery", "Word Choice", "Poverty"]
     },
     {
         "id":"h034",
@@ -424,7 +424,7 @@
         "quote":"he could see the Clyde, the ships and the cranes.",
         "author":"Peter Laing",
         "analysis":"Provides a concrete reference as to the setting, as everything up until now has been inferred through slang and historical knowledge.\n![](clyde.jpg)",
-        "tags":["Context", "Reference", "Urban Life", "Exposition", "Rule of Three"]
+        "tags":["Context", "Reference", "Urban Life", "Setting", "Rule of Three"]
     },
     {
         "id":"h062",
@@ -480,7 +480,7 @@
         "quote":"The floor and the ceiling and the walls seemed to have drops of perspiration and Manson had a brown flannel cloth wrapped round his neck. He couldn’t breathe. And he heard the mice scuttering behind the walls.",
         "author":"Peter Laing",
         "analysis":"Further paints the picture of this community as having been highly impoverished, even back when the Jacksons lived there, which contrasts with their current wealth.",
-        "tags":["Exposition", "Imagery", "Poverty", "Urban Life", "Polysyndeton", "Sentence Structure", "Listing"]
+        "tags":["Setting", "Imagery", "Poverty", "Urban Life", "Polysyndeton", "Sentence Structure", "Listing"]
     },
     {
         "id":"h070",
@@ -655,7 +655,7 @@
         "quote":"The sky was darkening and the light seemed concentrated ahead of them in steely rays.",
         "author":"Peter Laing",
         "analysis":"Similarly to the idiom ‘light at the end of the tunnel,’ the light rays here likely symbolise the increasing happiness of the Jacksons due to the preferable conditions outside of and away from this town.",
-        "tags":["Symbolism", "Exposition", "Word Choice", "Imagery", "Contentment"]
+        "tags":["Symbolism", "Setting", "Word Choice", "Imagery", "Contentment"]
     },
     {
         "id":"h095",
