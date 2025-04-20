@@ -25,136 +25,138 @@
     <script>importFile("header.html")</script>
 </head>
 <body>
-    <nav class="centered-horizontal">
-        <nav class="page full-page">
-            <nav class="banner">
-                <i class="fa-solid fa-book icon-left"></i>
-                <i class="fa-solid fa-brain icon-right"></i>
-                <h1>Revision</h1>
-            </nav>
+    <nav id="page-canvas">
+        <nav class="centered-horizontal">
+            <nav class="page full-page">
+                <nav class="banner">
+                    <i class="fa-solid fa-book icon-left"></i>
+                    <i class="fa-solid fa-brain icon-right"></i>
+                    <h1>Revision</h1>
+                </nav>
 
-            <nav id="flashcard-division" class="flex-horizontal">
-                <form id="settings" action="" class="flex-vertical">
-                    <nav class="elements">
-                        <h2 id="settings-title">Flashcard Options</h2>
-                        <h2 id="settings-title-short">Options</h2>
+                <nav id="flashcard-division" class="flex-horizontal">
+                    <form id="settings" action="" class="flex-vertical">
+                        <nav class="elements">
+                            <h2 id="settings-title">Flashcard Options</h2>
+                            <h2 id="settings-title-short">Options</h2>
 
-                        <nav class="element">
-                            <label for="clue" class="dropdown-label">Clue:</label>
-                            <select name="clue" class="clickable">
-                                <option selected>Quote</option>
-                                <option>Analysis</option>
-                                <option>Tags</option>
-                                <option>Identifier</option>
-                            </select>
-                            <svg class="select-arrow" viewBox="0 0 24 24">
-                                <path d="M6 8h12a1 1 0 0 1 .7 1.7l-6 6a1 1 0 0 1-1.4 0l-6-6A1 1 0 0 1 6 8z" />
-                            </svg>
-                        </nav>
-    
-                        <nav class="element">
-                            <label for="answer" class="dropdown-label">Answer:</label>
-                            <select name="answer" class="clickable">
-                                <option>Quote</option>
-                                <option selected>Analysis</option>
-                                <option>Tags</option>
-                                <option>Identifier</option>
-                            </select>
-                            <svg class="select-arrow" viewBox="0 0 24 24">
-                                <path d="M6 8h12a1 1 0 0 1 .7 1.7l-6 6a1 1 0 0 1-1.4 0l-6-6A1 1 0 0 1 6 8z" />
-                            </svg>
-                        </nav>
-    
-                        <nav class="variable-flex">
-                            <nav class="flex-horizontal">
-                                <nav class="flex-horizontal element-gap">
-                                    <label for="shuffle" class="checkbox-label">Shuffle:</label>
-                                    <label class="checkbox-icon">
-                                        <input type="checkbox" name="shuffle" hidden>
-                                        <i class="fa-solid fa-shuffle clickable"></i>
-                                    </label>
+                            <nav class="element">
+                                <label for="clue" class="dropdown-label">Clue:</label>
+                                <select name="clue" class="clickable">
+                                    <option selected>Quote</option>
+                                    <option>Analysis</option>
+                                    <option>Tags</option>
+                                    <option>Identifier</option>
+                                </select>
+                                <svg class="select-arrow" viewBox="0 0 24 24">
+                                    <path d="M6 8h12a1 1 0 0 1 .7 1.7l-6 6a1 1 0 0 1-1.4 0l-6-6A1 1 0 0 1 6 8z" />
+                                </svg>
+                            </nav>
+        
+                            <nav class="element">
+                                <label for="answer" class="dropdown-label">Answer:</label>
+                                <select name="answer" class="clickable">
+                                    <option>Quote</option>
+                                    <option selected>Analysis</option>
+                                    <option>Tags</option>
+                                    <option>Identifier</option>
+                                </select>
+                                <svg class="select-arrow" viewBox="0 0 24 24">
+                                    <path d="M6 8h12a1 1 0 0 1 .7 1.7l-6 6a1 1 0 0 1-1.4 0l-6-6A1 1 0 0 1 6 8z" />
+                                </svg>
+                            </nav>
+        
+                            <nav class="variable-flex">
+                                <nav class="flex-horizontal">
+                                    <nav class="flex-horizontal element-gap">
+                                        <label for="shuffle" class="checkbox-label">Shuffle:</label>
+                                        <label class="checkbox-icon">
+                                            <input type="checkbox" name="shuffle" hidden>
+                                            <i class="fa-solid fa-shuffle clickable"></i>
+                                        </label>
+                                    </nav>
+            
+                                    <nav class="flex-horizontal element-gap">
+                                        <label for="repeat" class="checkbox-label">Repeat:</label>
+                                        <label class="checkbox-icon">
+                                            <input type="checkbox" name="repeat" hidden checked>
+                                            <i class="fa-solid fa-repeat clickable"></i>
+                                        </label>
+                                    </nav>
                                 </nav>
         
-                                <nav class="flex-horizontal element-gap">
-                                    <label for="repeat" class="checkbox-label">Repeat:</label>
-                                    <label class="checkbox-icon">
-                                        <input type="checkbox" name="repeat" hidden checked>
-                                        <i class="fa-solid fa-repeat clickable"></i>
-                                    </label>
-                                </nav>
-                            </nav>
-    
-                            <nav class="flex-horizontal">
-                                <nav class="flex-horizontal element-gap">
-                                    <label for="timed" class="checkbox-label">Timed:</label>
-                                    <label class="checkbox-icon">
-                                        <input type="checkbox" name="timed" hidden>
-                                        <i class="fa-solid fa-stopwatch clickable"></i>
-                                    </label>
-                                </nav>
-        
-                                <nav class="flex-horizontal element-gap">
-                                    <label for="hidden" class="checkbox-label">Reveal:</label>
-                                    <label class="checkbox-icon">
-                                        <input type="checkbox" name="hidden" hidden>
-                                        <i class="fa-solid fa-i-cursor clickable"></i>
-                                    </label>
+                                <nav class="flex-horizontal">
+                                    <nav class="flex-horizontal element-gap">
+                                        <label for="timed" class="checkbox-label">Timed:</label>
+                                        <label class="checkbox-icon">
+                                            <input type="checkbox" name="timed" hidden>
+                                            <i class="fa-solid fa-stopwatch clickable"></i>
+                                        </label>
+                                    </nav>
+            
+                                    <nav class="flex-horizontal element-gap">
+                                        <label for="hidden" class="checkbox-label">Reveal:</label>
+                                        <label class="checkbox-icon">
+                                            <input type="checkbox" name="hidden" hidden>
+                                            <i class="fa-solid fa-i-cursor clickable"></i>
+                                        </label>
+                                    </nav>
                                 </nav>
                             </nav>
                         </nav>
-                    </nav>
-                    <nav id="start-row">
-                        <button id="play-button" class="circular-button clickable" type="button" onclick="startFlashcards();">
-                            <i class="fa-solid fa-circle-play"></i>
-                            <p>Start</p>
-                        </button>
+                        <nav id="start-row">
+                            <button id="play-button" class="circular-button clickable" type="button" onclick="startFlashcards();">
+                                <i class="fa-solid fa-circle-play"></i>
+                                <p>Start</p>
+                            </button>
 
-                        <button id="share-button" class="circular-button clickable" type="button" onclick="shareSet();">
-                            <i class="fa-solid fa-share-from-square"></i>
-                        </button>
-                    </nav>
-                </form>
+                            <button id="share-button" class="circular-button clickable" type="button" onclick="shareSet();">
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </button>
+                        </nav>
+                    </form>
 
-                <nav id="flashcard-area">
-                    <button id="flashcard" class="clickable" onclick="classList.toggle('flipped'); cancelTimers();">
-                        <div id="flashcard-front">
-                            <div class="scroll-wrapper">
-                                <h3 id="clue">Select quotes below</h3>
+                    <nav id="flashcard-area">
+                        <button id="flashcard" class="clickable" onclick="classList.toggle('flipped'); cancelTimers();">
+                            <div id="flashcard-front">
+                                <div class="scroll-wrapper">
+                                    <h3 id="clue">Select quotes below</h3>
+                                </div>
                             </div>
-                        </div>
-                        <div id="flashcard-back">
-                            <div class="scroll-wrapper">
-                                <h3 id="answer">And then press start to begin</h3>
+                            <div id="flashcard-back">
+                                <div class="scroll-wrapper">
+                                    <h3 id="answer">And then press start to begin</h3>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                    <nav id="toolbar">
-                        <button class="navigation-button clickable" onclick="toPrevious();">
-                            <i class="fa-solid fa-backward"></i>
                         </button>
-                        <p id="counter">0/0</p>
-                        <button class="navigation-button clickable" onclick="toNext();">
-                            <i class="fa-solid fa-forward"></i>
-                        </button>
+                        <nav id="toolbar">
+                            <button class="navigation-button clickable" onclick="toPrevious();">
+                                <i class="fa-solid fa-backward"></i>
+                            </button>
+                            <p id="counter">0/0</p>
+                            <button class="navigation-button clickable" onclick="toNext();">
+                                <i class="fa-solid fa-forward"></i>
+                            </button>
+                        </nav>
                     </nav>
                 </nav>
-            </nav>
 
-            <nav class="flex-horizontal">
-                <h2 id="list-title">Quote List</h2>
-                <h2 id="list-title-short">Quotes</h2>
-                <nav id="flex-horizontal">
-                    <i id="show-button" class="fa-solid fa-eye title-button clickable" onclick="showAll();"></i>
-                    <i id="hide-button" class="fa-solid fa-eye-slash title-button clickable" onclick="hideAll();"></i>
-                    <i id="sort-button" class="fa-solid fa-arrow-up-wide-short title-button clickable" onclick="sortNaturally();"></i>
+                <nav class="flex-horizontal">
+                    <h2 id="list-title">Quote List</h2>
+                    <h2 id="list-title-short">Quotes</h2>
+                    <nav id="flex-horizontal">
+                        <i id="show-button" class="fa-solid fa-eye title-button clickable" onclick="showAll();"></i>
+                        <i id="hide-button" class="fa-solid fa-eye-slash title-button clickable" onclick="hideAll();"></i>
+                        <i id="sort-button" class="fa-solid fa-arrow-up-wide-short title-button clickable" onclick="sortNaturally();"></i>
+                    </nav>
                 </nav>
-            </nav>
-            <ul id="saved-quotes" ondragover="sortList(event);"></ul>
+                <ul id="saved-quotes" ondragover="sortList(event);"></ul>
 
-            <script src="/scripts/saver.js"></script>
-            <script src="/scripts/getter.js"></script>
-            <script src="/scripts/chooser.js"></script>
-            <script src="/scripts/flashcards.js"></script>
+                <script src="/scripts/saver.js"></script>
+                <script src="/scripts/getter.js"></script>
+                <script src="/scripts/chooser.js"></script>
+                <script src="/scripts/flashcards.js"></script>
+            </nav>
         </nav>
     </nav>
 </body>

@@ -23,155 +23,157 @@
     <script>importFile("header.html")</script>
 </head>
 <body>
-    <nav class="centered-horizontal">
-        <nav class="page full-page">
-            <nav class="banner">
-                <i class="fa-solid fa-eye icon-left"></i>
-                <i class="fa-solid fa-magnifying-glass icon-right" style="rotate: 0deg;"></i>
-                <h1 id="result-count">Searching...</h1>
+    <nav id="page-canvas">
+        <nav class="centered-horizontal">
+            <nav class="page full-page">
+                <nav class="banner">
+                    <i class="fa-solid fa-eye icon-left"></i>
+                    <i class="fa-solid fa-magnifying-glass icon-right" style="rotate: 0deg;"></i>
+                    <h1 id="result-count">Searching...</h1>
+                </nav>
+                <nav id="tag-message" class="hidden">
+                    <h2 class="centered-text">Oops! No quotes were found!<h2>
+                    <h4 class="centered-text">See below for a full list of valid tags:</h4>
+                    <h5 class="centered-text">(Yes, I added all of these manually)</h5>
+
+                    <div class="flex-horizontal">
+                        <div class="tag-column">
+                            <ul>
+                                <h4>Key Themes</h4>
+                                <li><a href="?q=!Apartheid">Apartheid</a></li>
+                                <li><a href="?q=!Belonging">Belonging</a></li>
+                                <li><a href="?q=!Community">Community</a></li>
+                                <li><a href="?q=!Conformity">Conformity</a></li>
+                                <li><a href="?q=!Identity">Identity</a></li>
+                                <li><a href="?q=!Impact of War">Impact of War</a></li>
+                                <li><a href="?q=!Isolation">Isolation</a></li>
+                                <li><a href="?q=!Judgement">Judgement</a></li>
+                                <li><a href="?q=!Misery">Misery</a></li>
+                                <li><a href="?q=!Monotony">Monotony</a></li>
+                                <li><a href="?q=!Nostalgia">Nostalgia</a></li>
+                                <li><a href="?q=!Permanence">Permanence</a></li>
+                                <li><a href="?q=!Poverty">Poverty</a></li>
+                                <li><a href="?q=!Prejudice">Prejudice</a></li>
+                                <li><a href="?q=!Rurality">Rurality</a></li>
+                                <li><a href="?q=!Sacrifice">Sacrifice</a></li>
+                                <li><a href="?q=!Status">Status</a></li>
+                                <li><a href="?q=!Urban Life">Urban Life</a></li>
+                                <li><a href="?q=!Village Life">Village Life</a></li>
+                                <li><a href="?q=!Wealth">Wealth</a></li>
+                            </ul>
+                            <ul>
+                                <h4>General Techniques</h4>
+                                <li><a href="?q=!Characterisation">Characterisation</a></li>
+                                <li><a href="?q=!Context">Context</a></li>
+                                <li><a href="?q=!Imagery">Imagery</a></li>
+                                <li><a href="?q=!Setting">Setting</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tag-column">
+                            <ul>
+                                <h4>Secondary Themes</h4>
+                                <li><a href="?q=!Agreement">Agreement</a></li>
+                                <li><a href="?q=!Change">Change</a></li>
+                                <li><a href="?q=!Concealment">Concealment</a></li>
+                                <li><a href="?q=!Confusion">Confusion</a></li>
+                                <li><a href="?q=!Contentment">Contentment</a></li>
+                                <li><a href="?q=!Creativity">Creativity</a></li>
+                                <li><a href="?q=!Denial">Denial</a></li>
+                                <li><a href="?q=!Exclusion">Exclusion</a></li>
+                                <li><a href="?q=!Family">Family</a></li>
+                                <li><a href="?q=!Gossiping">Gossiping</a></li>
+                                <li><a href="?q=!Hatred">Hatred</a></li>
+                                <li><a href="?q=!Illness">Illness</a></li>
+                                <li><a href="?q=!Modernisation">Modernisation</a></li>
+                                <li><a href="?q=!Neighbours">Neighbours</a></li>
+                                <li><a href="?q=!Paranoia">Paranoia</a></li>
+                                <li><a href="?q=!Racism">Racism</a></li>
+                                <li><a href="?q=!Religion">Religion</a></li>
+                                <li><a href="?q=!Supernatural">Supernatural</a></li>
+                                <li><a href="?q=!Upbringing">Upbringing</a></li>
+                                <li><a href="?q=!Violence">Violence</a></li>
+                            </ul>
+                            <ul>
+                                <h4>Simple Techniques</h4>
+                                <li><a href="?q=!Contrast">Contrast</a></li>
+                                <li><a href="?q=!Conflict">Conflict</a></li>
+                                <li><a href="?q=!Listing">Listing</a></li>
+                                <li><a href="?q=!Metaphor">Metaphor</a></li>
+                                <li><a href="?q=!Repetition">Repetition</a></li>
+                                <li><a href="?q=!Reference">Reference</a></li>
+                                <li><a href="?q=!Simile">Simile</a></li>
+                                <li><a href="?q=!Word Choice">Word Choice</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tag-column">
+                            <ul>
+                                <h4>Characters</h4>
+                                <li><a href="?q=!Thin Woman">Thin Woman</a></li>
+                                <li><a href="?q=!Fat Woman">Fat Woman</a></li>
+                                <li><a href="?q=!Elder">Elder</a></li>
+                                <li><a href="?q=!Mr Jackson">Mr Jackson</a></li>
+                                <li><a href="?q=!Mrs Jackson">Mrs Jackson</a></li>
+                                <li><a href="?q=!The Factor">The Factor</a></li>
+                                <li><a href="?q=!Youths">Youths</a></li>
+                                <li><a href="?q=!Murdo">Murdo</a></li>
+                                <li><a href="?q=!Mary">Mary</a></li>
+                                <li><a href="?q=!Mother">Mother</a></li>
+                                <li><a href="?q=!Son">Son</a></li>
+                            </ul>
+                            <ul>
+                                <h4>Better Techniques</h4>
+                                <li><a href="?q=!Anonymity">Anonymity</a></li>
+                                <li><a href="?q=!Character Arc">Character Arc</a></li>
+                                <li><a href="?q=!Irony">Irony</a></li>
+                                <li><a href="?q=!Mockery">Mockery</a></li>
+                                <li><a href="?q=!Narrative">Narrative</a></li>
+                                <li><a href="?q=!Rule of Three">Rule of Three</a></li>
+                                <li><a href="?q=!Rhetorical Question">Rhetorical Question</a></li>
+                                <li><a href="?q=!Sentence Structure">Sentence Structure</a></li>
+                                <li><a href="?q=!Tension">Tension</a></li>
+                                <li><a href="?q=!Tone">Tone</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tag-column">
+                            <ul>
+                                <h4>Traits</h4>
+                                <li><a href="?q=!Awareness">Awareness</a></li>
+                                <li><a href="?q=!Arrogance">Arrogance</a></li>
+                                <li><a href="?q=!Avoidance">Avoidance</a></li>
+                                <li><a href="?q=!Incompetence">Incompetence</a></li>
+                                <li><a href="?q=!Delicacy">Delicacy</a></li>
+                                <li><a href="?q=!Greed">Greed</a></li>
+                                <li><a href="?q=!Ignorance">Ignorance</a></li>
+                                <li><a href="?q=!Jealousy">Jealousy</a></li>
+                                <li><a href="?q=!Naivety">Naivety</a></li>
+                                <li><a href="?q=!Reluctance">Reluctance</a></li>
+                                <li><a href="?q=!Selfishness">Selfishness</a></li>
+                                <li><a href="?q=!Unkindness">Unkindness</a></li>
+                            </ul>
+                            <ul>
+                                <h4>Advanced Techniques</h4>
+                                <li><a href="?q=!Anticlimax">Anticlimax</a></li>
+                                <li><a href="?q=!Colloquialism">Colloquialism</a></li>
+                                <li><a href="?q=!Colour">Colour</a></li>
+                                <li><a href="?q=!Hyperbole">Hyperbole</a></li>
+                                <li><a href="?q=!Juxtaposition">Juxtaposition</a></li>
+                                <li><a href="?q=!Motif">Motif</a></li>
+                                <li><a href="?q=!Pathetic Fallacy">Pathetic Fallacy</a></li>
+                                <li><a href="?q=!Personification">Personification</a></li>
+                                <li><a href="?q=!Polysyndeton">Polysyndeton</a></li>
+                                <li><a href="?q=!Symbolism">Symbolism</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <nav id="search-results"></nav>
+                <script src="/scripts/saver.js"></script>
+                <script src="/scripts/getter.js"></script>
+                <script src="/scripts/search.js"></script>
             </nav>
-            <nav id="tag-message" class="hidden">
-                <h2 class="centered-text">Oops! No quotes were found!<h2>
-                <h4 class="centered-text">See below for a full list of valid tags:</h4>
-                <h5 class="centered-text">(Yes, I added all of these manually)</h5>
-
-                <div class="flex-horizontal">
-                    <div class="tag-column">
-                        <ul>
-                            <h4>Key Themes</h4>
-                            <li><a href="?q=!Apartheid">Apartheid</a></li>
-                            <li><a href="?q=!Belonging">Belonging</a></li>
-                            <li><a href="?q=!Community">Community</a></li>
-                            <li><a href="?q=!Conformity">Conformity</a></li>
-                            <li><a href="?q=!Identity">Identity</a></li>
-                            <li><a href="?q=!Impact of War">Impact of War</a></li>
-                            <li><a href="?q=!Isolation">Isolation</a></li>
-                            <li><a href="?q=!Judgement">Judgement</a></li>
-                            <li><a href="?q=!Misery">Misery</a></li>
-                            <li><a href="?q=!Monotony">Monotony</a></li>
-                            <li><a href="?q=!Nostalgia">Nostalgia</a></li>
-                            <li><a href="?q=!Permanence">Permanence</a></li>
-                            <li><a href="?q=!Poverty">Poverty</a></li>
-                            <li><a href="?q=!Prejudice">Prejudice</a></li>
-                            <li><a href="?q=!Rurality">Rurality</a></li>
-                            <li><a href="?q=!Sacrifice">Sacrifice</a></li>
-                            <li><a href="?q=!Status">Status</a></li>
-                            <li><a href="?q=!Urban Life">Urban Life</a></li>
-                            <li><a href="?q=!Village Life">Village Life</a></li>
-                            <li><a href="?q=!Wealth">Wealth</a></li>
-                        </ul>
-                        <ul>
-                            <h4>General Techniques</h4>
-                            <li><a href="?q=!Characterisation">Characterisation</a></li>
-                            <li><a href="?q=!Context">Context</a></li>
-                            <li><a href="?q=!Imagery">Imagery</a></li>
-                            <li><a href="?q=!Setting">Setting</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="tag-column">
-                        <ul>
-                            <h4>Secondary Themes</h4>
-                            <li><a href="?q=!Agreement">Agreement</a></li>
-                            <li><a href="?q=!Change">Change</a></li>
-                            <li><a href="?q=!Concealment">Concealment</a></li>
-                            <li><a href="?q=!Confusion">Confusion</a></li>
-                            <li><a href="?q=!Contentment">Contentment</a></li>
-                            <li><a href="?q=!Creativity">Creativity</a></li>
-                            <li><a href="?q=!Denial">Denial</a></li>
-                            <li><a href="?q=!Exclusion">Exclusion</a></li>
-                            <li><a href="?q=!Family">Family</a></li>
-                            <li><a href="?q=!Gossiping">Gossiping</a></li>
-                            <li><a href="?q=!Hatred">Hatred</a></li>
-                            <li><a href="?q=!Illness">Illness</a></li>
-                            <li><a href="?q=!Modernisation">Modernisation</a></li>
-                            <li><a href="?q=!Neighbours">Neighbours</a></li>
-                            <li><a href="?q=!Paranoia">Paranoia</a></li>
-                            <li><a href="?q=!Racism">Racism</a></li>
-                            <li><a href="?q=!Religion">Religion</a></li>
-                            <li><a href="?q=!Supernatural">Supernatural</a></li>
-                            <li><a href="?q=!Upbringing">Upbringing</a></li>
-                            <li><a href="?q=!Violence">Violence</a></li>
-                        </ul>
-                        <ul>
-                            <h4>Simple Techniques</h4>
-                            <li><a href="?q=!Contrast">Contrast</a></li>
-                            <li><a href="?q=!Conflict">Conflict</a></li>
-                            <li><a href="?q=!Listing">Listing</a></li>
-                            <li><a href="?q=!Metaphor">Metaphor</a></li>
-                            <li><a href="?q=!Repetition">Repetition</a></li>
-                            <li><a href="?q=!Reference">Reference</a></li>
-                            <li><a href="?q=!Simile">Simile</a></li>
-                            <li><a href="?q=!Word Choice">Word Choice</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="tag-column">
-                        <ul>
-                            <h4>Characters</h4>
-                            <li><a href="?q=!Thin Woman">Thin Woman</a></li>
-                            <li><a href="?q=!Fat Woman">Fat Woman</a></li>
-                            <li><a href="?q=!Elder">Elder</a></li>
-                            <li><a href="?q=!Mr Jackson">Mr Jackson</a></li>
-                            <li><a href="?q=!Mrs Jackson">Mrs Jackson</a></li>
-                            <li><a href="?q=!The Factor">The Factor</a></li>
-                            <li><a href="?q=!Youths">Youths</a></li>
-                            <li><a href="?q=!Murdo">Murdo</a></li>
-                            <li><a href="?q=!Mary">Mary</a></li>
-                            <li><a href="?q=!Mother">Mother</a></li>
-                            <li><a href="?q=!Son">Son</a></li>
-                        </ul>
-                        <ul>
-                            <h4>Better Techniques</h4>
-                            <li><a href="?q=!Anonymity">Anonymity</a></li>
-                            <li><a href="?q=!Character Arc">Character Arc</a></li>
-                            <li><a href="?q=!Irony">Irony</a></li>
-                            <li><a href="?q=!Mockery">Mockery</a></li>
-                            <li><a href="?q=!Narrative">Narrative</a></li>
-                            <li><a href="?q=!Rule of Three">Rule of Three</a></li>
-                            <li><a href="?q=!Rhetorical Question">Rhetorical Question</a></li>
-                            <li><a href="?q=!Sentence Structure">Sentence Structure</a></li>
-                            <li><a href="?q=!Tension">Tension</a></li>
-                            <li><a href="?q=!Tone">Tone</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="tag-column">
-                        <ul>
-                            <h4>Traits</h4>
-                            <li><a href="?q=!Awareness">Awareness</a></li>
-                            <li><a href="?q=!Arrogance">Arrogance</a></li>
-                            <li><a href="?q=!Avoidance">Avoidance</a></li>
-                            <li><a href="?q=!Incompetence">Incompetence</a></li>
-                            <li><a href="?q=!Delicacy">Delicacy</a></li>
-                            <li><a href="?q=!Greed">Greed</a></li>
-                            <li><a href="?q=!Ignorance">Ignorance</a></li>
-                            <li><a href="?q=!Jealousy">Jealousy</a></li>
-                            <li><a href="?q=!Naivety">Naivety</a></li>
-                            <li><a href="?q=!Reluctance">Reluctance</a></li>
-                            <li><a href="?q=!Selfishness">Selfishness</a></li>
-                            <li><a href="?q=!Unkindness">Unkindness</a></li>
-                        </ul>
-                        <ul>
-                            <h4>Advanced Techniques</h4>
-                            <li><a href="?q=!Anticlimax">Anticlimax</a></li>
-                            <li><a href="?q=!Colloquialism">Colloquialism</a></li>
-                            <li><a href="?q=!Colour">Colour</a></li>
-                            <li><a href="?q=!Hyperbole">Hyperbole</a></li>
-                            <li><a href="?q=!Juxtaposition">Juxtaposition</a></li>
-                            <li><a href="?q=!Motif">Motif</a></li>
-                            <li><a href="?q=!Pathetic Fallacy">Pathetic Fallacy</a></li>
-                            <li><a href="?q=!Personification">Personification</a></li>
-                            <li><a href="?q=!Polysyndeton">Polysyndeton</a></li>
-                            <li><a href="?q=!Symbolism">Symbolism</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <nav id="search-results"></nav>
-            <script src="/scripts/saver.js"></script>
-            <script src="/scripts/getter.js"></script>
-            <script src="/scripts/search.js"></script>
         </nav>
     </nav>
 </body>

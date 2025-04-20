@@ -6,7 +6,7 @@ p::selection { background-color: var(--colour-6); }
     background-color: var(--colour-7);
 }
 
-html, body
+html
 {
     background: linear-gradient(to bottom,
     var(--colour-4) 0px, var(--colour-4) 10px,
