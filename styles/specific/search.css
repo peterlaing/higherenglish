@@ -25,6 +25,7 @@
     position: relative;
     top: 0px;
     padding: 12px;
+    padding-right: 48px;
 
     background-color: var(--gray-2);
     box-shadow: 0px 8px var(--gray-3);

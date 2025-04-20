@@ -6,12 +6,12 @@ p::selection { background-color: var(--colour-6); }
     background-color: var(--colour-7);
 }
 
-html
+html, body
 {
     background: linear-gradient(to bottom,
-    var(--colour-4) 0px, var(--colour-4) 1px,
-    var(--gray-2) 1px, var(--gray-2) calc(100% - 1px),
-    var(--colour-4) calc(100% - 1px), var(--colour-4) 100%);
+    var(--colour-4) 0px, var(--colour-4) 10px,
+    var(--gray-2) 10px, var(--gray-2) calc(100% - 10px),
+    var(--colour-4) calc(100% - 10px), var(--colour-4) 100%);
 }
 
 .page
