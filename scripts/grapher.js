@@ -1,4 +1,4 @@
-const tagAlgorithms = [standardImportance];
+const tagAlgorithms = [standardImportance, characterImportance, thematicImportance, linguisticImportance];
 let selectedAlgorithm = 0;
 
 function chooseNodes()
@@ -83,7 +83,7 @@ function generateGraph(nodes)
         });
         newElement.addEventListener("mouseleave", () => 
         {
-            resetTimer = window.setTimeout(() =>
+            resetTimer = setTimeout(() =>
             {
                 newElement.style.zIndex = 1;
                 resetTimer = null;

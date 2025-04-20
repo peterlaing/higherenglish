@@ -54,7 +54,7 @@ function createQuote(annotation, queryString)
 
 
 
-function startDragging(element){ window.requestAnimationFrame(() => element.classList.add('dragging')) }
+function startDragging(element){ requestAnimationFrame(() => element.classList.add('dragging')) }
 
 const sortableList = document.getElementById("saved-quotes");
 function sortList(event)

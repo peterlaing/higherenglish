@@ -12,4 +12,17 @@ function setTab(index)
     descriptionChildren[index].classList.remove("invisible");
 }
 
+function setHeight()
+{
+    let maxHeight = 0;
+    descriptionChildren.forEach(child =>
+    {
+        if(child.offsetHeight > maxHeight)
+            maxHeight = child.offsetHeight;
+    });
+
+    descriptionGroup.style.height = maxHeight + 12 + "px";
+}
+
+setHeight();
 setTab(0);

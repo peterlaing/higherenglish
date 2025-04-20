@@ -112,17 +112,356 @@ const standardImportance =
     "Symbolism":           1.6
 };
 
+
+
+
+
 const characterImportance =
 {
+    //General Techniques
+    "Characterisation": 0.7,
+    "Context":          0.6,
+    "Imagery":          0.6,
+    "Setting":          0.5,
 
+    //Characters
+    "Thin Woman":    1.8,
+    "Fat Woman":     1.8,
+    "Elder":         2.0,
+    "Mr Jackson":    1.8,
+    "Mrs Jackson":   1.8,
+    "The Factor":    2.0,
+    "Youths":        2.0,
+    "Murdo":         1.8,
+    "Mary":          1.8,
+    "Mother":        1.8,
+    "Son":           1.8,
+
+    //Key Themes
+    "Apartheid":     0.9,
+    "Belonging":     0.9,
+    "Community":     0.9,
+    "Conformity":    0.9,
+    "Identity":      0.9,
+    "Impact of War": 0.9,
+    "Isolation":     0.9,
+    "Judgement":     0.9,
+    "Misery":        0.9,
+    "Monotony":      0.9,
+    "Nostalgia":     0.9,
+    "Permanence":    0.9,
+    "Poverty":       0.9,
+    "Prejudice":     0.9,
+    "Rurality":      0.9,
+    "Sacrifice":     0.9,
+    "Status":        0.9,
+    "Urban Life":    0.9,
+    "Village Life":  0.9,
+    "Wealth":        0.9,
+
+    //Secondary Themes
+    "Agreement":     0.8,
+    "Change":        0.8,
+    "Concealment":   0.8,
+    "Confusion":     0.8,
+    "Contentment":   0.8,
+    "Creativity":    0.8,
+    "Denial":        0.8,
+    "Exclusion":     0.8,
+    "Family":        0.8,
+    "Gossiping":     0.8,
+    "Hatred":        0.8,
+    "Illness":       0.8,
+    "Modernisation": 0.8,
+    "Neighbours":    0.8,
+    "Paranoia":      0.8,
+    "Racism":        0.8,
+    "Religion":      0.8,
+    "Supernatural":  0.8,
+    "Upbringing":    0.8,
+    "Violence":      0.8,
+
+    //Traits
+    "Awareness":     1.6,
+    "Arrogance":     1.6,
+    "Avoidance":     1.6,
+    "Incompetence":  1.6,
+    "Delicacy":      1.6,
+    "Greed":         1.6,
+    "Ignorance":     1.6,
+    "Jealousy":      1.6,
+    "Naivety":       1.6,
+    "Reluctance":    1.6,
+    "Selfishness":   1.6,
+    "Unkindness":    1.6,
+
+    //Simple Techniques
+    "Contrast":        1.2,
+    "Conflict":        1.5,
+    "Listing":         1.1,
+    "Metaphor":        1.0,
+    "Repetition":      1.0,
+    "Reference":       0.9,
+    "Simile":          1.0,
+    "Word Choice":     0.9,
+
+    //Better Techniques
+    "Anonymity":           1.8,
+    "Character Arc":       1.7,
+    "Irony":               1.4,
+    "Mockery":             1.3,
+    "Narrative":           1.3,
+    "Rule of Three":       1.1,
+    "Rhetorical Question": 1.2,
+    "Sentence Structure":  1.2,
+    "Tension":             1.2,
+    "Tone":                1.3,
+
+    //Advanced Techniques
+    "Anticlimax":          1.5,
+    "Colloquialism":       1.8,
+    "Colour":              1.6,
+    "Hyperbole":           1.5,
+    "Juxtaposition":       1.5,
+    "Motif":               1.5,
+    "Pathetic Fallacy":    1.6,
+    "Personification":     1.8,
+    "Polysyndeton":        1.6,
+    "Symbolism":           1.6
 };
+
+
+
+
 
 const linguisticImportance =
 {
-    
+    //General Techniques
+    "Characterisation": 0.5,
+    "Context":          0.5,
+    "Imagery":          0.8,
+    "Setting":          0.6,
+
+    //Characters
+    "Thin Woman":    0.7,
+    "Fat Woman":     0.7,
+    "Elder":         0.8,
+    "Mr Jackson":    0.7,
+    "Mrs Jackson":   0.7,
+    "The Factor":    0.8,
+    "Youths":        0.8,
+    "Murdo":         0.7,
+    "Mary":          0.7,
+    "Mother":        0.7,
+    "Son":           0.7,
+
+    //Key Themes
+    "Apartheid":     0.8,
+    "Belonging":     0.8,
+    "Community":     0.8,
+    "Conformity":    0.8,
+    "Identity":      0.8,
+    "Impact of War": 0.8,
+    "Isolation":     0.8,
+    "Judgement":     0.8,
+    "Misery":        0.8,
+    "Monotony":      0.8,
+    "Nostalgia":     0.8,
+    "Permanence":    0.8,
+    "Poverty":       0.8,
+    "Prejudice":     0.8,
+    "Rurality":      0.8,
+    "Sacrifice":     0.8,
+    "Status":        0.8,
+    "Urban Life":    0.8,
+    "Village Life":  0.8,
+    "Wealth":        0.8,
+
+    //Secondary Themes
+    "Agreement":     0.8,
+    "Change":        0.8,
+    "Concealment":   0.8,
+    "Confusion":     0.8,
+    "Contentment":   0.8,
+    "Creativity":    0.8,
+    "Denial":        0.8,
+    "Exclusion":     0.8,
+    "Family":        0.8,
+    "Gossiping":     0.8,
+    "Hatred":        0.8,
+    "Illness":       0.8,
+    "Modernisation": 0.8,
+    "Neighbours":    0.8,
+    "Paranoia":      0.8,
+    "Racism":        0.8,
+    "Religion":      0.8,
+    "Supernatural":  0.8,
+    "Upbringing":    0.8,
+    "Violence":      0.8,
+
+    //Traits
+    "Awareness":     0.9,
+    "Arrogance":     0.9,
+    "Avoidance":     0.9,
+    "Incompetence":  0.9,
+    "Delicacy":      0.9,
+    "Greed":         0.9,
+    "Ignorance":     0.9,
+    "Jealousy":      0.9,
+    "Naivety":       0.9,
+    "Reluctance":    0.9,
+    "Selfishness":   0.9,
+    "Unkindness":    0.9,
+
+    //Simple Techniques
+    "Contrast":        1.2,
+    "Conflict":        1.1,
+    "Listing":         1.6,
+    "Metaphor":        1.4,
+    "Repetition":      1.6,
+    "Reference":       1.2,
+    "Simile":          1.4,
+    "Word Choice":     1.3,
+
+    //Better Techniques
+    "Anonymity":           1.3,
+    "Character Arc":       1.2,
+    "Irony":               1.4,
+    "Mockery":             1.3,
+    "Narrative":           1.6,
+    "Rule of Three":       1.8,
+    "Rhetorical Question": 1.6,
+    "Sentence Structure":  1.7,
+    "Tension":             1.3,
+    "Tone":                1.4,
+
+    //Advanced Techniques
+    "Anticlimax":          1.6,
+    "Colloquialism":       1.8,
+    "Colour":              1.8,
+    "Hyperbole":           1.9,
+    "Juxtaposition":       1.9,
+    "Motif":               1.4,
+    "Pathetic Fallacy":    1.8,
+    "Personification":     1.9,
+    "Polysyndeton":        2.0,
+    "Symbolism":           1.5
 };
+
+
+
+
 
 const thematicImportance =
 {
-    
+    //General Techniques
+    "Characterisation": 0.5,
+    "Context":          0.6,
+    "Imagery":          0.6,
+    "Setting":          0.5,
+
+    //Characters
+    "Thin Woman":    0.9,
+    "Fat Woman":     0.9,
+    "Elder":         0.8,
+    "Mr Jackson":    0.9,
+    "Mrs Jackson":   0.9,
+    "The Factor":    0.8,
+    "Youths":        0.8,
+    "Murdo":         0.9,
+    "Mary":          0.9,
+    "Mother":        0.9,
+    "Son":           0.9,
+
+    //Key Themes
+    "Apartheid":     1.6,
+    "Belonging":     1.6,
+    "Community":     1.6,
+    "Conformity":    1.6,
+    "Identity":      1.6,
+    "Impact of War": 1.6,
+    "Isolation":     1.6,
+    "Judgement":     1.6,
+    "Misery":        1.6,
+    "Monotony":      1.6,
+    "Nostalgia":     1.6,
+    "Permanence":    1.6,
+    "Poverty":       1.6,
+    "Prejudice":     1.6,
+    "Rurality":      1.6,
+    "Sacrifice":     1.6,
+    "Status":        1.6,
+    "Urban Life":    1.6,
+    "Village Life":  1.6,
+    "Wealth":        1.6,
+
+    //Secondary Themes
+    "Agreement":     1.5,
+    "Change":        1.5,
+    "Concealment":   1.5,
+    "Confusion":     1.5,
+    "Contentment":   1.5,
+    "Creativity":    1.5,
+    "Denial":        1.5,
+    "Exclusion":     1.5,
+    "Family":        1.5,
+    "Gossiping":     1.5,
+    "Hatred":        1.5,
+    "Illness":       1.5,
+    "Modernisation": 1.5,
+    "Neighbours":    1.5,
+    "Paranoia":      1.5,
+    "Racism":        1.5,
+    "Religion":      1.5,
+    "Supernatural":  1.5,
+    "Upbringing":    1.5,
+    "Violence":      1.5,
+
+    //Traits
+    "Awareness":     1.3,
+    "Arrogance":     1.3,
+    "Avoidance":     1.3,
+    "Incompetence":  1.3,
+    "Delicacy":      1.3,
+    "Greed":         1.3,
+    "Ignorance":     1.3,
+    "Jealousy":      1.3,
+    "Naivety":       1.3,
+    "Reluctance":    1.3,
+    "Selfishness":   1.3,
+    "Unkindness":    1.3,
+
+    //Simple Techniques
+    "Contrast":        1.3,
+    "Conflict":        1.4,
+    "Listing":         1.1,
+    "Metaphor":        1.0,
+    "Repetition":      1.1,
+    "Reference":       1.1,
+    "Simile":          1.0,
+    "Word Choice":     0.8,
+
+    //Better Techniques
+    "Anonymity":           1.6,
+    "Character Arc":       1.3,
+    "Irony":               1.4,
+    "Mockery":             1.3,
+    "Narrative":           1.3,
+    "Rule of Three":       1.3,
+    "Rhetorical Question": 1.2,
+    "Sentence Structure":  1.2,
+    "Tension":             1.3,
+    "Tone":                1.2,
+
+    //Advanced Techniques
+    "Anticlimax":          1.5,
+    "Colloquialism":       1.6,
+    "Colour":              1.8,
+    "Hyperbole":           1.5,
+    "Juxtaposition":       1.6,
+    "Motif":               1.9,
+    "Pathetic Fallacy":    1.8,
+    "Personification":     1.6,
+    "Polysyndeton":        1.7,
+    "Symbolism":           1.7
 };

@@ -2,7 +2,7 @@
 if(localStorage.getItem("bgcol") !== null)
     localStorage.clear();
 
-window.setTimeout(() =>
+setTimeout(() =>
 {
     //Check version and show changelogs
     const CURRENT_VERSION = "1.3";

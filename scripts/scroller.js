@@ -3,7 +3,7 @@ function showPanel(clicked)
     const wasHidden = annotationPanel.classList.contains("hidden");
     annotationPanel.classList.remove("hidden");
 
-    window.requestAnimationFrame(() =>
+    requestAnimationFrame(() =>
     {
         if(wasHidden) annotationPanel.classList.remove("use-transition");
         annotationPanel.classList.add("opened");
@@ -16,19 +16,20 @@ function getPageVars(clicked, predict)
 {
     //header + banner + both gaps + padding
     let topArea = 100 + 224 + 32 + 24 + 16;
-    let yPos = clicked.offsetTop - topArea;
+    let yPos = centreY(clicked.offsetTop - topArea);
+    scrollTo({top: yPos, behavior: "smooth"});
 
     let panelHeight = predict ? 0 : annotationPanel.offsetHeight;
     let pageHeight = predict ? 0 : storyPanel.offsetHeight;
 
     if(!predict) movePanel(yPos, panelHeight, pageHeight);
-    else window.requestAnimationFrame(() =>
+    else requestAnimationFrame(() =>
     {
         panelHeight = annotationPanel.offsetHeight;
         pageHeight = storyPanel.offsetHeight;
 
         annotationPanel.classList.remove("opened");
-        window.requestAnimationFrame(() => 
+        requestAnimationFrame(() => 
         {
             annotationPanel.classList.add("use-transition", "opened")
             movePanel(yPos, panelHeight, pageHeight);
@@ -36,17 +37,20 @@ function getPageVars(clicked, predict)
     });
 }
 
+function centreY(yPos)
+{
+    //account for top shadow and
+    //move a bit more within view
+    return yPos + 16 - 54;
+}
+
 function movePanel(yPos, panelHeight, pageHeight)
 {
-    yPos += 16; //account for top shadow
-    yPos -= 54; //move a bit more within view
-
     const max = pageHeight - panelHeight - 8;
     if(yPos < 16) yPos = 16;
     if(yPos > max) yPos = max;
 
     annotationPanel.style.top = yPos + "px";
-    window.scrollTo({top: yPos, behavior: "smooth"});
 }
 
 function closeAnnotations()
@@ -55,7 +59,7 @@ function closeAnnotations()
     if(selectedQuote !== null) selectedQuote.classList.remove("selected");
 
     annotationPanel.classList.remove("opened");
-    window.setTimeout(() => annotationPanel.classList.add("hidden"), 120);
+    setTimeout(() => annotationPanel.classList.add("hidden"), 140);
 }
 
 function copyLink()

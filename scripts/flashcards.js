@@ -157,7 +157,7 @@ function refreshCard(index)
 
     flashcard.classList.remove("fade-in");
     flashcard.classList.add("fade-out");
-    window.setTimeout(() =>
+    setTimeout(() =>
     {
         const annotation = annotationDict[ids[order[index]]];
         counter.innerHTML = `${index + 1}/${ids.length}`;
@@ -166,15 +166,15 @@ function refreshCard(index)
         const clueText = getProperty(annotation, typeString[0]);
         if(optionString.includes("h"))
         {
-            window.setTimeout(() => loadClueSlowly(clueText, 0.0), 0);
+            setTimeout(() => loadClueSlowly(clueText, 0.0), 0);
             if(optionString.includes("t"))
-                currentTimer = window.setTimeout(() => toNext(), 1500 / speed);
+                currentTimer = setTimeout(() => toNext(), 1500 / speed);
         }
         else
         {
             clue.innerHTML = clueText;
             if(optionString.includes("t"))
-                currentTimer = window.setTimeout(() => toNext(), 3000);
+                currentTimer = setTimeout(() => toNext(), 3000);
         }
 
         flashcard.classList.remove("t");
@@ -200,7 +200,7 @@ function loadClueSlowly(clueText, stage)
     revealedPart = clueText.substring(0, stage * clueText.length);
     clue.innerHTML = revealedPart;
 
-    window.setTimeout(() => loadClueSlowly(clueText, stage + 0.01 * speed), 10);
+    setTimeout(() => loadClueSlowly(clueText, stage + 0.01 * speed), 10);
 }
 
 function loadFlashcards(query)

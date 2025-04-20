@@ -67,7 +67,7 @@
         "quote":"He had gazed in amazement at the mask of senility on one face, at the mask of a wildcat on another and at the mask of a spaceman on the face of a little boy",
         "author":"Peter Laing",
         "analysis":"The Halloween masks link to the idea of anonymity and concealment of oneself, similarly to how Murdo feels as if he needs to hide his true identity.",
-        "tags":["Listing", "Symbolism", "Identity", "Concealment", "Conformity", "Community", "Confusion"]
+        "tags":["Listing", "Symbolism", "Identity", "Concealment", "Conformity", "Community", "Confusion", "Motif"]
     },
     {
         "id":"r011",
@@ -325,294 +325,294 @@
         "id":"r047",
         "quote":"there was something boring about green and as for blue it wouldn’t have suited the door at all. Blue would have been too blatant in a cold way. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Murdo finally realises that he doesn’t actually like the greens and blues that he is used to, but rather is just used to them. He actually prefers the red, but has just never realised it/been willing to express it.",
         "tags":["Colour", "Realisation", "Conformity", "Irony"]
     },
     {
         "id":"r048",
         "quote":"And anyway the sky was already blue.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"The short sentence here highlights Murdo’s sudden change of mind. He accepts that both green and blue are overused and that there is no reason to stick with either of them.",
         "tags":["Sentence Structure", "Murdo", "Realisation", "Change", "Character Arc"]
     },
     {
         "id":"r049",
         "quote":"But mixed with his satisfaction he felt what could only be described as puzzlement, a slight deviation from the normal as if his head were spinning and he were going round in circles. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":["Contentment", "Confusion", "Simile", "Conformity"]
+        "analysis":"Evidently this whole ordeal is causing much confusion as Murdo feels overwhelmed by his mix of feelings - he is in an internal conflict between expressing himself.",
+        "tags":["Contentment", "Confusion", "Simile", "Conformity", "Conflict"]
     },
     {
         "id":"r050",
         "quote":"What would the neighbours say about it, he wondered.",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":["Judgement", "Neighbours", "Community", "Village Life", "Exclusion", "Belonging"]
+        "analysis":"Even having been rather moved by the door being painted, Murdo is still somewhat reluctant to leave it that way, as he still fears judgement from the rest of the village - what would they think of his sudden change?",
+        "tags":["Judgement", "Neighbours", "Community", "Village Life", "Exclusion", "Belonging", "Reluctance"]
     },
     {
         "id":"r051",
         "quote":"For that matter he couldn’t remember seeing even a blue door himself, though he had heard of the existence of one.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"This is rather ironic as we heard in the introduction that the village consists of “Green doors, yellow doors, and even blue doors, but never a red door,” yet Murdo has never actually seen one. This likely suggests that there never were any blue doors in the first place; only rumours of them.",
         "tags":["Irony", "Village Life", "Gossiping"]
     },
     {
         "id":"r052",
         "quote":"a cock was crowing, belligerent and heraldic, its red claws sunk into the earth, its metallic breast oriental and strange.",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":["Symbolism", "Word Choice", "Colour", "Imagery", "Identity"]
+        "analysis":"The rooster is symbolic of expression and freedom, hence the word choice of “belligerent and heraldic” and the detail of the claws being red, the colour used throughout the story to represent those same values.",
+        "tags":["Symbolism", "Word Choice", "Colour", "Imagery", "Identity", "Motif"]
     },
     {
         "id":"r053",
         "quote":"I have always sought to hide among other people. I agree to whatever anybody tells me to do. If they think I should go to church, I go to church. If they want me to cut peats for them, I do. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"This is arguably the turning point of the story as Murdo finally makes the revelation that he is dissatisfied with his current life and doesn’t feel fulfilled from fitting in with what others want.",
         "tags":["Realisation", "Repetition", "Character Arc", "Concealment", "Conformity", "Belonging"]
     },
     {
         "id":"r054",
         "quote":"I have never,’ he thought with wonder, ‘been myself.’ ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Murdo continues to reconsider his life and decides that it is not worth pursuing acceptance from others when he doesn’t even accept himself.",
         "tags":["Character Arc", "Concealment", "Identity", "Belonging"]
     },
     {
         "id":"r055",
         "quote":"He looked down at his grey fisherman’s jersey and his wellingtons",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"The greyness of the jersey represents the lack of colour, and therefore the lack of expression and satisfaction in Murdo’s life. He wears these things just to blend in, but realises that that leaves no room for his identity.",
         "tags":["Colour", "Conformity", "Contrast", "Symbolism"]
     },
     {
         "id":"r056",
         "quote":"for example a coloured waistcoat and a coloured jacket.",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":["Colour", "Identity", "Contrast", "Symbolism"]
+        "analysis":"The aforementioned deficiency of colour is then contrasted with “coloured” clothing, which represents Murdo’s true preferences that he has hidden up until now.",
+        "tags":["Colour", "Identity", "Contrast", "Symbolism", "Repetition"]
     },
     {
         "id":"r057",
         "quote":"The red door stood out against the whiteness of the frost and the glimmerings of snow. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Similarly to many of the other examples, the redness of the door is used to contrast the conformity of the village, which is, in this case, symbolised through the plain white snow.",
         "tags":["Colour", "Motif", "Contrast", "Identity"]
     },
     {
         "id":"r058",
         "quote":"It seemed to be saying something to him, to be asking him a question. Perhaps it was pleading with him not to destroy it. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"In this paragraph the door is personified to speak what is truly on Murdo’s mind. The door “pleading... not to [be] destroy[ed]” represents his desire to keep it painted red even though he knows others will question it.",
         "tags":["Personification", "Murdo", "Motif", "Judgement"]
     },
     {
         "id":"r059",
         "quote":"Perhaps it was saying, ‘I don’t want to be green. There must be a place somewhere for me as myself. I wish to be red. What is wrong with red anyway?’ ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"The door continues to speak for Murdo, this time explaining his desire to belong somewhere and to be accepted for who he is. The colour green is used again to represent conformity, which it claims not to want to be.",
         "tags":["Personification", "Murdo", "Motif", "Colour", "Rhetorical Question", "Sentence Structure", "Belonging"]
     },
     {
         "id":"r060",
         "quote":"The door seemed to him to have its own courage.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Not only does the door serve to convey Murdo’s thoughts, but it also seems to influence his thoughts, now granting him the courage that he sees within it.",
         "tags":["Personification", "Motif", "Identity", "Belonging"]
     },
     {
         "id":"r061",
-        "quote":"Wine of course was red and so was blood.",
-        "author":"Peter Laing",
-        "analysis":"analysis",
+        "quote":"Wine of course was red and so was blood. He drank none of the former and only saw the latter when he cut himself",
+        "author":"ChatGPT",
+        "analysis":"By associating the colour red with these two things, its symbolism and the link to the idea of passion and expression is further explained.\nThe comparison with wine may suggest indulgence or celebration, so by claiming that “[Murdo] drank none of the former,” it is implied that Murdo rarely enjoys himself.\nBlood is representative of life itself, so the fact that he only encounters it by accident reinforces the idea that he is disconnected from his true self.",
         "tags":["Symbolism", "Colour", "Contentment", "Village Life", "Contrast"]
     },
     {
         "id":"r062",
         "quote":"But really was he happy? That was the question. When he considered it carefully he knew that he wasn’t. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Murdo questions whether or not conformity actually makes him happy, and decides that although living a life like Mary would cause him to be ostracised from the village, it would make him happier overall.",
         "tags":["Rhetorical Question", "Contentment", "Misery", "Murdo", "Realisation"]
     },
     {
         "id":"r063",
         "quote":"He didn’t like eating alone, he didn’t like sitting in the house alone, he didn’t like having none who belonged to him, ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"This parallels the introduction, in which similar examples were given, except now rather than being a mere description of his life, they are given as things that he dislikes about his life. The repetition of “he didn’t like” emphasises his discontentment with the life that conformity has resulted in.",
         "tags":["Repetition", "Listing", "Misery", "Isolation", "Murdo"]
     },
     {
         "id":"r064",
         "quote":"to whom he could tell his secret thoughts, for example that such and such was a mean devil and that that other one was an ungrateful rat.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Suggests that Murdo does like gossiping about others and have many things that he wants to say, but is afraid to say them for fear of being different.",
         "tags":["Murdo", "Concealment", "Gossiping", "Village Life", "Isolation"]
     },
     {
         "id":"r065",
         "quote":"He had to keep a perpetually smiling face to the world",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":["Murdo", "Misery", "Concealment", "Word Choice"]
+        "analysis":"Even though he is clearly unhappy with his existence, Murdo still pretends to enjoy life, likely just to fit in with the rest of the village. He doesn’t want them to see his true emotions and realise that he doesn’t enjoy life there.\nMay also link to the previously explored idea of the Halloween masks, which grant a similarly false appearance.",
+        "tags":["Murdo", "Misery", "Concealment", "Word Choice", "Motif"]
     },
     {
         "id":"r066",
         "quote":"But the red door didn’t do that. It was foreign and confident. It seemed to be saying what it was, not what it thought others expected it to say.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"The red door is again used to symbolise what his life could be if he were to follow his dreams and accept the fact that he is unique. He admires the fact that the door stands out and is willing to do what it wants (similarly to Mary)",
         "tags":["Motif", "Identity", "Contentment", "Judgement", "Belonging"]
     },
     {
         "id":"r067",
         "quote":"He hated them in fact: they had no elegance.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Confirms the fact that Murdo doesn’t actually like the clothes he wears and instead wears them just because he is expected to.",
         "tags":["Judgement", "Conformity", "Hatred"]
     },
     {
         "id":"r068",
         "quote":"Now Mary had elegance. Though she was a bit odd, she had elegance.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Murdo’s boring grey clothes are immediately contrasted with Mary, who is far bolder and dresses in bright red as she desires. The fact that “elegance” is repeated twice emphasises Murdo’s admiration for her willingness to stand out.",
         "tags":["Contrast", "Characterisation", "Mary", "Repetition", "Word Choice"]
     },
     {
         "id":"r069",
         "quote":"She never gossiped. She was proud and distant. She had a world of her own. She paid for everything on the nail. She was quite well off.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Although also quite solitary, Mary seems to be content with her solitude, whereas Murdo is lonely and seeks acceptance. Shows that neither approach actually results in popularity amongst the villagers, but that Mary’s is far more fulfilling as she is happy by herself.",
         "tags":["Gossiping", "Isolation", "Contentment", "Characterisation", "Mary", "Repetition"]
     },
     {
         "id":"r070",
         "quote":"She was very fond of children and used to make up masks for them at Hallowe’en. As well as this she would walk by herself at night, which argued that she was romantic. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":["Context", "Creativity", "Characterisation", "Mary", "Word Choice"]
+        "analysis":"Characterises Mary as kind and creative, but also further hints at her being the one who painted the door. The fact that she goes for walks during the night would explain how “the red paint... was quite dry” when Murdo found it in the morning.",
+        "tags":["Context", "Creativity", "Characterisation", "Mary", "Word Choice", "Motif"]
     },
     {
         "id":"r071",
         "quote":"And it was said that she had sudden bursts of rage which too might be the sign of a spirit without servility. One couldn’t marry a clod.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"These “sudden bursts of rage” highlight Mary’s boldness and willingness to stand up for herself. They portray her as quite headstrong and capable, as compared to the rest of the village, who just do as they are told, hence why Murdo claims that “One couldn’t marry a clod.”",
         "tags":["Characterisation", "Mary", "Word Choice", "Identity", "Hatred"]
     },
     {
         "id":"r072",
         "quote":"he seemed to be drawn inside it into its deep caves with all sorts of veins and passages. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"The imagery of a cave may be symbolic of the door being an entrance to a new life, where the many “veins and passages” represent the new possibilities that have been opened up for exploration. Although only a minor detail, the red door has led Murdo down a rabbit hole of identity and expression.",
         "tags":["Imagery", "Metaphor", "Symbolism", "Change", "Realisation"]
     },
     {
         "id":"r073",
         "quote":"It was like a magic door out of the village but at the same time it pulsed with a deep red light which made it appear alive.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"The description of the door as “magic[al]” highlights how much change it has sparked in Murdo’s mind. Although the door doesn’t literally take him “out of the village,” if we assume the village to be symbolic of the conformity present within society in general, then the door acts as a gateway to escaping these expectations.",
         "tags":["Supernatural", "Colour", "Identity", "Village Life"]
     },
     {
         "id":"r074",
         "quote":"Rather he was sucked into it as if it were a place of heat and colour and reality.",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":["Metaphor", "Simile", "Polysyndeton", "Change", "Realisation"]
+        "analysis":"Highlights how the door is influencing Murdo’s actions and compelling him to do what he truly wants to. The combination of words used at the end suggest that the new life he is going towards is one of warmth and happiness, which contrasts the cold, snowy day that he woke up to.",
+        "tags":["Metaphor", "Simile", "Polysyndeton", "Change", "Realisation", "Word Choice", "Contrast"]
     },
     {
         "id":"r075",
         "quote":"It was true that the villagers when they woke would see it and perhaps make fun of it, and would advise him to repaint it.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"Murdo no longer appears to be afraid of the fact that the rest of the village will not approve of the red door. Instead he simply embraces this and treats his differences as a positive, something which the rest of the village should really learn.",
         "tags":["Judgement", "Prejudice", "Exclusion", "Village Life", "Gossiping"]
     },
     {
         "id":"r076",
         "quote":"Hunt him out of the village? He paused for a moment, stunned by the thought. It had never occured to him that he could leave the village, especially at his age, forty-six. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"After considering how much people would really care, Murdo realises that he is overthinking things, but considers for the first time the possibility of escaping the village. He is astonished that he has never thought of this before, likely as he has been too focused on blending into the village.",
         "tags":["Confusion", "Realisation", "Murdo", "Character Arc", "Context"]
     },
     {
         "id":"r077",
         "quote":"But then other people had left the village and some had prospered though it was true that many had failed.",
         "author":"Peter Laing",
-        "analysis":"analysis",
+        "analysis":"By telling us how life was often better for those who left the village, it is implied that life in rural villages can have negative impacts on people due to both the conformity and insularity, ideas explored in many of ICS’s stories.",
         "tags":["Village Life", "Realisation", "Contentment"]
     },
     {
         "id":"r078",
         "quote":"And perhaps he had never really belonged to the village. Perhaps his belonging had been like the Hallowe’en mask. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":["Belonging", "Concealment", "Symbolism", "Supernatural"]
+        "analysis":"Links back to the Halloween masks and their symbolism in relation to masking one’s identity. Murdo questions whether he ever really belonged here or if he was simply born here and pretended to belong so as to fit in.",
+        "tags":["Belonging", "Concealment", "Symbolism", "Supernatural", "Reference", "Motif"]
     },
     {
         "id":"r079",
         "quote":"If he were a true villager would he like the door so much? ",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"The fact that he questions whether or not he is a “true villager” is quite ironic as it illustrates his belief that a villager must match some certain stereotype, when in reality it is anyone who lives there. Suggests that those who don’t fit into the mould don’t truly belong.",
+        "tags":["Irony", "Judgement", "Village Life", "Conformity", "Rhetorical Question"]
     },
     {
         "id":"r080",
         "quote":"their anger reflected in the red door, but he didn’t feel at all angry,",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"Although the colour red often has connotations of danger or intense anger, it is stated in the introduction that Murdo “had no feeling of anger at all, only puzzlement,” which contradicts what one would expect as a response to vandalism.",
+        "tags":["Colour", "Irony", "Contrast", "Motif"]
     },
     {
         "id":"r081",
         "quote":"the possibility of a red door, in a green and black landscape.",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"The colour red is again contrasted with other colours to highlight how much the door stands out. Both green and black are far colder and less noticeable, whereas red is bold, bright, and stands out.",
+        "tags":["Contrast", "Colour", "Motif", "Identity"]
     },
     {
         "id":"r082",
         "quote":"as if he were on Christmas day stealing barefooted over the cold red linoleum to the stocking hanging at the chimney,",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"Here the colour red is compared to the freedom of childhood and to the magical atmosphere of Christmas, highlighting the sense of liberty that the door has granted Murdo.",
+        "tags":["Simile", "Nostalgia", "Colour", "Contentment"]
     },
     {
         "id":"r083",
         "quote":"repetitive as all the previous ones,",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"Again highlights the monotony of village life, but now Murdo is aware of this and is moving forwards towards a new chapter in his life.",
+        "tags":["Context", "Monotony", "Village Life", "Narrative", "Awareness"]
     },
     {
         "id":"r084",
         "quote":"He ate his breakfast and thinking carefully and joyously and having washed the dishes he set off to see Mary though in fact it was still early.",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"Both the long sentence and the repetition of “and” highlight Murdo’s newfound excitement. The door has set him on track to live a new life, and he is thrilled to leave his old one behind.",
+        "tags":["Reference", "Polysyndeton", "Word Choice", "Sentence Structure", "Contentment", "Repetition"]
     },
     {
         "id":"r085",
         "quote":"His wellingtons creaked among the sparkling frost. Its virginal new diamonds glittered around him, millions of them.",
-        "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "author":"ChatGPT",
+        "analysis":"The imagery of the frost highlights not only the cold and emotionless nature of the village, but also the idea of purity and freshness, linking to Murdo’s new outlook on life.\nThe comparison to glittering diamonds reflects the magic and beauty of this change, while the word choice of “virginal” suggests that this is only the beginning.",
+        "tags":["Word Choice", "Contrast", "Imagery", "Hyperbole", "Symbolism"]
     },
     {
         "id":"r086",
         "quote":"There was pride and spirit about it. It had emerged out of the old and the habitual, brightly and vulnerably. ",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"Although the door came out of nowhere and was a huge surprise for Murdo, he has realised that this was a good thing to have happened. The door, he feels, has “pride and spirit,” which he too feels he should express.",
+        "tags":["Word Choice", "Symbolism", "Personification", "Motif", "Identity", "Murdo"]
     },
     {
         "id":"r087",
         "quote":"It said, ‘Please let me live my own life.’ ",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"Similarly to earlier, the door speaks for Murdo, who now wants to be free from conformity and be able to express his individuality.",
+        "tags":["Personification", "Murdo", "Identity", "Character Arc"]
     },
     {
         "id":"r088",
         "quote":"He knocked on the door.",
         "author":"Peter Laing",
-        "analysis":"analysis",
-        "tags":[]
+        "analysis":"Although this is not a particularly exciting ending, we can infer that this is just the beginning of a new chapter in Murdo’s life. The fact that the story ends with him knocking on Mary’s door suggests that he will likely make another attempt at romance and will follow in her footsteps in terms of expressing himself. Not an incredibly dramatic finish, but an optimistic one nonetheless.",
+        "tags":["Character Arc", "Murdo", "Mary", "Change", "Contentment"]
     }
 ]
