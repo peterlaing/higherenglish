@@ -1,9 +1,16 @@
 html
 {
-    background: linear-gradient(to bottom,
-    var(--colour-4) 0px, var(--colour-4) 10px,
-    var(--gray-2) 10px, var(--gray-2) 100%);
-    background-repeat: repeat;
+    background-color: var(--colour-4);
+}
+
+body::after
+{
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background-color: var(--gray-2);
+    transform: translateY(100%);
 }
 
 body
