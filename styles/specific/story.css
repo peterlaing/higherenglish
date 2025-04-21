@@ -7,7 +7,6 @@ p::selection { background-color: var(--colour-6); }
 }
 
 html { background-color: var(--colour-4); }
-body::after { display: none; }
 .page
 {
     box-shadow: 0px 8px var(--gray 5);

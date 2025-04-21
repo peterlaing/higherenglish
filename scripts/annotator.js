@@ -31,7 +31,7 @@ function viewAnnotation(id, clicked)
     const annotation = annotations[id];
     authorText.innerHTML = `${annotation.author} [${id}]`;
     quoteText.innerHTML = `<cite>${parseQuote(annotation.quote)}</cite>`;
-    analysisSpan.innerHTML = getAnalysisHTML(annotation.analysis);
+    analysisSpan.innerHTML = getAnalysisHTML(annotation.analysis, annotation.id[0]);
     saveButton.setAttribute("onclick", `saveAnnotation("${id}");`);
     commonalityLink.href = `/commonality?id=${id}`;
     fixTagList(annotation);
@@ -44,13 +44,21 @@ function viewAnnotation(id, clicked)
     showPanel(clicked);
 }
 
-function getAnalysisHTML(analysis)
+function getFolderName(storyID)
+{
+    return storyID === "t" ? "telegram"
+    : storyID === "h" ? "home"
+    : storyID === "r" ? "red-door"
+    : "mother-son";
+}
+
+function getAnalysisHTML(analysis, storyID)
 {
     let html = "";
     const lines = analysis.split("\n");
     for(const line of lines)
     {
-        if(line.startsWith("![](")) html += `<img src='/annotations/images/${line.slice(4, -1)}'>`;
+        if(line.startsWith("![](")) html += `<img src='/annotations/images/${getFolderName(storyID)}/${line.slice(4, -1)}'>`;
         else html += `<p>${line}</p>`;
     }
     return html;

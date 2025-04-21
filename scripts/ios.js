@@ -1,9 +1,11 @@
 function checkHTMLStyle()
 {
+    if(!document.hasFocus()) return;
+
     if(window.scrollY > 100 && !setToWhite)
     {
         setToWhite = true;
-        document.documentElement.style.backgroundColor = "var(--gray-2)";
+        document.documentElement.style.backgroundColor = "var(--gray-1)";
     }
     else if(window.scrollY <= 100 && setToWhite)
     {

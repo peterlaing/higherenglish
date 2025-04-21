@@ -8,49 +8,44 @@ function showPanel(clicked)
         if(wasHidden) annotationPanel.classList.remove("use-transition");
         annotationPanel.classList.add("opened");
 
-        getPageVars(clicked, wasHidden);
+        movePanel(clicked, wasHidden);
     });
 }
 
-function getPageVars(clicked, predict)
+function movePanel(clicked, predict)
 {
     //header + banner + both gaps + padding
     let topArea = 100 + 224 + 32 + 24 + 16;
-    let yPos = centreY(clicked.offsetTop - topArea);
-    scrollTo({top: yPos, behavior: "smooth"});
-
-    let panelHeight = predict ? 0 : annotationPanel.offsetHeight;
-    let pageHeight = predict ? 0 : storyPanel.offsetHeight;
-
-    if(!predict) movePanel(yPos, panelHeight, pageHeight);
-    else requestAnimationFrame(() =>
+    setTimeout(() =>
     {
-        panelHeight = annotationPanel.offsetHeight;
-        pageHeight = storyPanel.offsetHeight;
+        const panelHeight = annotationPanel.offsetHeight;
+        const pageHeight = storyPanel.offsetHeight;
 
-        annotationPanel.classList.remove("opened");
-        requestAnimationFrame(() => 
+        const yPos = centreY(clicked.offsetTop - topArea, pageHeight - panelHeight - 8);
+        scrollTo({top: clicked.offsetTop - topArea, behavior: "smooth"});
+
+        if(!predict) annotationPanel.style.top = yPos + "px";
+        else
         {
-            annotationPanel.classList.add("use-transition", "opened")
-            movePanel(yPos, panelHeight, pageHeight);
-        });
-    });
+            annotationPanel.classList.remove("opened");
+            requestAnimationFrame(() => 
+            {
+                annotationPanel.classList.add("use-transition", "opened")
+                annotationPanel.style.top = yPos + "px";
+            });
+        }
+    }, analysisSpan.innerHTML.includes("<img") ? 50 : 0);
 }
 
-function centreY(yPos)
+function centreY(yPos, max)
 {
-    //account for top shadow and
-    //move a bit more within view
-    return yPos + 16 - 54;
-}
+    yPos += 16; //account for top shadow
+    yPos -= 54; //move a bit more within view
 
-function movePanel(yPos, panelHeight, pageHeight)
-{
-    const max = pageHeight - panelHeight - 8;
     if(yPos < 16) yPos = 16;
     if(yPos > max) yPos = max;
 
-    annotationPanel.style.top = yPos + "px";
+    return yPos;
 }
 
 function closeAnnotations()

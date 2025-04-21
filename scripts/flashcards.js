@@ -145,6 +145,11 @@ function cancelTimers()
         clearTimeout(currentTimer);
         currentTimer = null;
     }
+    if(activeLoader !== null)
+    {
+        clearTimeout(activeLoader);
+        activeLoader = null;
+    }
 }
 
 const flashcard = document.getElementById("flashcard");
@@ -164,12 +169,7 @@ function refreshCard(index)
         answer.innerHTML = getProperty(annotation, typeString[1]);
 
         const clueText = getProperty(annotation, typeString[0]);
-        if(optionString.includes("h"))
-        {
-            setTimeout(() => loadClueSlowly(clueText, 0.0), 0);
-            if(optionString.includes("t"))
-                currentTimer = setTimeout(() => toNext(), 1500 / speed);
-        }
+        if(optionString.includes("h")) setTimeout(() => loadClueSlowly(clueText, 0.0), 0);
         else
         {
             clue.innerHTML = clueText;
@@ -188,19 +188,23 @@ function refreshCard(index)
     }, 100);
 }
 
+let activeLoader = null;
 const speed = 0.25;
 function loadClueSlowly(clueText, stage)
 {
     if(stage >= 1)
     {
         clue.innerHTML = clueText;
+        activeLoader = null;
+        if(optionString.includes("t"))
+            currentTimer = setTimeout(() => toNext(), 1000);
         return;
     }
 
     revealedPart = clueText.substring(0, stage * clueText.length);
     clue.innerHTML = revealedPart;
 
-    setTimeout(() => loadClueSlowly(clueText, stage + 0.01 * speed), 10);
+    activeLoader = setTimeout(() => loadClueSlowly(clueText, stage + 0.01 * speed), 10);
 }
 
 function loadFlashcards(query)

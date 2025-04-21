@@ -42,15 +42,6 @@ async function addAnnotation(annotation)
     return false;
 }
 
-/*BUTTON VERSION
-`${before}<span id="${annotation.id}" class="annotation clickable" onclick="viewAnnotation('${annotation.id}', this);">${annotation.quote}</span>${after}`;
-
-LINK VERSION
-`${before}
-<span id="${annotation.id}" class="annotation clickable"
-href="?id=${annotation.id}" onclick="event.preventDefault(); history.pushState(null, '', '?id=${annotation.id}'); findTarget();"
->${annotation.quote}</span>${after}`;*/
-
 function linkSilently(annotationID, event)
 {
     event.preventDefault();
