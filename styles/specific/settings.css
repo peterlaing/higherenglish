@@ -47,20 +47,17 @@
     transition: var(--anim-time);
 }
 
-.settings-button > p
-{
-    margin: 4px;
-}
-
-.settings-button > i
-{
-    font-size: 20px;
-}
-
+.settings-button > p { margin: 4px; }
+.settings-button > i { font-size: 20px; }
 .settings-button *
 {
     color: var(--text-colour);
     transition: var(--switch-time);
+}
+
+#import-button
+{
+    user-select: none;
 }
 
 #import-button:hover

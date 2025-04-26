@@ -2,20 +2,20 @@ function importSettings()
 {
     const input = document.getElementById("fileInput");
     input.click();
+}
 
-    input.onchange = (event) =>
+function handleImport(event)
+{
+    const file = event.target.files[0];
+    if(!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) =>
     {
-        const file = event.target.files[0];
-        if(!file) return;
-
-        const reader = new FileReader();
-        reader.onload = (e) =>
-        {
-            const text = e.target.result;
-            applySettings(text);
-        };
-        reader.readAsText(file);
+        const text = e.target.result;
+        applySettings(text);
     };
+    reader.readAsText(file);
 }
 
 function applySettings(text)
