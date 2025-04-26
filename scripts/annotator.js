@@ -11,6 +11,8 @@ let storyPanel = null;
 function getPanelElements()
 {
     annotationPanel = document.getElementById("annotation-panel");
+    if(annotationPanel === null) return;
+
     authorText = document.getElementById("author");
     quoteText = document.getElementById("quote");
     analysisSpan = document.getElementById("analysis");
