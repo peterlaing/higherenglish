@@ -1,0 +1,110 @@
+:root
+{
+    --background-colour: var(--gray-2);
+    --page-colour: var(--gray-1);
+    --page-shadow: var(--gray-3);
+    --page-deep: var(--gray-4);
+    --text-colour: var(--gray-10);
+    --light-text: var(--gray-9);
+    --faded-text: var(--gray-8);
+    --coloured-text: var(--colour-9);
+    --dark-coloured-text: var(--colour-10);
+    --placeholder-text: var(--colour-8);
+    --panel-text: var(--text-colour);
+
+    --header-dark: var(--colour-4);
+    --header-light: var(--colour-3);
+    --header-icon: var(--colour-9);
+    --header-hover: var(--colour-7);
+    --search-colour: var(--colour-2);
+    --search-outline: var(--colour-9);
+    --search-hover: var(--colour-7);
+
+    --header-grad-start-light: var(--colour-4);
+    --header-grad-end-light: var(--colour-3);
+    --header-grad-start-dark: color-mix(in srgb, var(--colour-9) 25%, var(--colour-10));
+    --header-grad-end-dark: color-mix(in srgb, var(--colour-9) 75%, var(--colour-10));
+
+    --banner-colour: var(--colour-3);
+    --banner-shadow: var(--colour-5);
+    --banner-text: var(--colour-8);
+    --banner-grad-light: var(--colour-4);
+    --banner-grad-dark: var(--colour-5);
+
+    --annotation-text: var(--colour-10);
+    --annotation-colour: color-mix(in srgb, var(--colour-2), var(--colour-3));
+    --annotation-hover: color-mix(in srgb, var(--colour-3), var(--colour-4));
+    --annotation-select: var(--colour-4);
+    --annotation-select-hover: color-mix(in srgb, var(--colour-4), var(--colour-5));
+
+    --selection-colour: color-mix(in srgb, var(--colour-1) 40%, var(--gray-1) 60%);
+    --selection-bg: var(--colour-6);
+    --selection-annotation-bg: color-mix(in srgb, var(--colour-6), var(--colour-7));
+
+    --inset-shine: var(--colour-2);
+    --inset-light: var(--colour-3);
+    --inset-mid: var(--colour-4);
+    --inset-dark: var(--colour-5);
+
+    --scrollbar-bg: var(--gray-2);
+    --scrollbar-drag: var(--gray-5);
+    --faded-icon: var(--gray-5);
+
+    --checkbox-off: var(--gray-4);
+    --checkbox-off-hover: var(--gray-6);
+    --checkbox-on: var(--colour-6);
+    --checkbox-on-hover: var(--colour-7);
+}
+
+.dark
+{
+    --background-colour: color-mix(in srgb, var(--gray-9), var(--gray-10));
+    --page-colour: var(--gray-9);
+    --page-shadow: var(--gray-10);
+    --page-deep: #3a3542;
+    --text-colour: var(--colour-1);
+    --light-text: var(--gray-3);
+    --faded-text: var(--gray-4);
+    --coloured-text: var(--colour-4);
+    --dark-coloured-text: var(--colour-3);
+    --placeholder-text: var(--colour-5);
+    --panel-text: var(--gray-1);
+
+    --header-dark: color-mix(in srgb, var(--colour-9) 25%, var(--colour-10));
+    --header-light: var(--colour-9);
+    --header-icon: var(--colour-3);
+    --header-hover: var(--colour-2);
+    --search-colour: color-mix(in srgb, var(--colour-9), var(--colour-10));
+    --search-outline: var(--colour-4);
+    --search-hover: var(--colour-3);
+
+    --banner-colour: color-mix(in srgb, var(--colour-7), var(--colour-8));
+    --banner-shadow: color-mix(in srgb, var(--colour-8), var(--colour-9));
+    --banner-text: var(--colour-4);
+    --banner-grad-light: color-mix(in srgb, var(--colour-6), var(--colour-7));
+    --banner-grad-dark: var(--colour-7);
+
+    --annotation-text: var(--colour-10);
+    --annotation-colour: color-mix(in srgb, var(--colour-6), var(--colour-7));
+    --annotation-hover: var(--colour-7);
+    --annotation-select: color-mix(in srgb, var(--colour-7), var(--colour-8));
+    --annotation-select-hover: var(--colour-8);
+
+    --selection-colour: color-mix(in srgb, var(--colour-10) 40%, var(--gray-10) 60%);
+    --selection-bg: var(--colour-4);
+    --selection-annotation-bg: var(--colour-5);
+
+    --inset-shine: var(--colour-7);
+    --inset-light: var(--colour-8);
+    --inset-mid: color-mix(in srgb, var(--colour-8), var(--colour-9));
+    --inset-dark: var(--colour-9);
+
+    --scrollbar-bg: var(--gray-9);
+    --scrollbar-drag: var(--gray-8);
+    --faded-icon: var(--gray-7);
+
+    --checkbox-off: color-mix(in srgb, var(--gray-7), var(--gray-8));
+    --checkbox-off-hover: var(--gray-6);
+    --checkbox-on: var(--colour-7);
+    --checkbox-on-hover: var(--colour-6);
+}

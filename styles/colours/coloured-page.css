@@ -1,0 +1,25 @@
+:root
+{
+    --header-grad-start-dark: color-mix(in srgb, var(--colour-8), var(--colour-9));
+    --header-grad-end-dark: color-mix(in srgb, var(--colour-7), var(--colour-8));
+
+    --gradient-text-light: var(--colour-9);
+    --gradient-text-dark: var(--colour-10);
+}
+
+.dark
+{
+    --text-colour: color-mix(in srgb, var(--colour-1) 40%, var(--gray-1) 60%);
+    --panel-text: color-mix(in srgb, var(--colour-1) 20%, var(--gray-1) 80%);
+
+    --header-dark: color-mix(in srgb, var(--colour-8), var(--colour-9));
+    --header-light: color-mix(in srgb, var(--colour-7), var(--colour-8));
+    --header-icon: var(--colour-4);
+    --header-hover: var(--colour-3);
+    --search-colour: color-mix(in srgb, var(--colour-8), var(--colour-9));
+    --search-outline: var(--colour-4);
+    --search-hover: var(--colour-3);
+
+    --gradient-text-light: var(--colour-3);
+    --gradient-text-dark: var(--colour-4);
+}

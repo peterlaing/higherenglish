@@ -1,24 +1,20 @@
 p { text-align: justify; }
-p::selection { background-color: var(--colour-6); }
+p::selection { background-color: var(--selection-bg); }
 *::selection
 {
-    color: color-mix(in srgb, var(--colour-1) 40%, white 60%);
-    background-color: var(--colour-7);
+    color: var(--selection-colour);
+    background-color: var(--selection-annotation-bg);
 }
 
-html { background-color: var(--colour-4); }
-.page
-{
-    box-shadow: 0px 8px var(--gray 5);
-    margin-bottom: 48px;
-}
+html { background-color: var(--header-dark); }
+.page { margin-bottom: 48px; }
 
 .description
 {
     width: 100%;
     padding: 24px 0px;
-    box-shadow: 0px -8px color-mix(in srgb, var(--gray-3), var(--gray-3));
-    background: linear-gradient(var(--colour-3), var(--colour-4));
+    box-shadow: 0px -8px var(--page-shadow);
+    background: linear-gradient(var(--inset-light), var(--inset-dark));
     border-radius: 12px 12px 0px 0px;
 }
 
@@ -27,7 +23,7 @@ html { background-color: var(--colour-4); }
     width: 100%;
     height: 100%;
 
-    background-image: linear-gradient(var(--colour-9), var(--colour-10));
+    background-image: linear-gradient(var(--gradient-text-light), var(--gradient-text-dark));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -53,8 +49,8 @@ html { background-color: var(--colour-4); }
     flex-direction: row;
     justify-content: space-evenly;
 
-    background: linear-gradient(color-mix(in srgb, var(--colour-3) 10%, var(--colour-4)) 20%, color-mix(in srgb, var(--colour-4) 85%, var(--colour-5)));
-    box-shadow: 0px -8px var(--colour-5);
+    background: linear-gradient(color-mix(in srgb, var(--inset-light) 10%, var(--inset-mid)) 20%, color-mix(in srgb, var(--inset-mid) 85%, var(--inset-dark)));
+    box-shadow: 0px -8px var(--inset-dark);
     border-radius: 16px;
     box-sizing: border-box;
 }
@@ -70,8 +66,8 @@ html { background-color: var(--colour-4); }
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(var(--colour-3), color-mix(in srgb, var(--colour-3) 50%, var(--colour-4)));
-    box-shadow: 0px 8px var(--colour-5);
+    background: linear-gradient(var(--inset-light), color-mix(in srgb, var(--inset-light) 50%, var(--inset-mid)));
+    box-shadow: 0px 8px var(--inset-dark);
     border-radius: 12px;
     box-sizing: border-box;
 
@@ -82,12 +78,12 @@ html { background-color: var(--colour-4); }
 .tab-button:hover
 {
     top: 2px;
-    box-shadow: 0px 6px var(--colour-5);
+    box-shadow: 0px 6px var(--inset-dark);
 }
 
 .tab-button > h4, .tab-button > i
 {
-    color: var(--colour-9);
+    color: var(--coloured-text);
     text-align: center;
     font-size: 24px;
 }
@@ -95,13 +91,13 @@ html { background-color: var(--colour-4); }
 .tab-button.selected
 {
     top: 3px;
-    box-shadow: 0px 5px var(--colour-5);
+    box-shadow: 0px 5px var(--inset-dark);
 
     width: calc(100% - 24px);
-    border-top: 4px solid var(--colour-2);
-    border-bottom: 4px solid var(--colour-3);
-    border-left: 4px solid color-mix(in srgb, var(--colour-2), var(--colour-3));
-    border-right: 4px solid color-mix(in srgb, var(--colour-2), var(--colour-3));
+    border-top: 4px solid var(--inset-shine);
+    border-bottom: 4px solid var(--inset-light);
+    border-left: 4px solid color-mix(in srgb, var(--inset-shine), var(--inset-light));
+    border-right: 4px solid color-mix(in srgb, var(--inset-shine), var(--inset-light));
 }
 
 .invisible

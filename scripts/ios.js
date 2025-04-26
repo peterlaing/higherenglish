@@ -5,12 +5,12 @@ function checkHTMLStyle()
     if(window.scrollY > 100 && !setToWhite)
     {
         setToWhite = true;
-        document.documentElement.style.backgroundColor = "var(--gray-1)";
+        document.documentElement.style.backgroundColor = "var(--background-colour)";
     }
     else if(window.scrollY <= 100 && setToWhite)
     {
         setToWhite = false;
-        document.documentElement.style.backgroundColor = "var(--colour-4)";
+        document.documentElement.style.backgroundColor = "var(--header-dark)";
     }
 }
 

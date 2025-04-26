@@ -1,5 +1,5 @@
 * { outline: none; }
-p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i { color: var(--gray-9); }
+p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i { color: var(--light-text); }
 
 #flashcard-division
 {
@@ -14,8 +14,8 @@ p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i
     margin-top: 8px;
     margin-bottom: -8px;
 
-    background-color: var(--gray-2);
-    box-shadow: 0px -8px var(--gray-3);
+    background-color: var(--background-colour);
+    box-shadow: 0px -8px var(--page-shadow);
     border-radius: 32px;
 }
 
@@ -29,8 +29,8 @@ p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i
     margin: 16px;
     margin-bottom: 10px;
 
-    background-color: var(--gray-1);
-    box-shadow: 0px 8px var(--gray-3);
+    background-color: var(--page-colour);
+    box-shadow: 0px 8px var(--page-shadow);
     border-radius: 24px;
     border: none;
 
@@ -46,7 +46,7 @@ p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i
 #flashcard:hover
 {
     top: 2px;
-    box-shadow: 0px 6px var(--gray-3);
+    box-shadow: 0px 6px var(--page-shadow);
 }
 
 #flashcard-front, #flashcard-back
@@ -100,8 +100,8 @@ p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i
     height: 44px;
     font-size: 22px;
 
-    background-color: var(--gray-1);
-    box-shadow: 0px 6px var(--gray-3);
+    background-color: var(--page-colour);
+    box-shadow: 0px 6px var(--page-shadow);
     border-radius: 24px;
     border: none;
 
@@ -121,7 +121,7 @@ p, h2, h3, label, #id, .navigation-button, .element select, .circular-button > i
 .navigation-button:hover
 {
     top: 2px;
-    box-shadow: 0px 4px var(--gray-3);
+    box-shadow: 0px 4px var(--page-shadow);
 }
 
 #counter

@@ -26,7 +26,15 @@ function getPanelElements()
 let selectedQuote = null;
 function viewAnnotation(id, clicked)
 {
-    if(annotationPanel === null) getPanelElements();
+    if(annotationPanel === null) 
+    {
+        getPanelElements();
+        if(annotationPanel === null)
+        {
+            setTimeout(() => viewAnnotation(id, clicked), 100);
+            return;
+        }
+    }
 
     const annotation = annotations[id];
     authorText.innerHTML = `${annotation.author} [${id}]`;

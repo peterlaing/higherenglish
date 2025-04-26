@@ -157,7 +157,7 @@ function createQuote(annotation, query)
             <p>${replaced}</p>
         </a>
         <button class="quote-button ${isSaved(annotation.id) ? "saved-quote" : ""}" onclick="saveAnnotation(this, '${annotation.id}');">
-            <i class="fa-solid ${isSaved(annotation.id) ? "fa-circle-minus" : "fa-circle-plus"} clickable"></i>
+            <i class="${isSaved(annotation.id) ? "fa-solid" : "fa-regular"} fa-bookmark clickable"></i>
         </button>
     </span>`;
 
@@ -173,8 +173,8 @@ function isInvalid(query)
 function saveAnnotation(element, id)
 {
     element.classList.toggle("saved-quote");
-    element.querySelector("i").classList.toggle("fa-circle-plus");
-    element.querySelector("i").classList.toggle("fa-circle-minus");
+    element.querySelector("i").classList.toggle("fa-solid");
+    element.querySelector("i").classList.toggle("fa-regular");
     if(isSaved(id)) unsaveQuote(id);
     else saveQuote(id);
 }

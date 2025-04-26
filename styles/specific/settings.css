@@ -1,0 +1,160 @@
+.elements-list
+{
+    margin-top: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.element-row
+{
+    width: max-content;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.toggle-label
+{
+    font-family: "Fredoka";
+    font-weight: 520;
+    font-size: 28px;
+}
+
+.settings-button
+{
+    position: relative;
+    top: 0px;
+    height: 40px;
+    padding: 0px 12px;
+    margin-right: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+    background-color: var(--background-colour);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 6px var(--page-shadow);
+
+    transition: var(--anim-time);
+}
+
+.settings-button > p
+{
+    margin: 4px;
+}
+
+.settings-button > i
+{
+    font-size: 20px;
+}
+
+.settings-button *
+{
+    color: var(--text-colour);
+    transition: var(--switch-time);
+}
+
+#import-button:hover
+{
+    top: 2px;
+    background-color: var(--blue-4);
+    box-shadow: 0px 4px var(--blue-5);
+}
+body.dark #import-button:hover
+{
+    background-color: var(--blue-6);
+    box-shadow: 0px 4px var(--blue-7);
+}
+
+#export-button:hover
+{
+    top: 2px;
+    background-color: var(--green-4);
+    box-shadow: 0px 4px var(--green-5);
+}
+body.dark #export-button:hover
+{
+    background-color: var(--green-6);
+    box-shadow: 0px 4px var(--green-7);
+}
+
+#reset-button:hover
+{
+    top: 2px;
+    background-color: var(--red-4);
+    box-shadow: 0px 4px var(--red-5);
+}
+body.dark #reset-button:hover
+{
+    background-color: var(--red-6);
+    box-shadow: 0px 4px var(--red-7);
+}
+
+.switch
+{
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    height: 36px;
+}
+
+.switch input
+{
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+.slider
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    background-color: var(--gray-4);
+    border-radius: 18px;
+
+    transition: calc(2.0 * var(--anim-time));
+}
+
+.slider::before
+{
+    content: "";
+
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 6px;
+    bottom: 6px;
+
+    background-color: var(--gray-1);
+    border-radius: 12px;
+
+    transition: calc(2.0 * var(--anim-time));
+}
+
+input:checked + .slider { background-color: var(--blue-6); }
+input:checked + .slider::before { transform: translateX(28px); }
+
+@media only screen and (max-width: 500px)
+{
+    #export-button, #reset-button
+    {
+        position: absolute;
+        top: 334px;
+    }
+
+    #export-button:hover, #reset-button:hover { top: 336px; }
+    #reset-button { left: 164px; }
+}

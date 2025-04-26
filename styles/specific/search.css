@@ -9,7 +9,7 @@
 #tag-message li, a
 {
     font-size: 24px;
-    color: var(--colour-9);
+    color: var(--coloured-text);
     text-decoration: none;
 }
 
@@ -20,6 +20,7 @@
     align-items: center;
 }
 
+.search-text { color: var(--dark-coloured-text); }
 .found-quote
 {
     position: relative;
@@ -27,8 +28,8 @@
     padding: 12px;
     padding-right: 48px;
 
-    background-color: var(--gray-2);
-    box-shadow: 0px 8px var(--gray-3);
+    background-color: var(--background-colour);
+    box-shadow: 0px 8px var(--page-shadow);
     border-radius: 12px;
 
     display: flex;
@@ -45,14 +46,14 @@
 .found-quote:hover
 {
     top: 2px;
-    box-shadow: 0px 6px var(--gray-3);
+    box-shadow: 0px 6px var(--page-shadow);
 }
 
 .found-quote > p
 {
     flex-grow: 1;
     margin: 0px;
-    color: var(--gray-8);
+    color: var(--faded-text);
     font-size: 24px;
 }
 
@@ -69,34 +70,38 @@
 .red        { background-color: var(--red-4);    }
 .yellow     { background-color: var(--yellow-4); }
 
-span
-{
-    position: relative;
-}
+body.dark .green      { background-color: var(--green-7);  }
+body.dark .blue       { background-color: var(--blue-7);   }
+body.dark .red        { background-color: var(--red-7);    }
+body.dark .yellow     { background-color: var(--yellow-7); }
 
+span { position: relative; }
 .quote-button
 {
-    background-color: var(--gray-2);
+    background: none;
     outline: none;
     border: none;
 
     position: absolute;
-    right: 12px;
-    bottom: calc(50% - 22px);
+    bottom: calc(50% - 20px);
+    right: 16px;
+    padding: 0px;
 
     font-size: 32px;
-    color: var(--gray-5);
+    color: var(--faded-icon);
     transition: scale var(--anim-time),
     bottom var(--anim-time);
 }
 
 .found-quote:hover + .quote-button { bottom: calc(50% - 24px); }
+body.dark .quote-button:hover { color: var(--green-7); }
 .quote-button:hover
 {
-    scale: 1.15;
+    scale: 1.1;
     color: var(--green-6);
 }
 .saved-quote:hover { color: var(--red-6); }
+body.dark .saved-quote:hover { color: var(--red-7); }
 .quote-button > i
 {
     transition: scale var(--anim-time),

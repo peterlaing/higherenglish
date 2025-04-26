@@ -4,8 +4,8 @@
     height: 224px;
     margin-bottom: 24px;
 
-    background-color: var(--colour-3);
-    box-shadow: 0px 8px var(--colour-5);
+    background-color: var(--banner-colour);
+    box-shadow: 0px 8px var(--banner-shadow);
     border-radius: 20px;
 
     display: flex;
@@ -16,7 +16,7 @@
 
 .banner > h1
 {
-    color: var(--colour-8);
+    color: var(--banner-text);
     z-index: 1;
 }
 
@@ -30,7 +30,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    background-image: linear-gradient(var(--colour-4), var(--colour-5));
+    background-image: linear-gradient(var(--banner-grad-light), var(--banner-grad-dark));
 }
 
 .icon-left { left: 40px; }

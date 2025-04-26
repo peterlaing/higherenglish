@@ -3,15 +3,15 @@
     position: relative;
     margin-top: 48px;
 
-    background-color: var(--gray-2);
-    box-shadow: 0px -8px var(--gray-3);
+    background-color: var(--background-colour);
+    box-shadow: 0px -8px var(--page-shadow);
     border-radius: 20px;
     aspect-ratio: 2;
 }
 
 @media only screen and (max-width: 800px){ #graph { aspect-ratio: 1.5; }}
 @media only screen and (max-width: 700px){ #graph { aspect-ratio: 1.2; }}
-@media only screen and (max-width: 640px){ #graph { aspect-ratio: 1; }}
+@media only screen and (max-width: 640px){ #graph { aspect-ratio: 1.0; }}
 @media only screen and (max-width: 480px){ #graph { aspect-ratio: 0.7; }}
 
 .node
@@ -23,8 +23,8 @@
     scale: 1;
     z-index: 1;
 
-    background-color: var(--gray-1);
-    box-shadow: 0px 8px var(--gray-3);
+    background-color: var(--page-colour);
+    box-shadow: 0px 8px var(--page-shadow);
     border-radius: 32px;
     box-sizing: border-box;
 
@@ -36,19 +36,16 @@
     transition: scale var(--anim-time), box-shadow var(--anim-time);
 }
 
-#central-node
-{
-    transition: scale 0.3s ease opacity 0.3s;
-}
-
+#central-node { transition: scale 0.3s ease opacity 0.3s; }
 .node:hover#central-node { cursor: help; }
 .node:hover:not(#central-node)
 {
     scale: 1.1;
-    box-shadow: 0px 5px var(--gray-3);
+    box-shadow: 0px 5px var(--page-shadow);
     cursor: pointer;
 }
 
+body.dark .node p, body.dark .tooltip p { color: var(--gray-2); }
 .node p
 {
     font-size: 28px;
@@ -65,10 +62,10 @@
     max-width: 320px;
     padding: 12px 20px;
 
-    background-color: var(--gray-1);
-    box-shadow: 0px 6px color-mix(in srgb, var(--gray-3), var(--gray-4));
+    background-color: var(--page-colour);
+    box-shadow: 0px 6px color-mix(in srgb, var(--page-shadow), var(--page-deep));
     border-radius: 40px 40px 40px 0px;
-    border: 6px solid color-mix(in srgb, var(--gray-2), var(--gray-3));
+    border: 6px solid color-mix(in srgb, var(--background-colour), var(--page-shadow));
 
     pointer-events: none;
     opacity: 0;
@@ -96,6 +93,7 @@
 .red    > .dot { background-color: var(--red-6); }
 .yellow > .dot { background-color: var(--yellow-6); }
 
+body.dark .edge { background-color: color-mix(in srgb, var(--page-shadow), var(--background-colour)); }
 .edge
 {
     position: absolute;
@@ -103,7 +101,7 @@
     left: 50%;
     width: 8px;
 
-    background-color: color-mix(in srgb, var(--gray-3), var(--gray-4));
+    background-color: color-mix(in srgb, var(--page-shadow), var(--page-deep));
     transform-origin: top;
     rotate: 180deg;
     z-index: 0;

@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="/styles/variables.css">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/themes.css">
     <link rel="stylesheet" href="/styles/specific/header.css">
     <link rel="stylesheet" href="/styles/specific/banner.css">
-    <link rel="stylesheet" href="/styles/specific/quiz.css">
+    <link rel="stylesheet" href="/styles/colours/revision.css">
+    <link rel="stylesheet" href="/styles/colours/coloured-page.css">
     <link rel="stylesheet" href="/styles/specific/flashcards.css">
+    <link rel="stylesheet" href="/styles/specific/quiz.css">
     <link rel="stylesheet" href="/styles/specific/quotes.css">
-    <link rel="stylesheet" href="/styles/themes/revision.css">
 
     <script src="https://kit.fontawesome.com/74129ef75e.js" crossorigin="anonymous"></script>
     <script src="/scripts/importer.js"></script>
@@ -117,7 +119,7 @@
                     </form>
 
                     <nav id="flashcard-area">
-                        <button id="flashcard" class="clickable" onclick="classList.toggle('flipped'); cancelTimers();">
+                        <button id="flashcard" class="clickable" onclick="flipCard(this);">
                             <div id="flashcard-front">
                                 <div class="scroll-wrapper">
                                     <h3 id="clue">Select quotes below</h3>
@@ -159,6 +161,7 @@
             </nav>
         </nav>
     </nav>
+    <script src="/scripts/themes.js"></script>
     <script src="/scripts/ios.js"></script>
 </body>
 </html>

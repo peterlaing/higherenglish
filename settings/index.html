@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="/styles/variables.css">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/themes.css">
+    <link rel="stylesheet" href="/styles/transitions.css">
     <link rel="stylesheet" href="/styles/specific/header.css">
+    <link rel="stylesheet" href="/styles/specific/settings.css">
 
     <script src="https://kit.fontawesome.com/74129ef75e.js" crossorigin="anonymous"></script>
     <script src="/scripts/importer.js"></script>
@@ -24,11 +27,36 @@
         <nav class="centered-horizontal">
             <nav class="page full-page">
                 <h2>Settings</h2>
-                <h4>Dark mode may be coming soon.</h4>
-                <!--<button class="" onclick="localStorage.clear();">Reset To Defaults</button>-->
+
+                <div class="elements-list">
+                    <div class="element-row">
+                        <p class="toggle-label">Dark Mode:</p>
+                        <label class="switch clickable">
+                            <input id="theme-toggle" type="checkbox" onchange="toggleDarkmode(this);">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="element-row">
+                        <p class="toggle-label">Settings:</p>
+                        <button id="import-button" class="settings-button clickable" onclick="importSettings();">
+                            <i class="fa-solid fa-file-import"></i>
+                            <p>Import</p>
+                        </button>
+                        <button id="export-button" class="settings-button clickable" onclick="exportSettings();">
+                            <i class="fa-solid fa-file-export"></i>
+                            <p>Export</p>
+                        </button>
+                        <button id="reset-button" class="settings-button clickable" onclick="resetSettings();">
+                            <i class="fa-solid fa-rotate-right"></i>
+                            <p>Reset</p>
+                        </button>
+                    </div>
+                </div>
             </nav>
         </nav>
     </nav>
+    <script src="/scripts/themes.js"></script>
     <script src="/scripts/ios.js"></script>
+    <script src="/scripts/files.js"></script>
 </body>
 </html>

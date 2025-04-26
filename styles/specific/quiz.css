@@ -61,8 +61,8 @@ label
     appearance: none;
     -webkit-appearance: none;
 
-    background-color: var(--gray-2);
-    box-shadow: 0px 6px var(--gray-3);
+    background-color: var(--background-colour);
+    box-shadow: 0px 6px var(--page-shadow);
     border-radius: 24px;
     border: none;
 
@@ -73,7 +73,7 @@ label
 .element select:hover, .element select:focus
 {
     top: 2px;
-    box-shadow: 0px 4px var(--gray-3);
+    box-shadow: 0px 4px var(--page-shadow);
 }
 
 .select-arrow
@@ -82,7 +82,7 @@ label
     right: 0.75rem;
     height: 2rem;
     pointer-events: none;
-    fill: var(--gray-9);
+    fill: var(--light-text);
 }
 
 .checkbox-icon
@@ -96,14 +96,14 @@ label
 .checkbox-icon i
 {
     font-size: 32px;
-    color: var(--gray-4);
+    color: var(--checkbox-off);
     transition: color var(--anim-time);
 }
 
 .checkbox-icon:hover { scale: 1.12; }
-.checkbox-icon:hover i { color: var(--gray-6); }
-.checkbox-icon input:checked + i { color: var(--colour-6); }
-.checkbox-icon:hover input:checked + i { color: var(--colour-7); }
+.checkbox-icon:hover i { color: var(--checkbox-off-hover); }
+.checkbox-icon input:checked + i { color: var(--checkbox-on); }
+.checkbox-icon:hover input:checked + i { color: var(--checkbox-on-hover); }
 
 #start-row
 {
@@ -122,8 +122,8 @@ label
     height: 56px;
     font-size: 24px;
 
-    background-color: var(--gray-2);
-    box-shadow: 0px 8px var(--gray-3);
+    background-color: var(--background-colour);
+    box-shadow: 0px 8px var(--page-shadow);
     border-radius: 24px;
     border: none;
 
@@ -146,6 +146,11 @@ label
     background-color: var(--aqua-3);
     box-shadow: 0px 6px var(--aqua-4);
 }
+body.dark #share-button:hover
+{
+    background-color: var(--aqua-7);
+    box-shadow: 0px 6px var(--aqua-8);
+}
 
 #play-button p { font-size: 28px; }
 #play-button
@@ -161,4 +166,9 @@ label
 {
     background-color: var(--green-3);
     box-shadow: 0px 6px var(--green-4);
+}
+body.dark #play-button:hover
+{
+    background-color: var(--green-7);
+    box-shadow: 0px 6px var(--green-8);
 }

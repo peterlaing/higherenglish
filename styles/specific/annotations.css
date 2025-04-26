@@ -1,12 +1,13 @@
 .annotation
 {
-    background-color: color-mix(in srgb, var(--colour-2), var(--colour-3));
+    background-color: var(--annotation-colour);
     text-decoration: none;
-    color: var(--colour-10);
+    color: var(--annotation-text);
 }
-.annotation:hover { background-color: color-mix(in srgb, var(--colour-3), var(--colour-4)); }
-.selected { background-color: var(--colour-4); }
-.selected:hover { background-color: color-mix(in srgb, var(--colour-4), var(--colour-5)); }
+.annotation:hover { background-color: var(--annotation-hover); }
+.selected { background-color: var(--annotation-select); }
+.selected:hover { background-color: var(--annotation-select-hover); }
+.annotation::selection { background-color: var(--selection-annotation-bg); }
 
 #annotation-panel
 {
@@ -25,8 +26,8 @@
     transform-origin: right top;
     scale: 0;
 
-    box-shadow: 0px -8px var(--gray-3);
-    background-color: var(--gray-2);
+    box-shadow: 0px -8px var(--page-shadow);
+    background-color: var(--background-colour);
     border-radius: 10px;
 }
 
@@ -56,10 +57,7 @@
     border-radius: 16px;
 }
 
-cite
-{
-    color: var(--colour-10);
-}
+#annotation-panel p, #annotation-panel h4, cite, .annotation-button, .theme-search { color: var(--panel-text); }
 
 #toolbar
 {
@@ -71,10 +69,11 @@ cite
 
 .annotation-button
 {
-    color: var(--colour-10);
     font-size: 28px;
+    transition: var(--anim-time);
 }
 
+body.dark .annotation-button:hover { color: var(--colour-2); }
 .annotation-button:hover
 {
     color: var(--colour-7);
@@ -90,8 +89,8 @@ cite
     margin-top: 14px;
     padding: 8px;
 
-    background-color: var(--gray-3);
-    box-shadow: 0px -6px var(--gray-4);
+    background-color: var(--page-shadow);
+    box-shadow: 0px -6px var(--page-deep);
     border-radius: 8px;
 }
 
@@ -111,8 +110,8 @@ cite
 }
 
 #theme-list::-webkit-scrollbar { height: 8px; }
-#theme-list::-webkit-scrollbar-track { background-color: var(--gray-2); }
-#theme-list::-webkit-scrollbar-thumb { background-color: var(--gray-5); }
+#theme-list::-webkit-scrollbar-track { background-color: var(--scrollbar-bg); }
+#theme-list::-webkit-scrollbar-thumb { background-color: var(--scrollbar-drag); }
 #theme-list::-webkit-scrollbar-track, #theme-list::-webkit-scrollbar-thumb { border-radius: 4px; }
 
 .theme-search
@@ -124,7 +123,6 @@ cite
 
     font-family: "Fredoka";
     font-weight: 600;
-    color: var(--colour-10);
     text-decoration: none;
     font-size: 20px;
 
@@ -133,8 +131,8 @@ cite
     padding-bottom: 0px;
     margin-bottom: 0px;
 
-    background-color: var(--gray-2);
-    box-shadow: 0px 6px var(--gray-4);
+    background-color: var(--background-colour);
+    box-shadow: 0px 6px var(--page-deep);
     box-sizing: content-box;
     border-radius: 8px;
 }

@@ -137,6 +137,7 @@ function getProperty(annotation, character)
     : annotation.id;
 }
 
+let clueText = "";
 let currentTimer = null;
 function cancelTimers()
 {
@@ -168,8 +169,8 @@ function refreshCard(index)
         counter.innerHTML = `${index + 1}/${ids.length}`;
         answer.innerHTML = getProperty(annotation, typeString[1]);
 
-        const clueText = getProperty(annotation, typeString[0]);
-        if(optionString.includes("h")) setTimeout(() => loadClueSlowly(clueText, 0.0), 0);
+        clueText = getProperty(annotation, typeString[0]);
+        if(optionString.includes("h")) setTimeout(() => loadClueSlowly(0.0), 0);
         else
         {
             clue.innerHTML = clueText;
@@ -190,7 +191,7 @@ function refreshCard(index)
 
 let activeLoader = null;
 const speed = 0.25;
-function loadClueSlowly(clueText, stage)
+function loadClueSlowly(stage)
 {
     if(stage >= 1)
     {
@@ -198,13 +199,23 @@ function loadClueSlowly(clueText, stage)
         activeLoader = null;
         if(optionString.includes("t"))
             currentTimer = setTimeout(() => toNext(), 1000);
+
         return;
     }
 
     revealedPart = clueText.substring(0, stage * clueText.length);
     clue.innerHTML = revealedPart;
 
-    activeLoader = setTimeout(() => loadClueSlowly(clueText, stage + 0.01 * speed), 10);
+    activeLoader = setTimeout(() => loadClueSlowly(stage + 0.01 * speed), 10);
+}
+
+function flipCard(card)
+{
+    card.classList.toggle('flipped');
+    cancelTimers();
+
+    if(optionString.includes("h"))
+        setTimeout(() => clue.innerHTML = clueText, 150);
 }
 
 function loadFlashcards(query)

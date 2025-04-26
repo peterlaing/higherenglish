@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="/styles/variables.css">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/common.css">
+    <link rel="stylesheet" href="/styles/themes.css">
     <link rel="stylesheet" href="/styles/specific/header.css">
     <link rel="stylesheet" href="/styles/specific/banner.css">
     <link rel="stylesheet" href="/styles/specific/search.css">
-    <link rel="stylesheet" href="/styles/themes/search.css">
+    <link rel="stylesheet" href="/styles/colours/search.css">
+    <link rel="stylesheet" href="/styles/colours/coloured-page.css">
 
     <script src="https://kit.fontawesome.com/74129ef75e.js" crossorigin="anonymous"></script>
     <script src="/scripts/importer.js"></script>
@@ -32,14 +34,14 @@
                     <h1 id="result-count">Searching...</h1>
                 </nav>
                 <nav id="tag-message" class="hidden">
-                    <h2 class="centered-text">Oops! No quotes were found!<h2>
-                    <h4 class="centered-text">See below for a full list of valid tags:</h4>
-                    <h5 class="centered-text">(Yes, I added all of these manually)</h5>
+                    <h2 class="centered-text search-text">Oops! No quotes were found!<h2>
+                    <h4 class="centered-text search-text">See below for a full list of valid tags:</h4>
+                    <h5 class="centered-text search-text">(Yes, I added all of these manually)</h5>
 
                     <div class="flex-horizontal">
                         <div class="tag-column">
                             <ul>
-                                <h4>Key Themes</h4>
+                                <h4 class="search-text">Key Themes</h4>
                                 <li><a href="?q=!Apartheid">Apartheid</a></li>
                                 <li><a href="?q=!Belonging">Belonging</a></li>
                                 <li><a href="?q=!Community">Community</a></li>
@@ -62,7 +64,7 @@
                                 <li><a href="?q=!Wealth">Wealth</a></li>
                             </ul>
                             <ul>
-                                <h4>General Techniques</h4>
+                                <h4 class="search-text">General Techniques</h4>
                                 <li><a href="?q=!Characterisation">Characterisation</a></li>
                                 <li><a href="?q=!Context">Context</a></li>
                                 <li><a href="?q=!Imagery">Imagery</a></li>
@@ -72,7 +74,7 @@
 
                         <div class="tag-column">
                             <ul>
-                                <h4>Secondary Themes</h4>
+                                <h4 class="search-text">Secondary Themes</h4>
                                 <li><a href="?q=!Agreement">Agreement</a></li>
                                 <li><a href="?q=!Change">Change</a></li>
                                 <li><a href="?q=!Concealment">Concealment</a></li>
@@ -95,7 +97,7 @@
                                 <li><a href="?q=!Violence">Violence</a></li>
                             </ul>
                             <ul>
-                                <h4>Simple Techniques</h4>
+                                <h4 class="search-text">Simple Techniques</h4>
                                 <li><a href="?q=!Contrast">Contrast</a></li>
                                 <li><a href="?q=!Conflict">Conflict</a></li>
                                 <li><a href="?q=!Listing">Listing</a></li>
@@ -109,7 +111,7 @@
 
                         <div class="tag-column">
                             <ul>
-                                <h4>Characters</h4>
+                                <h4 class="search-text">Characters</h4>
                                 <li><a href="?q=!Thin Woman">Thin Woman</a></li>
                                 <li><a href="?q=!Fat Woman">Fat Woman</a></li>
                                 <li><a href="?q=!Elder">Elder</a></li>
@@ -123,7 +125,7 @@
                                 <li><a href="?q=!Son">Son</a></li>
                             </ul>
                             <ul>
-                                <h4>Better Techniques</h4>
+                                <h4 class="search-text">Better Techniques</h4>
                                 <li><a href="?q=!Anonymity">Anonymity</a></li>
                                 <li><a href="?q=!Character Arc">Character Arc</a></li>
                                 <li><a href="?q=!Irony">Irony</a></li>
@@ -139,7 +141,7 @@
 
                         <div class="tag-column">
                             <ul>
-                                <h4>Traits</h4>
+                                <h4 class="search-text">Traits</h4>
                                 <li><a href="?q=!Awareness">Awareness</a></li>
                                 <li><a href="?q=!Arrogance">Arrogance</a></li>
                                 <li><a href="?q=!Avoidance">Avoidance</a></li>
@@ -154,7 +156,7 @@
                                 <li><a href="?q=!Unkindness">Unkindness</a></li>
                             </ul>
                             <ul>
-                                <h4>Advanced Techniques</h4>
+                                <h4 class="search-text">Advanced Techniques</h4>
                                 <li><a href="?q=!Anticlimax">Anticlimax</a></li>
                                 <li><a href="?q=!Colloquialism">Colloquialism</a></li>
                                 <li><a href="?q=!Colour">Colour</a></li>
@@ -176,6 +178,7 @@
             </nav>
         </nav>
     </nav>
+    <script src="/scripts/themes.js"></script>
     <script src="/scripts/ios.js"></script>
 </body>
 </html>

@@ -287,10 +287,7 @@ if("ontouchstart" in window)
 {
     document.addEventListener("touchstart", (event) =>
     {
-        if(!event.target.closest(".node"))
-        {
-            tappedElement = null;
-            document.querySelectorAll(".node.hover").forEach(node => node.classList.remove("hover"));
-        }
+        document.querySelectorAll(".node.hover").forEach(node => node.classList.remove("hover"));
+        if(!event.target.closest(".node")) tappedElement = null;
     });
 }
