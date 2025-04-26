@@ -55,11 +55,6 @@
     transition: var(--switch-time);
 }
 
-#import-button
-{
-    user-select: none;
-}
-
 #import-button:hover
 {
     top: 2px;

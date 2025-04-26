@@ -27,11 +27,6 @@
         <nav class="centered-horizontal">
             <nav class="page full-page">
                 <h2>Settings</h2>
-                <form action="">
-                    <input type="file">
-                </form>
-                <input type="file"><br>
-                <input type="file" accept="text/plain">
 
                 <div class="elements-list">
                     <div class="element-row">
@@ -47,7 +42,7 @@
                             <i class="fa-solid fa-file-import"></i>
                             <p>Import</p>
                         </button>
-                        <input type="file" id="fileInput" accept="text/plain" onchange="handleImport(event);">
+                        <input type="file" id="fileInput" accept="text/plain" class="hidden">
                         <button id="export-button" class="settings-button clickable" onclick="exportSettings();">
                             <i class="fa-solid fa-file-export"></i>
                             <p>Export</p>

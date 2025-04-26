@@ -5,7 +5,7 @@ if(localStorage.getItem("bgcol") !== null)
 setTimeout(() =>
 {
     //Check version and show changelogs
-    const CURRENT_VERSION = "2.0";
+    const CURRENT_VERSION = "2.1";
     const storedVersion = localStorage.getItem("version")
 
     if(storedVersion !== CURRENT_VERSION)
