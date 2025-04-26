@@ -69,7 +69,7 @@
     background-color: var(--blue-4);
     box-shadow: 0px 4px var(--blue-5);
 }
-body.dark #import-button:hover
+html.dark #import-button:hover
 {
     background-color: var(--blue-6);
     box-shadow: 0px 4px var(--blue-7);
@@ -81,7 +81,7 @@ body.dark #import-button:hover
     background-color: var(--green-4);
     box-shadow: 0px 4px var(--green-5);
 }
-body.dark #export-button:hover
+html.dark #export-button:hover
 {
     background-color: var(--green-6);
     box-shadow: 0px 4px var(--green-7);
@@ -93,7 +93,7 @@ body.dark #export-button:hover
     background-color: var(--red-4);
     box-shadow: 0px 4px var(--red-5);
 }
-body.dark #reset-button:hover
+html.dark #reset-button:hover
 {
     background-color: var(--red-6);
     box-shadow: 0px 4px var(--red-7);

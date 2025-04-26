@@ -1,23 +1,23 @@
 html { transition: background-color var(--switch-time); }
-body:not(.transitions-enabled) * { transition: none !important; }
+html:not(.transitions-enabled) * { transition: none !important; }
 #page-canvas { transition: background-color var(--switch-time); }
 .page { transition: background-color var(--switch-time); }
 p, h1, h2, h3, h4, h5, h6, input, li { transition: color var(--switch-time); }
 
 header { transition: border-bottom var(--switch-time); }
 .header-bg { transition: opacity var(--switch-time); }
-body.switching .header-icon, body.switching .labelled-icon, body.switching .header-text, body.switching #search-submit
+html.switching .header-icon, html.switching .labelled-icon, html.switching .header-text, html.switching #search-submit
 {
     transition: color var(--switch-time),
     scale var(--anim-time);
 }
-body.switching #search-form, body.switching
+html.switching #search-form, html.switching
 {
     transition: border var(--switch-time),
     background-color var(--switch-time),
     scale var(--anim-time);
 }
-body.switching .settings-button
+html.switching .settings-button
 {
     transition: box-shadow var(--switch-time),
     background-color var(--switch-time);

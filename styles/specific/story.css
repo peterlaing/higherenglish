@@ -14,7 +14,7 @@ html { background-color: var(--header-dark); }
     width: 100%;
     padding: 24px 0px;
     box-shadow: 0px -8px var(--page-shadow);
-    background: linear-gradient(var(--inset-light), var(--inset-dark));
+    background: linear-gradient(var(--inset-light), var(--header-dark));
     border-radius: 12px 12px 0px 0px;
 }
 

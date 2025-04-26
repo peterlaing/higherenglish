@@ -146,7 +146,7 @@ label
     background-color: var(--aqua-3);
     box-shadow: 0px 6px var(--aqua-4);
 }
-body.dark #share-button:hover
+html.dark #share-button:hover
 {
     background-color: var(--aqua-7);
     box-shadow: 0px 6px var(--aqua-8);
@@ -167,7 +167,7 @@ body.dark #share-button:hover
     background-color: var(--green-3);
     box-shadow: 0px 6px var(--green-4);
 }
-body.dark #play-button:hover
+html.dark #play-button:hover
 {
     background-color: var(--green-7);
     box-shadow: 0px 6px var(--green-8);

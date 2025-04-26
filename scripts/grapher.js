@@ -64,7 +64,7 @@ function generateGraph(nodes)
         const newElement = document.createElement("div");
         newElement.classList.add("node", "fading", colourOf(nodes[i][0]));
 
-        if(nodes[i][0] == focus) 
+        if(nodes[i][0] === focus) 
         {
             newElement.id = "central-node";
             centralNode = newElement;
@@ -90,10 +90,12 @@ function generateGraph(nodes)
             }, 300);
         });
 
+        const shouldFlip = nodes[i][0] !== focus && (i < 3 || i > 8);
+
         newElement.innerHTML = `
         <div class="dot"></div>
         <p>${nodes[i][0].id}</p>
-        <div class="tooltip"><p>${parseQuote(nodes[i][0].quote)}</p></div>`;
+        <div class="tooltip ${shouldFlip ? 'flipped-horizontal' : ''}"><p>${parseQuote(nodes[i][0].quote)}</p></div>`;
 
         graphContainer.appendChild(newElement);
         nodePairs.push([nodes[i], newElement]);

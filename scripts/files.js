@@ -1,10 +1,9 @@
 function importSettings()
 {
-    const input = document.createElement("input");
-    input.type = "file";
-    input.accept = "text/plain";
+    const input = document.getElementById("fileInput");
+    input.click();
 
-    input.addEventListener("change", (event) =>
+    input.onchange = (event) =>
     {
         const file = event.target.files[0];
         if(!file) return;
@@ -16,9 +15,7 @@ function importSettings()
             applySettings(text);
         };
         reader.readAsText(file);
-    });
-
-    input.click();
+    };
 }
 
 function applySettings(text)

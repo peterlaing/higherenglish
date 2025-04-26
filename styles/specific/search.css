@@ -70,10 +70,10 @@
 .red        { background-color: var(--red-4);    }
 .yellow     { background-color: var(--yellow-4); }
 
-body.dark .green      { background-color: var(--green-7);  }
-body.dark .blue       { background-color: var(--blue-7);   }
-body.dark .red        { background-color: var(--red-7);    }
-body.dark .yellow     { background-color: var(--yellow-7); }
+html.dark .green      { background-color: var(--green-7);  }
+html.dark .blue       { background-color: var(--blue-7);   }
+html.dark .red        { background-color: var(--red-7);    }
+html.dark .yellow     { background-color: var(--yellow-7); }
 
 span { position: relative; }
 .quote-button
@@ -94,14 +94,14 @@ span { position: relative; }
 }
 
 .found-quote:hover + .quote-button { bottom: calc(50% - 24px); }
-body.dark .quote-button:hover { color: var(--green-7); }
+html.dark .quote-button:hover { color: var(--green-7); }
 .quote-button:hover
 {
     scale: 1.1;
     color: var(--green-6);
 }
 .saved-quote:hover { color: var(--red-6); }
-body.dark .saved-quote:hover { color: var(--red-7); }
+html.dark .saved-quote:hover { color: var(--red-7); }
 .quote-button > i
 {
     transition: scale var(--anim-time),

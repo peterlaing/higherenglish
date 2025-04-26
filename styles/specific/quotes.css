@@ -85,9 +85,9 @@
 #show-button:hover { color: var(--green-8); }
 #hide-button:hover { color: var(--red-8); }
 #sort-button:hover { color: var(--aqua-8); }
-body.dark #show-button:hover { color: var(--green-6); }
-body.dark #hide-button:hover { color: var(--red-6); }
-body.dark #sort-button:hover { color: var(--aqua-6); }
+html.dark #show-button:hover { color: var(--green-6); }
+html.dark #hide-button:hover { color: var(--red-6); }
+html.dark #sort-button:hover { color: var(--aqua-6); }
 
 .quote-button
 {
@@ -117,14 +117,14 @@ body.dark #sort-button:hover { color: var(--aqua-6); }
 .yellow     { background-color: var(--yellow-4); }
 .yellow + p { color:            var(--yellow-9); }
 
-body.dark .green      { background-color: var(--green-7);  }
-body.dark .green + p  { color:            var(--green-3);  }
-body.dark .blue       { background-color: var(--blue-7);   }
-body.dark .blue + p   { color:            var(--blue-3);   }
-body.dark .red        { background-color: var(--red-7);    }
-body.dark .red + p    { color:            var(--red-3);    }
-body.dark .yellow     { background-color: var(--yellow-7); }
-body.dark .yellow + p { color:            var(--yellow-3); }
+html.dark .green      { background-color: var(--green-7);  }
+html.dark .green + p  { color:            var(--green-3);  }
+html.dark .blue       { background-color: var(--blue-7);   }
+html.dark .blue + p   { color:            var(--blue-3);   }
+html.dark .red        { background-color: var(--red-7);    }
+html.dark .red + p    { color:            var(--red-3);    }
+html.dark .yellow     { background-color: var(--yellow-7); }
+html.dark .yellow + p { color:            var(--yellow-3); }
 
 @media only screen and (max-width: 640px)
 {

@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-body.dark .node p, body.dark .tooltip p { color: var(--gray-2); }
+html.dark .node p, html.dark .tooltip p { color: var(--gray-2); }
 .node p
 {
     font-size: 28px;
@@ -72,6 +72,17 @@ body.dark .node p, body.dark .tooltip p { color: var(--gray-2); }
     transition: opacity var(--anim-time) ease;
 }
 
+.tooltip.flipped-horizontal
+{
+    left: 0px;
+    transform: scaleX(-1) translateX(100%);
+}
+
+.tooltip.flipped-horizontal p
+{
+    transform: scaleX(-1);
+}
+
 .tooltip p
 {
     font-size: 22px;
@@ -93,7 +104,7 @@ body.dark .node p, body.dark .tooltip p { color: var(--gray-2); }
 .red    > .dot { background-color: var(--red-6); }
 .yellow > .dot { background-color: var(--yellow-6); }
 
-body.dark .edge { background-color: color-mix(in srgb, var(--page-shadow), var(--background-colour)); }
+html.dark .edge { background-color: color-mix(in srgb, var(--page-shadow), var(--background-colour)); }
 .edge
 {
     position: absolute;

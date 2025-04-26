@@ -73,7 +73,7 @@
     transition: var(--anim-time);
 }
 
-body.dark .annotation-button:hover { color: var(--colour-2); }
+html.dark .annotation-button:hover { color: var(--colour-2); }
 .annotation-button:hover
 {
     color: var(--colour-7);
