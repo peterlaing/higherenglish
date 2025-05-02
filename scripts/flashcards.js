@@ -231,9 +231,20 @@ function loadFlashcards(query)
     setOrder();
 }
 
+function handleKeypresses(keycode)
+{
+    if(keycode === "ArrowLeft") toPrevious();
+    else if(keycode === "ArrowRight") toNext();
+    else if(keycode === "Enter") flipCard(document.getElementById("flashcard"));
+}
+
 loadAnnotations(() =>
 {
     const query = new URLSearchParams(window.location.search);
-    if(query.has("list") && query.get("list").length !== 0) loadFlashcards(query);
+    if(query.has("list") && query.get("list").length !== 0) 
+    {
+        loadFlashcards(query);
+        document.onkeydown = (event) => handleKeypresses(event.code);
+    }
     loadQuotes(query, ids);
 });
