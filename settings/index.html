@@ -42,7 +42,7 @@
                             <i class="fa-solid fa-file-import"></i>
                             <p>Import</p>
                         </button>
-                        <input type="file" id="fileInput" accept="text/plain" class="hidden">
+                        <input type="file" id="fileInput" accept="text/plain" class="hidden" onchange="handleImport(event);">
                         <button id="export-button" class="settings-button clickable" onclick="exportSettings();">
                             <i class="fa-solid fa-file-export"></i>
                             <p>Export</p>

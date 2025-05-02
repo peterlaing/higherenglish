@@ -7,6 +7,7 @@ function importSettings()
 function handleImport(event)
 {
     const file = event.target.files[0];
+    console.log(file);
     if(!file) return;
 
     const reader = new FileReader();
@@ -29,7 +30,7 @@ function applySettings(text)
 
     if(items[0] != "null") localStorage.setItem("siteTheme", items[0]);
     if(items[1] != "null") localStorage.setItem("lastVisited", items[1]);
-    if(items[2] != "null")
+    if(items[2] != "")
     {
         let quotes = [];
         for(let i = 0; i < items[2].length; i += 4)
