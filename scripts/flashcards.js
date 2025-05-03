@@ -233,9 +233,9 @@ function loadFlashcards(query)
 
 function handleKeypresses(keycode)
 {
-    if(keycode === "ArrowLeft") toPrevious();
-    else if(keycode === "ArrowRight") toNext();
-    else if(keycode === "Enter") flipCard(document.getElementById("flashcard"));
+    if(keycode === "ArrowLeft" || keycode === "KeyA") toPrevious();
+    else if(keycode === "ArrowRight" || keycode === "KeyD") toNext();
+    else if(keycode === "Enter" || keycode === "Space") flipCard(document.getElementById("flashcard"));
 }
 
 loadAnnotations(() =>
@@ -244,7 +244,11 @@ loadAnnotations(() =>
     if(query.has("list") && query.get("list").length !== 0) 
     {
         loadFlashcards(query);
-        document.onkeydown = (event) => handleKeypresses(event.code);
+        document.onkeydown = (event) =>
+        {
+            if(event.code === "Space" && event.target === document.body) event.preventDefault();
+            handleKeypresses(event.code);
+        }
     }
     loadQuotes(query, ids);
 });
